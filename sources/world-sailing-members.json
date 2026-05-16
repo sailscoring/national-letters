@@ -1,0 +1,768 @@
+{
+  "source": "world-sailing",
+  "retrievedAt": "2026-05-16T20:56:39Z",
+  "sourceUrl": "https://www.sailing.org/inside-world-sailing/organisation/governance/world-sailing-membership/",
+  "count": 152,
+  "members": [
+    {
+      "code": "AHO",
+      "name": "Netherland Antilles (Curacao and St Maarten)",
+      "group": "O"
+    },
+    {
+      "code": "ALG",
+      "name": "Algeria",
+      "group": "Q"
+    },
+    {
+      "code": "AND",
+      "name": "Andorra",
+      "group": "E"
+    },
+    {
+      "code": "ANG",
+      "name": "Angola",
+      "group": "Q"
+    },
+    {
+      "code": "ANT",
+      "name": "Antigua",
+      "group": "O"
+    },
+    {
+      "code": "ARG",
+      "name": "Argentina",
+      "group": "M"
+    },
+    {
+      "code": "ARM",
+      "name": "Armenia",
+      "group": "H"
+    },
+    {
+      "code": "ARU",
+      "name": "Aruba",
+      "group": "O"
+    },
+    {
+      "code": "ASA",
+      "name": "American Samoa",
+      "group": "L"
+    },
+    {
+      "code": "AUS",
+      "name": "Australia",
+      "group": "L"
+    },
+    {
+      "code": "AUT",
+      "name": "Austria",
+      "group": "B"
+    },
+    {
+      "code": "AZE",
+      "name": "Azerbaijan",
+      "group": "H"
+    },
+    {
+      "code": "BAH",
+      "name": "Bahamas",
+      "group": "O"
+    },
+    {
+      "code": "BAR",
+      "name": "Barbados",
+      "group": "O"
+    },
+    {
+      "code": "BEL",
+      "name": "Belgium",
+      "group": "F"
+    },
+    {
+      "code": "BER",
+      "name": "Bermuda",
+      "group": "O"
+    },
+    {
+      "code": "BIZ",
+      "name": "Belize",
+      "group": "O"
+    },
+    {
+      "code": "BLR",
+      "name": "Belarus",
+      "group": "C"
+    },
+    {
+      "code": "BOL",
+      "name": "Bolivia",
+      "group": "N"
+    },
+    {
+      "code": "BOT",
+      "name": "Botswana",
+      "group": "Q"
+    },
+    {
+      "code": "BRA",
+      "name": "Brazil",
+      "group": "N"
+    },
+    {
+      "code": "BRN",
+      "name": "Bahrain",
+      "group": "I"
+    },
+    {
+      "code": "BRU",
+      "name": "Brunei",
+      "group": "K"
+    },
+    {
+      "code": "BUL",
+      "name": "Bulgaria",
+      "group": "C"
+    },
+    {
+      "code": "CAM",
+      "name": "Cambodia",
+      "group": "K"
+    },
+    {
+      "code": "CAN",
+      "name": "Canada",
+      "group": "P"
+    },
+    {
+      "code": "CAY",
+      "name": "Cayman Islands",
+      "group": "O"
+    },
+    {
+      "code": "CHI",
+      "name": "Chile",
+      "group": "M"
+    },
+    {
+      "code": "CHN",
+      "name": "China, PR",
+      "group": "J"
+    },
+    {
+      "code": "COK",
+      "name": "Cook Islands",
+      "group": "L"
+    },
+    {
+      "code": "COL",
+      "name": "Colombia",
+      "group": "O"
+    },
+    {
+      "code": "CRO",
+      "name": "Croatia",
+      "group": "B"
+    },
+    {
+      "code": "CUB",
+      "name": "Cuba",
+      "group": "O"
+    },
+    {
+      "code": "CYP",
+      "name": "Cyprus",
+      "group": "D"
+    },
+    {
+      "code": "CZE",
+      "name": "Czechia",
+      "group": "B"
+    },
+    {
+      "code": "DEN",
+      "name": "Denmark",
+      "group": "G"
+    },
+    {
+      "code": "DJI",
+      "name": "Djibouti",
+      "group": "Q"
+    },
+    {
+      "code": "DOM",
+      "name": "Dominican Republic",
+      "group": "O"
+    },
+    {
+      "code": "ECU",
+      "name": "Ecuador",
+      "group": "M"
+    },
+    {
+      "code": "EGY",
+      "name": "Egypt",
+      "group": "Q"
+    },
+    {
+      "code": "ESA",
+      "name": "El Salvador",
+      "group": "O"
+    },
+    {
+      "code": "ESP",
+      "name": "Spain",
+      "group": "E"
+    },
+    {
+      "code": "EST",
+      "name": "Estonia",
+      "group": "G"
+    },
+    {
+      "code": "FIJ",
+      "name": "Fiji",
+      "group": "L"
+    },
+    {
+      "code": "FIN",
+      "name": "Finland",
+      "group": "G"
+    },
+    {
+      "code": "FRA",
+      "name": "France",
+      "group": "D"
+    },
+    {
+      "code": "GBR",
+      "name": "Great Britain",
+      "group": "A"
+    },
+    {
+      "code": "GEO",
+      "name": "Georgia",
+      "group": "H"
+    },
+    {
+      "code": "GER",
+      "name": "Germany",
+      "group": "B"
+    },
+    {
+      "code": "GRE",
+      "name": "Greece",
+      "group": "D"
+    },
+    {
+      "code": "GRN",
+      "name": "Grenada",
+      "group": "O"
+    },
+    {
+      "code": "GUA",
+      "name": "Guatemala",
+      "group": "O"
+    },
+    {
+      "code": "GUM",
+      "name": "Guam",
+      "group": "J"
+    },
+    {
+      "code": "HKG",
+      "name": "Hong Kong, China",
+      "group": "J"
+    },
+    {
+      "code": "HUN",
+      "name": "Hungary",
+      "group": "B"
+    },
+    {
+      "code": "INA",
+      "name": "Indonesia",
+      "group": "K"
+    },
+    {
+      "code": "IND",
+      "name": "India",
+      "group": "K"
+    },
+    {
+      "code": "IRL",
+      "name": "Ireland",
+      "group": "A"
+    },
+    {
+      "code": "IRN",
+      "name": "Iran",
+      "group": "I"
+    },
+    {
+      "code": "IRQ",
+      "name": "Iraq",
+      "group": "I"
+    },
+    {
+      "code": "ISL",
+      "name": "Iceland",
+      "group": "G"
+    },
+    {
+      "code": "ISR",
+      "name": "Israel",
+      "group": "D"
+    },
+    {
+      "code": "ISV",
+      "name": "US Virgin Islands",
+      "group": "O"
+    },
+    {
+      "code": "ITA",
+      "name": "Italy",
+      "group": "D"
+    },
+    {
+      "code": "IVB",
+      "name": "British Virgin Islands",
+      "group": "O"
+    },
+    {
+      "code": "JAM",
+      "name": "Jamaica",
+      "group": "O"
+    },
+    {
+      "code": "JOR",
+      "name": "Jordan",
+      "group": "I"
+    },
+    {
+      "code": "JPN",
+      "name": "Japan",
+      "group": "J"
+    },
+    {
+      "code": "KAZ",
+      "name": "Kazakhstan",
+      "group": "H"
+    },
+    {
+      "code": "KEN",
+      "name": "Kenya",
+      "group": "Q"
+    },
+    {
+      "code": "KGZ",
+      "name": "Kyrgyzstan",
+      "group": "H"
+    },
+    {
+      "code": "KOR",
+      "name": "Republic of Korea",
+      "group": "J"
+    },
+    {
+      "code": "KOS",
+      "name": "Kosovo",
+      "group": "C"
+    },
+    {
+      "code": "KSA",
+      "name": "Saudi Arabia",
+      "group": "I"
+    },
+    {
+      "code": "KUW",
+      "name": "Kuwait",
+      "group": "I"
+    },
+    {
+      "code": "LAT",
+      "name": "Latvia",
+      "group": "G"
+    },
+    {
+      "code": "LBA",
+      "name": "Libya",
+      "group": "Q"
+    },
+    {
+      "code": "LCA",
+      "name": "St Lucia",
+      "group": "O"
+    },
+    {
+      "code": "LIB",
+      "name": "Lebanon",
+      "group": "D"
+    },
+    {
+      "code": "LIE",
+      "name": "Liechtenstein",
+      "group": "B"
+    },
+    {
+      "code": "LTU",
+      "name": "Lithuania",
+      "group": "G"
+    },
+    {
+      "code": "LUX",
+      "name": "Luxembourg",
+      "group": "F"
+    },
+    {
+      "code": "MAC",
+      "name": "Macau, China",
+      "group": "Assoc"
+    },
+    {
+      "code": "MAD",
+      "name": "Madagascar",
+      "group": "Q"
+    },
+    {
+      "code": "MAR",
+      "name": "Morocco",
+      "group": "Q"
+    },
+    {
+      "code": "MAS",
+      "name": "Malaysia",
+      "group": "K"
+    },
+    {
+      "code": "MDA",
+      "name": "Moldova",
+      "group": "C"
+    },
+    {
+      "code": "MEX",
+      "name": "Mexico",
+      "group": "O"
+    },
+    {
+      "code": "MKD",
+      "name": "FYRO Macedonia",
+      "group": "C"
+    },
+    {
+      "code": "MLT",
+      "name": "Malta",
+      "group": "D"
+    },
+    {
+      "code": "MNE",
+      "name": "Montenegro",
+      "group": "C"
+    },
+    {
+      "code": "MNT",
+      "name": "Montserrat",
+      "group": "Assoc"
+    },
+    {
+      "code": "MON",
+      "name": "Monaco",
+      "group": "D"
+    },
+    {
+      "code": "MOZ",
+      "name": "Mozambique",
+      "group": "Q"
+    },
+    {
+      "code": "MRI",
+      "name": "Mauritius",
+      "group": "Q"
+    },
+    {
+      "code": "MYA",
+      "name": "Myanmar",
+      "group": "K"
+    },
+    {
+      "code": "NAM",
+      "name": "Namibia",
+      "group": "Q"
+    },
+    {
+      "code": "NED",
+      "name": "Netherlands",
+      "group": "F"
+    },
+    {
+      "code": "NIG",
+      "name": "Nigeria",
+      "group": "Q"
+    },
+    {
+      "code": "NOR",
+      "name": "Norway",
+      "group": "G"
+    },
+    {
+      "code": "NZL",
+      "name": "New Zealand",
+      "group": "L"
+    },
+    {
+      "code": "OMA",
+      "name": "Oman",
+      "group": "I"
+    },
+    {
+      "code": "PAK",
+      "name": "Pakistan",
+      "group": "K"
+    },
+    {
+      "code": "PAN",
+      "name": "Panama",
+      "group": "O"
+    },
+    {
+      "code": "PAR",
+      "name": "Paraguay",
+      "group": "N"
+    },
+    {
+      "code": "PER",
+      "name": "Peru",
+      "group": "M"
+    },
+    {
+      "code": "PHI",
+      "name": "Philippines",
+      "group": "K"
+    },
+    {
+      "code": "PLE",
+      "name": "Palestine",
+      "group": "I"
+    },
+    {
+      "code": "PNG",
+      "name": "Papua New Guinea",
+      "group": "L"
+    },
+    {
+      "code": "POL",
+      "name": "Poland",
+      "group": "C"
+    },
+    {
+      "code": "POR",
+      "name": "Portugal",
+      "group": "E"
+    },
+    {
+      "code": "PRK",
+      "name": "DPR Korea",
+      "group": "J"
+    },
+    {
+      "code": "PUR",
+      "name": "Puerto Rico",
+      "group": "O"
+    },
+    {
+      "code": "QAT",
+      "name": "Qatar",
+      "group": "I"
+    },
+    {
+      "code": "ROU",
+      "name": "Romania",
+      "group": "C"
+    },
+    {
+      "code": "RSA",
+      "name": "South Africa",
+      "group": "Q"
+    },
+    {
+      "code": "RUS",
+      "name": "Russia",
+      "group": "H"
+    },
+    {
+      "code": "SAM",
+      "name": "Samoa",
+      "group": "L"
+    },
+    {
+      "code": "SEN",
+      "name": "Senegal",
+      "group": "Q"
+    },
+    {
+      "code": "SEY",
+      "name": "Seychelles",
+      "group": "Q"
+    },
+    {
+      "code": "SGP",
+      "name": "Singapore",
+      "group": "K"
+    },
+    {
+      "code": "SKN",
+      "name": "St Kitts and Nevis",
+      "group": "O"
+    },
+    {
+      "code": "SLO",
+      "name": "Slovenia",
+      "group": "B"
+    },
+    {
+      "code": "SMR",
+      "name": "San Marino",
+      "group": "D"
+    },
+    {
+      "code": "SOL",
+      "name": "Solomon Islands",
+      "group": "L"
+    },
+    {
+      "code": "SRB",
+      "name": "Serbia",
+      "group": "C"
+    },
+    {
+      "code": "SRI",
+      "name": "Sri Lanka",
+      "group": "K"
+    },
+    {
+      "code": "SUD",
+      "name": "Sudan",
+      "group": "Q"
+    },
+    {
+      "code": "SUI",
+      "name": "Switzerland",
+      "group": "B"
+    },
+    {
+      "code": "SVG",
+      "name": "St Vincent and the Grenadines",
+      "group": "O"
+    },
+    {
+      "code": "SVK",
+      "name": "Slovak Republic",
+      "group": "B"
+    },
+    {
+      "code": "SWE",
+      "name": "Sweden",
+      "group": "G"
+    },
+    {
+      "code": "TAH",
+      "name": "Tahiti",
+      "group": "L"
+    },
+    {
+      "code": "TAN",
+      "name": "Tanzania",
+      "group": "Q"
+    },
+    {
+      "code": "TCA",
+      "name": "Turks and Caicos",
+      "group": "Assoc"
+    },
+    {
+      "code": "TGA",
+      "name": "Tonga",
+      "group": "L"
+    },
+    {
+      "code": "THA",
+      "name": "Thailand",
+      "group": "K"
+    },
+    {
+      "code": "TJK",
+      "name": "Tajikistan",
+      "group": "H"
+    },
+    {
+      "code": "TLS",
+      "name": "Timor Leste",
+      "group": "K"
+    },
+    {
+      "code": "TPE",
+      "name": "Chinese Taipei",
+      "group": "J"
+    },
+    {
+      "code": "TTO",
+      "name": "Trinidad & Tobago",
+      "group": "O"
+    },
+    {
+      "code": "TUN",
+      "name": "Tunisia",
+      "group": "Q"
+    },
+    {
+      "code": "TUR",
+      "name": "Turkiye",
+      "group": "D"
+    },
+    {
+      "code": "UAE",
+      "name": "United Arab Emirates",
+      "group": "I"
+    },
+    {
+      "code": "UGA",
+      "name": "Uganda",
+      "group": "Q"
+    },
+    {
+      "code": "UKR",
+      "name": "Ukraine",
+      "group": "C"
+    },
+    {
+      "code": "URU",
+      "name": "Uruguay",
+      "group": "M"
+    },
+    {
+      "code": "USA",
+      "name": "United States of America",
+      "group": "P"
+    },
+    {
+      "code": "VAN",
+      "name": "Vanuatu",
+      "group": "I"
+    },
+    {
+      "code": "VEN",
+      "name": "Venezuela",
+      "group": "O"
+    },
+    {
+      "code": "VIE",
+      "name": "Vietnam",
+      "group": "K"
+    },
+    {
+      "code": "ZIM",
+      "name": "Zimbabwe",
+      "group": "Q"
+    }
+  ]
+}

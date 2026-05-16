@@ -66,3 +66,27 @@ VIN:
   commons: "File:Flag of Saint Vincent and the Grenadines.svg"
   citation: "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines"
   note: "RRS abbreviates 'Saint' to 'St' and uses '&' instead of 'and the'."
+
+# World Sailing-only codes (M4): country names not matching default
+# 'File:Flag of {names.en}.svg' on Commons.
+
+MAC:
+  commons: "File:Flag of Macau.svg"
+  citation: "https://en.wikipedia.org/wiki/Macau"
+  note: "WS spells it 'Macau, China'; Commons file omits the suffix."
+
+SKN:
+  commons: "File:Flag of Saint Kitts and Nevis.svg"
+  citation: "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis"
+  note: "WS uses 'St'; Commons file uses 'Saint'."
+
+TCA:
+  commons: "File:Flag of the Turks and Caicos Islands.svg"
+  citation: "https://en.wikipedia.org/wiki/Turks_and_Caicos_Islands"
+  note: "WS shortens to 'Turks and Caicos'; Commons file includes 'the' and 'Islands'."
+
+TLS:
+  commons: "File:Flag of East Timor.svg"
+  citation: "https://en.wikipedia.org/wiki/East_Timor"
+  note: "WS uses 'Timor Leste'; Commons file uses the English exonym 'East Timor'."
+
