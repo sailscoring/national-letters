@@ -1,0 +1,68 @@
+# Per-code overrides for the flag resolver (spec §6.6).
+#
+# Maps a code to a Commons file title that the default
+# "File:Flag of {names.en}.svg" pattern would miss or get wrong.
+# Each entry must carry a citation URL — typically a Wikipedia article
+# that displays the flag in question or an official federation page —
+# so a reviewer can verify the chosen Commons file.
+#
+# Schema:
+#   <CODE>:
+#     commons: "File:<Commons file title with .svg>"
+#     citation: "<URL>"
+#     note: "<optional free text>"
+
+ANT:
+  commons: "File:Flag of Antigua and Barbuda.svg"
+  citation: "https://en.wikipedia.org/wiki/Antigua_and_Barbuda"
+  note: "RRS shortens the country name to 'Antigua'; the Commons file uses the full country name."
+
+CHN:
+  commons: "File:Flag of the People's Republic of China.svg"
+  citation: "https://en.wikipedia.org/wiki/China"
+  note: "RRS spells it 'China, PR'; Commons uses the full official name."
+
+ISV:
+  commons: "File:Flag of the United States Virgin Islands.svg"
+  citation: "https://en.wikipedia.org/wiki/United_States_Virgin_Islands"
+  note: "RRS abbreviates to 'US Virgin Islands'."
+
+KOR:
+  commons: "File:Flag of South Korea.svg"
+  citation: "https://en.wikipedia.org/wiki/South_Korea"
+  note: "RRS uses 'Korea, Republic of'; Commons file is under the common name."
+
+LCA:
+  commons: "File:Flag of Saint Lucia.svg"
+  citation: "https://en.wikipedia.org/wiki/Saint_Lucia"
+  note: "RRS abbreviates 'Saint' to 'St'."
+
+MKD:
+  commons: "File:Flag of North Macedonia.svg"
+  citation: "https://en.wikipedia.org/wiki/North_Macedonia"
+  note: "RRS spells it 'Macedonia (FYRO)'; country was renamed in 2019."
+
+PRK:
+  commons: "File:Flag of North Korea.svg"
+  citation: "https://en.wikipedia.org/wiki/North_Korea"
+  note: "RRS uses 'Korea, DPR'; Commons file is under the common name."
+
+SVK:
+  commons: "File:Flag of Slovakia.svg"
+  citation: "https://en.wikipedia.org/wiki/Slovakia"
+  note: "RRS uses 'Slovak Republic'."
+
+TPE:
+  commons: "File:Flag of Chinese Taipei for Olympic games.svg"
+  citation: "https://en.wikipedia.org/wiki/Chinese_Taipei"
+  note: "Chinese Taipei competes under a sport-specific flag, not the ROC flag."
+
+TTO:
+  commons: "File:Flag of Trinidad and Tobago.svg"
+  citation: "https://en.wikipedia.org/wiki/Trinidad_and_Tobago"
+  note: "RRS uses '&' instead of 'and'."
+
+VIN:
+  commons: "File:Flag of Saint Vincent and the Grenadines.svg"
+  citation: "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines"
+  note: "RRS abbreviates 'Saint' to 'St' and uses '&' instead of 'and the'."

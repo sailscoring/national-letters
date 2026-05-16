@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-16T19:55:23Z",
+  "generatedAt": "2026-05-16T20:29:55Z",
   "sources": {
     "rrs": {
       "edition": "2025-2028"
@@ -16,6 +16,10 @@
       ],
       "names": {
         "en": "Netherlands Antilles"
+      },
+      "flag": {
+        "file": "flags/AHO.svg",
+        "sha256": "aeb2af910d0365ec022b93ff0407b1c112016506e68bccb043541dff9cc8d349"
       }
     },
     {
@@ -27,6 +31,10 @@
       ],
       "names": {
         "en": "Algeria"
+      },
+      "flag": {
+        "file": "flags/ALG.svg",
+        "sha256": "35fe9924da28ee1efefce8c62f18d88fb890c1fbb247040d92291eb89bcd83d7"
       }
     },
     {
@@ -38,6 +46,10 @@
       ],
       "names": {
         "en": "Andorra"
+      },
+      "flag": {
+        "file": "flags/AND.svg",
+        "sha256": "643c49d312ca388a2b128b41c560d18851a9d06c8f835d096ec867fb11657867"
       }
     },
     {
@@ -49,6 +61,10 @@
       ],
       "names": {
         "en": "Angola"
+      },
+      "flag": {
+        "file": "flags/ANG.svg",
+        "sha256": "c1b3fb116d39434b4426bae3b90c2162ff5aa257a585eaf8535ae8412776dc33"
       }
     },
     {
@@ -60,6 +76,10 @@
       ],
       "names": {
         "en": "Antigua"
+      },
+      "flag": {
+        "file": "flags/ANT.svg",
+        "sha256": "93e3952fcf5eab35b82dda0d850288b1889a77eead213f6ffcdb06bdfe51171f"
       }
     },
     {
@@ -71,6 +91,10 @@
       ],
       "names": {
         "en": "Argentina"
+      },
+      "flag": {
+        "file": "flags/ARG.svg",
+        "sha256": "dafb5bc6543c59249be9c7dec2298eaeaa1fe7805a62754990315cc6db93b2f3"
       }
     },
     {
@@ -82,6 +106,10 @@
       ],
       "names": {
         "en": "Armenia"
+      },
+      "flag": {
+        "file": "flags/ARM.svg",
+        "sha256": "1eb2190d967efac59bb4f18f699b465f76dc3128593011e59243450cd593f846"
       }
     },
     {
@@ -93,6 +121,10 @@
       ],
       "names": {
         "en": "Aruba"
+      },
+      "flag": {
+        "file": "flags/ARU.svg",
+        "sha256": "36ccbc50112a928cb2b9fe3737a52619a54342ab93164486e8ee5a6add4e2996"
       }
     },
     {
@@ -104,6 +136,10 @@
       ],
       "names": {
         "en": "American Samoa"
+      },
+      "flag": {
+        "file": "flags/ASA.svg",
+        "sha256": "a5889a7ea52c20e0b204cfe6a7499c963dbe332d5992179901ca9a40826f3079"
       }
     },
     {
@@ -115,6 +151,10 @@
       ],
       "names": {
         "en": "Australia"
+      },
+      "flag": {
+        "file": "flags/AUS.svg",
+        "sha256": "8ccf95cf3507e88d10aa57a1e3b3853d72933c6784e6f67fe3cd3bf12ea68a4d"
       }
     },
     {
@@ -126,6 +166,10 @@
       ],
       "names": {
         "en": "Austria"
+      },
+      "flag": {
+        "file": "flags/AUT.svg",
+        "sha256": "82b0a6991dc9716e9aaae39f1237cceccff16278ebde18cc9b681c2b63d72fef"
       }
     },
     {
@@ -137,6 +181,10 @@
       ],
       "names": {
         "en": "Azerbaijan"
+      },
+      "flag": {
+        "file": "flags/AZE.svg",
+        "sha256": "f16a9688b22090aaeac332332410a67ce073b9556bc9192771231ad713d5dacd"
       }
     },
     {
@@ -148,6 +196,10 @@
       ],
       "names": {
         "en": "Bahamas"
+      },
+      "flag": {
+        "file": "flags/BAH.svg",
+        "sha256": "6d4af8fbc02510698da025adad4b03f73085e1b9a50ad48928cb4b6807cfcba3"
       }
     },
     {
@@ -159,6 +211,10 @@
       ],
       "names": {
         "en": "Barbados"
+      },
+      "flag": {
+        "file": "flags/BAR.svg",
+        "sha256": "38ce6b02f493e239d3a19d64df9b9b1d6ec963170529dfed52153b581edd8418"
       }
     },
     {
@@ -170,6 +226,10 @@
       ],
       "names": {
         "en": "Belgium"
+      },
+      "flag": {
+        "file": "flags/BEL.svg",
+        "sha256": "95933c385c9e72479ec7e63f6cbca50d07695fd2e41fab334ea549c20b234fd1"
       }
     },
     {
@@ -181,6 +241,10 @@
       ],
       "names": {
         "en": "Bermuda"
+      },
+      "flag": {
+        "file": "flags/BER.svg",
+        "sha256": "494d3e33fd9792f97a818e1a58032ba1d655038bdd43990be7b3999a537e439d"
       }
     },
     {
@@ -192,6 +256,10 @@
       ],
       "names": {
         "en": "Belize"
+      },
+      "flag": {
+        "file": "flags/BIZ.svg",
+        "sha256": "52374851127cb3c3f6cd646079ea2ec97d8d04e910ab1f335bb85027d0235ae0"
       }
     },
     {
@@ -203,6 +271,10 @@
       ],
       "names": {
         "en": "Belarus"
+      },
+      "flag": {
+        "file": "flags/BLR.svg",
+        "sha256": "d4bf35a695071ec004a06a29c3d012d672030bf9257c7e79c511a4c2b3d7e6c4"
       }
     },
     {
@@ -214,6 +286,10 @@
       ],
       "names": {
         "en": "Brazil"
+      },
+      "flag": {
+        "file": "flags/BRA.svg",
+        "sha256": "041479c6a955990d32c8e45b7283afcd62eacc3592eba9bbf0162299ad77ff01"
       }
     },
     {
@@ -225,6 +301,10 @@
       ],
       "names": {
         "en": "Bahrain"
+      },
+      "flag": {
+        "file": "flags/BRN.svg",
+        "sha256": "bfa65642e5dc9b67c3c5570dc48711f83a02dd865a251514a7243df7a5d73b24"
       }
     },
     {
@@ -236,6 +316,10 @@
       ],
       "names": {
         "en": "Bulgaria"
+      },
+      "flag": {
+        "file": "flags/BUL.svg",
+        "sha256": "9c023198075538da242eeb7c16192d6aed8757e4e954ed974822c24637e4cc7f"
       }
     },
     {
@@ -247,6 +331,10 @@
       ],
       "names": {
         "en": "Canada"
+      },
+      "flag": {
+        "file": "flags/CAN.svg",
+        "sha256": "95b9eb0eaa176454215088c005a07df3df7564093b9f1d6475bb1fd61a16bb10"
       }
     },
     {
@@ -258,6 +346,10 @@
       ],
       "names": {
         "en": "Cayman Islands"
+      },
+      "flag": {
+        "file": "flags/CAY.svg",
+        "sha256": "1ef6d4b645bb5b135574e59063c94dced6f018e0d6431dafa03bc32a6a207425"
       }
     },
     {
@@ -269,6 +361,10 @@
       ],
       "names": {
         "en": "Chile"
+      },
+      "flag": {
+        "file": "flags/CHI.svg",
+        "sha256": "ca4d50dcf36926c82f02b895975f351a639b0aa1b91bb6ef776f4f07f225cc34"
       }
     },
     {
@@ -280,6 +376,10 @@
       ],
       "names": {
         "en": "China, PR"
+      },
+      "flag": {
+        "file": "flags/CHN.svg",
+        "sha256": "5fce7409cd290e6b3c5ecd09c0d2c400ae459e3d59c6c0539793ac0e803d0179"
       }
     },
     {
@@ -291,6 +391,10 @@
       ],
       "names": {
         "en": "Cook Islands"
+      },
+      "flag": {
+        "file": "flags/COK.svg",
+        "sha256": "f71173eaefcccdc88099e018b83e9c36b5ce7f795261ea086ff79442d1dcddec"
       }
     },
     {
@@ -302,6 +406,10 @@
       ],
       "names": {
         "en": "Colombia"
+      },
+      "flag": {
+        "file": "flags/COL.svg",
+        "sha256": "85fd47e9d0c91d088b196609e0cb49424950d30084f31c80a44fbac18b7a377b"
       }
     },
     {
@@ -313,6 +421,10 @@
       ],
       "names": {
         "en": "Croatia"
+      },
+      "flag": {
+        "file": "flags/CRO.svg",
+        "sha256": "220af373c5701c4f4c09a6e1765305f571442940a3c921bd2daac483761b2a8f"
       }
     },
     {
@@ -324,6 +436,10 @@
       ],
       "names": {
         "en": "Cuba"
+      },
+      "flag": {
+        "file": "flags/CUB.svg",
+        "sha256": "40bf19be4756ad71ee67f889b6c3880ac2114a105c608c9453d89a6064558886"
       }
     },
     {
@@ -335,6 +451,10 @@
       ],
       "names": {
         "en": "Cyprus"
+      },
+      "flag": {
+        "file": "flags/CYP.svg",
+        "sha256": "6b7eb910db8e80c07b15c12875b3aab1e08882904461de46f7cde9711b683c5e"
       }
     },
     {
@@ -346,6 +466,10 @@
       ],
       "names": {
         "en": "Czech Republic"
+      },
+      "flag": {
+        "file": "flags/CZE.svg",
+        "sha256": "b68e2109de7e1ead469214b96e3c9ee8b69a7e6e4e6ac1096998500ab7b02d1c"
       }
     },
     {
@@ -357,6 +481,10 @@
       ],
       "names": {
         "en": "Denmark"
+      },
+      "flag": {
+        "file": "flags/DEN.svg",
+        "sha256": "f27c3fa734ea66c662061219e8cc21f886cf36f798f822fca27e55c84afe8648"
       }
     },
     {
@@ -368,6 +496,10 @@
       ],
       "names": {
         "en": "Djibouti"
+      },
+      "flag": {
+        "file": "flags/DJI.svg",
+        "sha256": "3c59dd181f5701aebb4c1602ae39430932a1075ee1d23d3aaea221c3ed45584f"
       }
     },
     {
@@ -379,17 +511,10 @@
       ],
       "names": {
         "en": "Dominican Republic"
-      }
-    },
-    {
-      "code": "DPR",
-      "name": "Korea,",
-      "category": "rrs",
-      "presentIn": [
-        "rrs"
-      ],
-      "names": {
-        "en": "Korea,"
+      },
+      "flag": {
+        "file": "flags/DOM.svg",
+        "sha256": "abf70de3568a7ea4c502cf1d9972a8a7dc00ce05358eacc2336aff7851de3240"
       }
     },
     {
@@ -401,6 +526,10 @@
       ],
       "names": {
         "en": "Ecuador"
+      },
+      "flag": {
+        "file": "flags/ECU.svg",
+        "sha256": "b6579b12e0f49555d608ee7a59e82aa932d4481af439f936bf1009e115f2d20e"
       }
     },
     {
@@ -412,6 +541,10 @@
       ],
       "names": {
         "en": "Egypt"
+      },
+      "flag": {
+        "file": "flags/EGY.svg",
+        "sha256": "a285f98d7a785979ed8c74652506dc180055f1035d4812e2eaf442c8eb3096e0"
       }
     },
     {
@@ -423,6 +556,10 @@
       ],
       "names": {
         "en": "El Salvador"
+      },
+      "flag": {
+        "file": "flags/ESA.svg",
+        "sha256": "20bf4c3b91d2ec2a08e60f90797db1a45efd59601bd9036ffd4a55477d5e5f6f"
       }
     },
     {
@@ -434,6 +571,10 @@
       ],
       "names": {
         "en": "Spain"
+      },
+      "flag": {
+        "file": "flags/ESP.svg",
+        "sha256": "af0b860424a9bd6af63dce070d7f7cb4c7b490c6269fc1cd4f35c45679a20500"
       }
     },
     {
@@ -445,6 +586,10 @@
       ],
       "names": {
         "en": "Estonia"
+      },
+      "flag": {
+        "file": "flags/EST.svg",
+        "sha256": "2ec2c11b0dc6c410a21bb1275930ee5403ffde4084b6733a3847a7027290119d"
       }
     },
     {
@@ -456,6 +601,10 @@
       ],
       "names": {
         "en": "Fiji"
+      },
+      "flag": {
+        "file": "flags/FIJ.svg",
+        "sha256": "e2c0c872c02b315510c6923a7913d1783accabab0ea1eef103a3f23165af320f"
       }
     },
     {
@@ -467,6 +616,10 @@
       ],
       "names": {
         "en": "Finland"
+      },
+      "flag": {
+        "file": "flags/FIN.svg",
+        "sha256": "644a2d69b1a97f4e71b4a8341916a321ef9b2666774d3e12a7c0d95f56e7f2b3"
       }
     },
     {
@@ -478,6 +631,10 @@
       ],
       "names": {
         "en": "France"
+      },
+      "flag": {
+        "file": "flags/FRA.svg",
+        "sha256": "e949902c7677422d88137d385b9edbe91323470c7933824cc968aca3965fc37c"
       }
     },
     {
@@ -489,6 +646,10 @@
       ],
       "names": {
         "en": "Great Britain"
+      },
+      "flag": {
+        "file": "flags/GBR.svg",
+        "sha256": "499f1f86ed388b08e98ec3982e7c5ec7527bbaeaf9632f8092adbac4937e0fd0"
       }
     },
     {
@@ -500,6 +661,10 @@
       ],
       "names": {
         "en": "Georgia"
+      },
+      "flag": {
+        "file": "flags/GEO.svg",
+        "sha256": "0be14c9858af6deb6b913b42a091ee99b01405accc89acce3b88446422b2c951"
       }
     },
     {
@@ -511,6 +676,10 @@
       ],
       "names": {
         "en": "Germany"
+      },
+      "flag": {
+        "file": "flags/GER.svg",
+        "sha256": "44a4580e94ae11037b8983e43e37a220e72f884217dba5b33a94309db2dcd88b"
       }
     },
     {
@@ -522,6 +691,10 @@
       ],
       "names": {
         "en": "Greece"
+      },
+      "flag": {
+        "file": "flags/GRE.svg",
+        "sha256": "d65b82614f0cd167a767abfda1abc1ef99e87ef48e5755f3d33e4526e3cad365"
       }
     },
     {
@@ -533,6 +706,10 @@
       ],
       "names": {
         "en": "Grenada"
+      },
+      "flag": {
+        "file": "flags/GRN.svg",
+        "sha256": "a2068c160dddaf85e5ac16423100c50d1970990a7468f3e81eed2d11426c689a"
       }
     },
     {
@@ -544,6 +721,10 @@
       ],
       "names": {
         "en": "Guatemala"
+      },
+      "flag": {
+        "file": "flags/GUA.svg",
+        "sha256": "46f3b0c5a8db682596b47c2bb786c6f5a40f8b785b9d19572cb2040b3bdfe21a"
       }
     },
     {
@@ -555,6 +736,10 @@
       ],
       "names": {
         "en": "Guam"
+      },
+      "flag": {
+        "file": "flags/GUM.svg",
+        "sha256": "5cbd1b7cf33ae2a1930c686d249a3782f6d733f665e9c3263982b05eff0dadb6"
       }
     },
     {
@@ -566,6 +751,10 @@
       ],
       "names": {
         "en": "Hong Kong"
+      },
+      "flag": {
+        "file": "flags/HKG.svg",
+        "sha256": "bdc810878f887e885920d1d47133aec5fcd143043935bfd022fb00ef811621e5"
       }
     },
     {
@@ -577,6 +766,10 @@
       ],
       "names": {
         "en": "Hungary"
+      },
+      "flag": {
+        "file": "flags/HUN.svg",
+        "sha256": "2e52f26ef457b26f2b9c7716ba3e0b86ddbcd952052e04da38123a2c2ffbd870"
       }
     },
     {
@@ -588,6 +781,10 @@
       ],
       "names": {
         "en": "Indonesia"
+      },
+      "flag": {
+        "file": "flags/INA.svg",
+        "sha256": "2ab57d2d418baba7b0ff55729435d0c780ca52a98b754f92d44e96cd1399dae5"
       }
     },
     {
@@ -599,6 +796,10 @@
       ],
       "names": {
         "en": "India"
+      },
+      "flag": {
+        "file": "flags/IND.svg",
+        "sha256": "95d7239707482165fbc0f685d5f493633639f16771c1fef9701f7ee66dcdf343"
       }
     },
     {
@@ -610,6 +811,10 @@
       ],
       "names": {
         "en": "Ireland"
+      },
+      "flag": {
+        "file": "flags/IRL.svg",
+        "sha256": "96c46e68d8588fd10d30bcb3ff7b9ab4ffb08c41902aa5455c99722bce676e69"
       }
     },
     {
@@ -621,6 +826,10 @@
       ],
       "names": {
         "en": "Iceland"
+      },
+      "flag": {
+        "file": "flags/ISL.svg",
+        "sha256": "225f2c249cb0ae48bb954cc768c49f3f7143ae6150c0a44f58cedbb6a9a995b4"
       }
     },
     {
@@ -632,6 +841,10 @@
       ],
       "names": {
         "en": "Israel"
+      },
+      "flag": {
+        "file": "flags/ISR.svg",
+        "sha256": "a5732410968d238f8a506a455bd7be7fea2908d0abcf638020fbe7b58bd4ad2f"
       }
     },
     {
@@ -643,6 +856,10 @@
       ],
       "names": {
         "en": "US Virgin Islands"
+      },
+      "flag": {
+        "file": "flags/ISV.svg",
+        "sha256": "a8bd08d87f6116e5e631cb7d3bef5d4aad92c697b0f9377d5b377120fc734525"
       }
     },
     {
@@ -654,6 +871,10 @@
       ],
       "names": {
         "en": "Italy"
+      },
+      "flag": {
+        "file": "flags/ITA.svg",
+        "sha256": "c939e50605c5a08df1aaf19818f74d2919a9d3c3b7aa7cd90520b8bfc9c5dddc"
       }
     },
     {
@@ -665,6 +886,10 @@
       ],
       "names": {
         "en": "British Virgin Islands"
+      },
+      "flag": {
+        "file": "flags/IVB.svg",
+        "sha256": "a88dfb3a2b5971fdec3f1711057ac2e0f6791cb7171cc73e9c6a4c855b48d519"
       }
     },
     {
@@ -676,6 +901,10 @@
       ],
       "names": {
         "en": "Jamaica"
+      },
+      "flag": {
+        "file": "flags/JAM.svg",
+        "sha256": "ebad0857b427c3b40fbba25b83c30d1019b2bfb185fe434a45394abdaba86636"
       }
     },
     {
@@ -687,6 +916,10 @@
       ],
       "names": {
         "en": "Japan"
+      },
+      "flag": {
+        "file": "flags/JPN.svg",
+        "sha256": "35e785339e19d1ec1987cb9c3d8e66fc97f29a287db0b0b590b8dfdd96d4766b"
       }
     },
     {
@@ -698,6 +931,10 @@
       ],
       "names": {
         "en": "Kazakhstan"
+      },
+      "flag": {
+        "file": "flags/KAZ.svg",
+        "sha256": "bcf331e5a92785976aabe77aeac25de912e97d4e20557c521359e1033d1450af"
       }
     },
     {
@@ -709,6 +946,10 @@
       ],
       "names": {
         "en": "Kenya"
+      },
+      "flag": {
+        "file": "flags/KEN.svg",
+        "sha256": "4e750d2b4aba128580e40052630883aee27419dcbd87ea44a4ede609e7c42a1b"
       }
     },
     {
@@ -720,6 +961,10 @@
       ],
       "names": {
         "en": "Kyrgyzstan"
+      },
+      "flag": {
+        "file": "flags/KGZ.svg",
+        "sha256": "d6baff517bb0b83b0a6e8b8e650534b8420da5940dd758646e239e7429f7e29e"
       }
     },
     {
@@ -731,6 +976,10 @@
       ],
       "names": {
         "en": "Korea, Republic of"
+      },
+      "flag": {
+        "file": "flags/KOR.svg",
+        "sha256": "4bdbb18896cb97bd0931c2b8d38c7914cf5324c0a258bc2b443103a9c39d67be"
       }
     },
     {
@@ -742,6 +991,10 @@
       ],
       "names": {
         "en": "Kosovo"
+      },
+      "flag": {
+        "file": "flags/KOS.svg",
+        "sha256": "9c6ee498a2f96888ef3ac9cdbecc9a953802e0c3401ac56b3763f41b8fe8377b"
       }
     },
     {
@@ -753,6 +1006,10 @@
       ],
       "names": {
         "en": "Saudi Arabia"
+      },
+      "flag": {
+        "file": "flags/KSA.svg",
+        "sha256": "b0b36326e3e5b74624ee8b5de8273ea00f7bbe9b5ba0da6250cbe7b3c637505e"
       }
     },
     {
@@ -764,6 +1021,10 @@
       ],
       "names": {
         "en": "Kuwait"
+      },
+      "flag": {
+        "file": "flags/KUW.svg",
+        "sha256": "b550075b6f53c591fabdcd505be66c5085dff0168edd9a96c6b3c1d939e8bcbb"
       }
     },
     {
@@ -775,6 +1036,10 @@
       ],
       "names": {
         "en": "Latvia"
+      },
+      "flag": {
+        "file": "flags/LAT.svg",
+        "sha256": "cf4a4e4291180ebb8c4af4970a3f74a6bd9693eed357c032be210c8d36f94b7b"
       }
     },
     {
@@ -786,6 +1051,10 @@
       ],
       "names": {
         "en": "Libya"
+      },
+      "flag": {
+        "file": "flags/LBA.svg",
+        "sha256": "f2a61cb08640dbdf133f21e02c69b89fe601ec415bb9785e6cdad492ff47987a"
       }
     },
     {
@@ -797,6 +1066,10 @@
       ],
       "names": {
         "en": "St Lucia"
+      },
+      "flag": {
+        "file": "flags/LCA.svg",
+        "sha256": "79d6eec40542439c9e1c848f6c607209a1b8e7c36cb973267df69a6a3c612e74"
       }
     },
     {
@@ -808,6 +1081,10 @@
       ],
       "names": {
         "en": "Lebanon"
+      },
+      "flag": {
+        "file": "flags/LIB.svg",
+        "sha256": "ad184d36e7183828aecb2b3e6d05a92d454a4f01d478e38ce8c7db78d83e913c"
       }
     },
     {
@@ -819,6 +1096,10 @@
       ],
       "names": {
         "en": "Liechtenstein"
+      },
+      "flag": {
+        "file": "flags/LIE.svg",
+        "sha256": "ceb093b98e7da6f8b4833ccb9110fb9c2d883f68dda5c37dc7fb4725b98c57d4"
       }
     },
     {
@@ -830,6 +1111,10 @@
       ],
       "names": {
         "en": "Lithuania"
+      },
+      "flag": {
+        "file": "flags/LTU.svg",
+        "sha256": "9743f780184a60fc75a312b34151ff1a2699e0bf0d456eb91dcbae0472b4d566"
       }
     },
     {
@@ -841,6 +1126,10 @@
       ],
       "names": {
         "en": "Luxembourg"
+      },
+      "flag": {
+        "file": "flags/LUX.svg",
+        "sha256": "57c7d95e31cbb37cc41072b7c4c6149cc2286b37758c908e8335a4a7449cdf5e"
       }
     },
     {
@@ -852,6 +1141,10 @@
       ],
       "names": {
         "en": "Madagascar"
+      },
+      "flag": {
+        "file": "flags/MAD.svg",
+        "sha256": "a302a82027fb4c1739350e49505791537ed26a3b6326558b09bdc87dcf2b6cb8"
       }
     },
     {
@@ -863,6 +1156,10 @@
       ],
       "names": {
         "en": "Morocco"
+      },
+      "flag": {
+        "file": "flags/MAR.svg",
+        "sha256": "576f97976dfd505c002d39b34eeef0f95f29e6396e26870b0a3887d7bb8e42b4"
       }
     },
     {
@@ -874,6 +1171,10 @@
       ],
       "names": {
         "en": "Malaysia"
+      },
+      "flag": {
+        "file": "flags/MAS.svg",
+        "sha256": "53b0aa224ba67a2d32be58aab6eb2e4395ac3df66e62692ac83a30bc296ee3a2"
       }
     },
     {
@@ -885,6 +1186,10 @@
       ],
       "names": {
         "en": "Moldova"
+      },
+      "flag": {
+        "file": "flags/MDA.svg",
+        "sha256": "267604cb305206bdcc7856d49dab197ea4b1515fd4d200c29cdbdb07045055c8"
       }
     },
     {
@@ -896,6 +1201,10 @@
       ],
       "names": {
         "en": "Mexico"
+      },
+      "flag": {
+        "file": "flags/MEX.svg",
+        "sha256": "bcfebaa9d94827919e65c5414e4ee35a076f89520a1b57d75e0949e1ca81c3b9"
       }
     },
     {
@@ -907,6 +1216,10 @@
       ],
       "names": {
         "en": "Macedonia (FYRO)"
+      },
+      "flag": {
+        "file": "flags/MKD.svg",
+        "sha256": "f9a526edefb4278f21377c34e090de0f7c790800c9f4b1007007bf64d0064a1d"
       }
     },
     {
@@ -918,6 +1231,10 @@
       ],
       "names": {
         "en": "Malta"
+      },
+      "flag": {
+        "file": "flags/MLT.svg",
+        "sha256": "a5c2eee915ed72695afcc7898018bf57c41e62c9b7b964e8de8bbbec9e895d2d"
       }
     },
     {
@@ -929,6 +1246,10 @@
       ],
       "names": {
         "en": "Montenegro"
+      },
+      "flag": {
+        "file": "flags/MNE.svg",
+        "sha256": "53761b966181c55a3c3853292cb55705ff4d9879f9b59f06601bd29d846a3bf6"
       }
     },
     {
@@ -940,6 +1261,10 @@
       ],
       "names": {
         "en": "Monaco"
+      },
+      "flag": {
+        "file": "flags/MON.svg",
+        "sha256": "28d1941e74f7b9e235ad7b5ad740cbb33d6564394b8efa2cbd6a8701504b68af"
       }
     },
     {
@@ -951,6 +1276,10 @@
       ],
       "names": {
         "en": "Mozambique"
+      },
+      "flag": {
+        "file": "flags/MOZ.svg",
+        "sha256": "391e69a4674df584930d705369103aed29cbfb338572894aac1278cd53715bdd"
       }
     },
     {
@@ -962,6 +1291,10 @@
       ],
       "names": {
         "en": "Mauritius"
+      },
+      "flag": {
+        "file": "flags/MRI.svg",
+        "sha256": "37ba98746c41bd488e49afc59ce98312a5bfa91be289cbcca5827c0a7a7c4e6d"
       }
     },
     {
@@ -973,6 +1306,10 @@
       ],
       "names": {
         "en": "Myanmar"
+      },
+      "flag": {
+        "file": "flags/MYA.svg",
+        "sha256": "b96625d297f111bf6f588251780f972d3f6e3b1f663831c164bd35e93a06ba2a"
       }
     },
     {
@@ -984,6 +1321,10 @@
       ],
       "names": {
         "en": "Namibia"
+      },
+      "flag": {
+        "file": "flags/NAM.svg",
+        "sha256": "33c2a98ecf5a8e2ed5890dfcc4a6f4f5c0ce3ee2173a783fca0fbe0be25462b2"
       }
     },
     {
@@ -995,6 +1336,10 @@
       ],
       "names": {
         "en": "Nicaragua"
+      },
+      "flag": {
+        "file": "flags/NCA.svg",
+        "sha256": "fdb152e6dcb6090b662d14d41c6c04edb3ecc4368c0825b8cf49eb87e5a5f3e5"
       }
     },
     {
@@ -1006,6 +1351,10 @@
       ],
       "names": {
         "en": "Netherlands"
+      },
+      "flag": {
+        "file": "flags/NED.svg",
+        "sha256": "9c2a624a9ca5a82940d8902a7b818230d7bc2efde991837d6f78bc78c1b27110"
       }
     },
     {
@@ -1017,6 +1366,10 @@
       ],
       "names": {
         "en": "Nigeria"
+      },
+      "flag": {
+        "file": "flags/NGR.svg",
+        "sha256": "29a8a7fff1ca574873f953e086753bb2f90be55c3efac5c91f829b1a1c6c01be"
       }
     },
     {
@@ -1028,6 +1381,10 @@
       ],
       "names": {
         "en": "Norway"
+      },
+      "flag": {
+        "file": "flags/NOR.svg",
+        "sha256": "be906b906b9063a909154d9bae757ef6aa5927c67f678200d4e846101b1adc09"
       }
     },
     {
@@ -1039,6 +1396,10 @@
       ],
       "names": {
         "en": "New Zealand"
+      },
+      "flag": {
+        "file": "flags/NZL.svg",
+        "sha256": "e4b1bc62d8283cbefc000b9538d6cb58019b18651bb9e0818ccaffa9ed8716f1"
       }
     },
     {
@@ -1050,6 +1411,10 @@
       ],
       "names": {
         "en": "Oman"
+      },
+      "flag": {
+        "file": "flags/OMA.svg",
+        "sha256": "6ced4f73a1f9618141537d2b47ec30a39b25aa2dbefa1f38d8e0740f3e1f4f43"
       }
     },
     {
@@ -1061,6 +1426,10 @@
       ],
       "names": {
         "en": "Pakistan"
+      },
+      "flag": {
+        "file": "flags/PAK.svg",
+        "sha256": "d6ace20003ef4172b2cb2f090614f06602fb139a900cd1c65c4f8cc17367bc37"
       }
     },
     {
@@ -1072,6 +1441,10 @@
       ],
       "names": {
         "en": "Panama"
+      },
+      "flag": {
+        "file": "flags/PAN.svg",
+        "sha256": "464fc8f974b506c5a8353899dba96d68154f2f991a5a9319f68184be86c31556"
       }
     },
     {
@@ -1083,6 +1456,10 @@
       ],
       "names": {
         "en": "Paraguay"
+      },
+      "flag": {
+        "file": "flags/PAR.svg",
+        "sha256": "f564b33791a5612195cbbb8e58d4d7ba4235cecc9778111404bb3758bd144441"
       }
     },
     {
@@ -1094,6 +1471,10 @@
       ],
       "names": {
         "en": "Peru"
+      },
+      "flag": {
+        "file": "flags/PER.svg",
+        "sha256": "4358cec747829a0009dac86055e74e60b05e6eb57eba5f7bc30da2c88168a7f2"
       }
     },
     {
@@ -1105,6 +1486,10 @@
       ],
       "names": {
         "en": "Philippines"
+      },
+      "flag": {
+        "file": "flags/PHI.svg",
+        "sha256": "b0010e0b5f5945506e98b76f3469faf964c1ce30de75673186d303f9112b5454"
       }
     },
     {
@@ -1116,6 +1501,10 @@
       ],
       "names": {
         "en": "Palestine"
+      },
+      "flag": {
+        "file": "flags/PLE.svg",
+        "sha256": "df299146faffa45913ac8677931f4a5cd94b60fc99e39a51eb9ef922ca6da182"
       }
     },
     {
@@ -1127,6 +1516,10 @@
       ],
       "names": {
         "en": "Papua New Guinea"
+      },
+      "flag": {
+        "file": "flags/PNG.svg",
+        "sha256": "6ee1b87f3ea1eb7f1a12bda84304e82c5588d3223649b63410c953edffa4a3cb"
       }
     },
     {
@@ -1138,6 +1531,10 @@
       ],
       "names": {
         "en": "Poland"
+      },
+      "flag": {
+        "file": "flags/POL.svg",
+        "sha256": "c6a5131abfd6eede2c632b5b042e658266676fd072295acd4eaa6debd53755af"
       }
     },
     {
@@ -1149,6 +1546,25 @@
       ],
       "names": {
         "en": "Portugal"
+      },
+      "flag": {
+        "file": "flags/POR.svg",
+        "sha256": "20ddeda8a3c2960f6d8d7cf88cec827aad537143431a0828e789f55d0cd923ce"
+      }
+    },
+    {
+      "code": "PRK",
+      "name": "Korea, DPR",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Korea, DPR"
+      },
+      "flag": {
+        "file": "flags/PRK.svg",
+        "sha256": "0facdb3b7f4028e3ab0ce5457983ff62b22e77177e896cf472654ae6b2f9ebeb"
       }
     },
     {
@@ -1160,6 +1576,10 @@
       ],
       "names": {
         "en": "Puerto Rico"
+      },
+      "flag": {
+        "file": "flags/PUR.svg",
+        "sha256": "d83503767e27b93e45d3f7be7308f95cac3db37f9c8c5a40d95c58e208faaac0"
       }
     },
     {
@@ -1171,6 +1591,10 @@
       ],
       "names": {
         "en": "Qatar"
+      },
+      "flag": {
+        "file": "flags/QAT.svg",
+        "sha256": "92a082037fa252496f22e40bd52909678dec793fb31fcb8e9c4abd73b154f613"
       }
     },
     {
@@ -1182,6 +1606,10 @@
       ],
       "names": {
         "en": "Romania"
+      },
+      "flag": {
+        "file": "flags/ROU.svg",
+        "sha256": "57e1c4d27feec8e7a459e2dc522b9e6ec3eec996d9504733a9a17d9b4fce3026"
       }
     },
     {
@@ -1193,6 +1621,10 @@
       ],
       "names": {
         "en": "South Africa"
+      },
+      "flag": {
+        "file": "flags/RSA.svg",
+        "sha256": "90a3147fd9e2f81d659d247d7aa518b138901f73505bd72c1e6668178f749815"
       }
     },
     {
@@ -1204,6 +1636,10 @@
       ],
       "names": {
         "en": "Russia"
+      },
+      "flag": {
+        "file": "flags/RUS.svg",
+        "sha256": "eb1dbd977fdb824dcae7767ce9ec3a023e41158e81b5f524772609ddcb622025"
       }
     },
     {
@@ -1215,6 +1651,10 @@
       ],
       "names": {
         "en": "Samoa"
+      },
+      "flag": {
+        "file": "flags/SAM.svg",
+        "sha256": "3b7f004e35c7de0075a76901afafe33f1e7f8cebe5dbbe15b40eee48c155f527"
       }
     },
     {
@@ -1226,6 +1666,10 @@
       ],
       "names": {
         "en": "Senegal"
+      },
+      "flag": {
+        "file": "flags/SEN.svg",
+        "sha256": "c9fb30d11cf7e230ee44d5cf663b7dce52a11c58798155b37fabec4158441497"
       }
     },
     {
@@ -1237,6 +1681,10 @@
       ],
       "names": {
         "en": "Seychelles"
+      },
+      "flag": {
+        "file": "flags/SEY.svg",
+        "sha256": "b55c102d24e3963a45a4c24243c00032381e88cf42c9b2fa49062d7abb202321"
       }
     },
     {
@@ -1248,6 +1696,10 @@
       ],
       "names": {
         "en": "Singapore"
+      },
+      "flag": {
+        "file": "flags/SGP.svg",
+        "sha256": "261a4507c08c834e8e335ae147bde951010d92ef05330ff39f0d0eb713d2f617"
       }
     },
     {
@@ -1259,6 +1711,10 @@
       ],
       "names": {
         "en": "Slovenia"
+      },
+      "flag": {
+        "file": "flags/SLO.svg",
+        "sha256": "aa4fda18694f1e60c937933eebd752cc3ed0701652f0dfca84677c3267b26db9"
       }
     },
     {
@@ -1270,6 +1726,10 @@
       ],
       "names": {
         "en": "San Marino"
+      },
+      "flag": {
+        "file": "flags/SMR.svg",
+        "sha256": "050539f131fb13e8d0bf192a5130f4a08866fc71762f409c6656806b23a19be4"
       }
     },
     {
@@ -1281,6 +1741,10 @@
       ],
       "names": {
         "en": "Serbia"
+      },
+      "flag": {
+        "file": "flags/SRB.svg",
+        "sha256": "e0a8bff6ee5445d6676a788c3761b412275688196abdd4bd149d74d6c723040c"
       }
     },
     {
@@ -1292,6 +1756,10 @@
       ],
       "names": {
         "en": "Sri Lanka"
+      },
+      "flag": {
+        "file": "flags/SRI.svg",
+        "sha256": "eea9217df822c4b9a50001821453f73cb45d61df96086cec87cb4a2be2e066fd"
       }
     },
     {
@@ -1303,6 +1771,10 @@
       ],
       "names": {
         "en": "Sudan"
+      },
+      "flag": {
+        "file": "flags/SUD.svg",
+        "sha256": "1f7504f8d4b352eb1726d81a563212c650a8d316d67c97c6167b96895ffa703d"
       }
     },
     {
@@ -1314,6 +1786,10 @@
       ],
       "names": {
         "en": "Switzerland"
+      },
+      "flag": {
+        "file": "flags/SUI.svg",
+        "sha256": "900a0befb655721c1b52b5ec2754f2f553f52b230443aaf016cc224e6a0707ce"
       }
     },
     {
@@ -1325,6 +1801,10 @@
       ],
       "names": {
         "en": "Slovak Republic"
+      },
+      "flag": {
+        "file": "flags/SVK.svg",
+        "sha256": "de60b8f1ba41a4985756b81d42f52d0b52bf61a54f2260b674412f3d2f358577"
       }
     },
     {
@@ -1336,6 +1816,10 @@
       ],
       "names": {
         "en": "Sweden"
+      },
+      "flag": {
+        "file": "flags/SWE.svg",
+        "sha256": "350fa9d5023de2ed2fd7fd0f9d0de04e25551d6154aab859949bb7c81543f10b"
       }
     },
     {
@@ -1347,6 +1831,10 @@
       ],
       "names": {
         "en": "Tahiti"
+      },
+      "flag": {
+        "file": "flags/TAH.svg",
+        "sha256": "112ef602e7297ba78dcf004adc512bed2b7b243008e97bda862baaddabf20117"
       }
     },
     {
@@ -1358,6 +1846,10 @@
       ],
       "names": {
         "en": "Tanzania"
+      },
+      "flag": {
+        "file": "flags/TAN.svg",
+        "sha256": "8d92faadc880d81182a6bdd4ab17d970fd921230154e6fe3597b000be44c52ca"
       }
     },
     {
@@ -1369,6 +1861,10 @@
       ],
       "names": {
         "en": "Thailand"
+      },
+      "flag": {
+        "file": "flags/THA.svg",
+        "sha256": "f137bb494e00c3c29e9d03fbf4d15c2650d82f2a8f02cf51341f6a4557117db9"
       }
     },
     {
@@ -1380,6 +1876,10 @@
       ],
       "names": {
         "en": "Chinese Taipei"
+      },
+      "flag": {
+        "file": "flags/TPE.svg",
+        "sha256": "306f1f59251d937410e8f982a3f84a9cfe15f84bd8d99404a38f3b1cce7e6010"
       }
     },
     {
@@ -1391,6 +1891,10 @@
       ],
       "names": {
         "en": "Trinidad & Tobago"
+      },
+      "flag": {
+        "file": "flags/TTO.svg",
+        "sha256": "71f6d39d7ea27b3201321eec6a22b3529f9ba96d2acd59e440c6484873121baa"
       }
     },
     {
@@ -1402,6 +1906,10 @@
       ],
       "names": {
         "en": "Tunisia"
+      },
+      "flag": {
+        "file": "flags/TUN.svg",
+        "sha256": "0e8dd5d1b2a821a2669b3e7569db96681d86194e396682953e658ca018eb5e19"
       }
     },
     {
@@ -1413,6 +1921,10 @@
       ],
       "names": {
         "en": "Turkey"
+      },
+      "flag": {
+        "file": "flags/TUR.svg",
+        "sha256": "5a47e932cdb371d9708d8c9a209d3acfd006cdd3ee7dd38ae44df6180e170e90"
       }
     },
     {
@@ -1424,6 +1936,10 @@
       ],
       "names": {
         "en": "United Arab Emirates"
+      },
+      "flag": {
+        "file": "flags/UAE.svg",
+        "sha256": "2eb3d53df8f3f845dfafff448fb165647c8e3ed2b2f08296af1080fece92ad35"
       }
     },
     {
@@ -1435,6 +1951,10 @@
       ],
       "names": {
         "en": "Uganda"
+      },
+      "flag": {
+        "file": "flags/UGA.svg",
+        "sha256": "3b2508f07d951809da7988321172c27d97a244499713e57e691111df4e9ecb64"
       }
     },
     {
@@ -1446,6 +1966,10 @@
       ],
       "names": {
         "en": "Ukraine"
+      },
+      "flag": {
+        "file": "flags/UKR.svg",
+        "sha256": "77e3eb29bbc7d4bae51f2e959d4ef4656eb1e34484cf772b4081a22f4af5256b"
       }
     },
     {
@@ -1457,6 +1981,10 @@
       ],
       "names": {
         "en": "Uruguay"
+      },
+      "flag": {
+        "file": "flags/URU.svg",
+        "sha256": "34b6a6675698eaadafdafffbf9d3cfa72761b893e49659e3a0e8523f5b7fc1f7"
       }
     },
     {
@@ -1468,6 +1996,10 @@
       ],
       "names": {
         "en": "United States of America"
+      },
+      "flag": {
+        "file": "flags/USA.svg",
+        "sha256": "8a8c44dd3dbef7819eddee23bb724f40cff47e224eac3a401c5c26afce475076"
       }
     },
     {
@@ -1479,6 +2011,10 @@
       ],
       "names": {
         "en": "Vanuatu"
+      },
+      "flag": {
+        "file": "flags/VAN.svg",
+        "sha256": "dda80df857425b07d5d227e11e34e9b4d8ca55b23221f84ee4dfbdccc33865e4"
       }
     },
     {
@@ -1490,6 +2026,10 @@
       ],
       "names": {
         "en": "Venezuela"
+      },
+      "flag": {
+        "file": "flags/VEN.svg",
+        "sha256": "facdf9d3992996b00daa7cd1749d2f583528f7bcc9c4b4c88bc7b9cd16f2712c"
       }
     },
     {
@@ -1501,6 +2041,10 @@
       ],
       "names": {
         "en": "Vietnam"
+      },
+      "flag": {
+        "file": "flags/VIE.svg",
+        "sha256": "175120e06bb95dda22133758395f352acb46433ff81eee449326db54e78af2c4"
       }
     },
     {
@@ -1512,6 +2056,10 @@
       ],
       "names": {
         "en": "St Vincent & Grenadines"
+      },
+      "flag": {
+        "file": "flags/VIN.svg",
+        "sha256": "91dd575f767f29bfb5a1ffa8fb9771413edb03449ab77eafe900ea675d66c6bf"
       }
     },
     {
@@ -1523,6 +2071,10 @@
       ],
       "names": {
         "en": "Zimbabwe"
+      },
+      "flag": {
+        "file": "flags/ZIM.svg",
+        "sha256": "81548edd2e9340b07f67219b2185ececb93466e4e4da96cbea3e61f0dca65067"
       }
     }
   ]

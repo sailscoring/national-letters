@@ -77,6 +77,13 @@ World Sailing and point the extraction script at it:
 export RRS_PDF_PATH=/path/to/rrs-2025-2028.pdf
 uv run python scripts/01_extract_rrs.py    # → sources/rrs-2025-2028-appendix-g.json
 uv run python scripts/04_merge.py          # → data/codes.json
+uv run python scripts/05_fetch_flags.py    # → flags/*.svg + data/flags-manifest.json
 uv run python scripts/07_validate.py
 uv run pytest                              # pins extraction against reference rows
 ```
+
+The flag-fetch step downloads SVGs from Wikimedia Commons. It is
+**resumable** — partially-completed runs leave a valid manifest, and a
+re-run skips codes whose local file already matches its recorded sha256.
+Codes whose default Commons title (`File:Flag of {names.en}.svg`) does not
+resolve are added to `sources/flag-overrides.yaml` with a citation URL.

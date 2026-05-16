@@ -1,7 +1,7 @@
 {
   "source": "rrs",
   "edition": "2025-2028",
-  "extractedAt": "2026-05-16T19:54:11Z",
+  "extractedAt": "2026-05-16T20:29:04Z",
   "pdfSha256": "b314ee6802d961b7a1cc50cd3cbdb611b593089b0c4591eaa58896e23d71ae43",
   "count": 138,
   "rows": [
@@ -210,8 +210,8 @@
       "name": "Chinese Taipei"
     },
     {
-      "code": "DPR",
-      "name": "Korea,"
+      "code": "PRK",
+      "name": "Korea, DPR"
     },
     {
       "code": "COL",

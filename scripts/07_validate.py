@@ -1,11 +1,13 @@
 """Validate data/codes.json against the spec (§6.8).
 
-M1 scope: schema shape, code format, uniqueness, category enum, name/names.en
-consistency. Flag-related checks and aliases land in later milestones.
+M2 scope: schema shape, code format, uniqueness, category enum,
+name/names.en consistency, plus flag presence + sha256 + manifest licence.
+Structural SVG constraints land in M3 (post-SVGO); aliases in M6.
 """
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import sys
@@ -13,13 +15,22 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CODES_PATH = REPO_ROOT / "data" / "codes.json"
+MANIFEST_PATH = REPO_ROOT / "data" / "flags-manifest.json"
 
 CODE_RE = re.compile(r"^[A-Z]{3}$")
 VALID_CATEGORIES = {"rrs", "world-sailing", "extended", "historical"}
 VALID_SOURCES = {"rrs", "world-sailing", "sailwave"}
 
 
-def validate(payload: dict) -> list[str]:
+def _sha256_file(path: Path) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        for chunk in iter(lambda: f.read(65536), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def validate(payload: dict, manifest: list[dict] | None) -> list[str]:
     errors: list[str] = []
 
     if payload.get("schemaVersion") != "1.0":
@@ -29,6 +40,13 @@ def validate(payload: dict) -> list[str]:
     if not isinstance(codes, list):
         errors.append("codes: must be a list")
         return errors
+
+    manifest_by_code: dict[str, dict] = {}
+    if manifest is not None:
+        for entry in manifest:
+            code = entry.get("code")
+            if isinstance(code, str):
+                manifest_by_code[code] = entry
 
     seen: set[str] = set()
     for i, record in enumerate(codes):
@@ -68,6 +86,55 @@ def validate(payload: dict) -> list[str]:
                     f"{prefix}.presentIn: unknown source(s) {bad!r}"
                 )
 
+        # Flag checks — only enforced when a manifest is present, so M1-era
+        # callers running the validator without flags still pass.
+        if manifest is not None:
+            errors.extend(_validate_flag(prefix, code, record, manifest_by_code))
+
+    return errors
+
+
+def _validate_flag(
+    prefix: str,
+    code: str,
+    record: dict,
+    manifest_by_code: dict[str, dict],
+) -> list[str]:
+    errors: list[str] = []
+    flag = record.get("flag")
+    if not isinstance(flag, dict):
+        errors.append(f"{prefix}.flag: missing")
+        return errors
+
+    file_rel = flag.get("file")
+    sha = flag.get("sha256")
+    if not isinstance(file_rel, str) or not file_rel:
+        errors.append(f"{prefix}.flag.file: missing")
+        return errors
+
+    path = REPO_ROOT / file_rel
+    if not path.is_file() or path.stat().st_size == 0:
+        errors.append(f"{prefix}.flag.file: {file_rel} missing or empty")
+        return errors
+
+    actual = _sha256_file(path)
+    if sha != actual:
+        errors.append(
+            f"{prefix}.flag.sha256: stored {sha} != actual {actual}"
+        )
+
+    entry = manifest_by_code.get(code)
+    if entry is None:
+        errors.append(f"{prefix}.flag: no flags-manifest.json entry for {code}")
+    else:
+        if not entry.get("licence"):
+            errors.append(
+                f"flags-manifest[{code}].licence: must be non-null"
+            )
+        if entry.get("sha256") != actual:
+            errors.append(
+                f"flags-manifest[{code}].sha256: {entry.get('sha256')} != actual {actual}"
+            )
     return errors
 
 
@@ -77,7 +144,10 @@ def main() -> int:
         return 2
 
     payload = json.loads(CODES_PATH.read_text())
-    errors = validate(payload)
+    manifest: list[dict] | None = None
+    if MANIFEST_PATH.is_file():
+        manifest = json.loads(MANIFEST_PATH.read_text())
+    errors = validate(payload, manifest)
     if errors:
         for e in errors:
             print(e, file=sys.stderr)
