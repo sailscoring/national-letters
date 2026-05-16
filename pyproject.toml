@@ -1,0 +1,24 @@
+[project]
+name = "national-letters"
+version = "0.0.0"
+description = "Versioned dataset of three-letter national codes used in sail racing."
+readme = "README.md"
+license = { text = "CC0-1.0" }
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "ruff>=0.7",
+  "pytest>=8",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
