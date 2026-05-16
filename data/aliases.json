@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-05-16T21:25:09Z",
+  "aliases": {
+    "BVI": {
+      "canonical": "IVB",
+      "note": "British Virgin Islands; Sailwave/IOC uses BVI, RRS uses IVB.",
+      "source": "https://www.sailwave.com/flags/"
+    },
+    "CKI": {
+      "canonical": "COK",
+      "note": "Cook Islands; Sailwave uses CKI, RRS/IOC uses COK.",
+      "source": "https://www.sailwave.com/flags/"
+    },
+    "GRD": {
+      "canonical": "GRN",
+      "note": "Grenada; Sailwave uses ISO alpha-3 GRD, RRS/IOC uses GRN.",
+      "source": "https://www.sailwave.com/flags/"
+    },
+    "IRI": {
+      "canonical": "IRN",
+      "note": "Iran; Sailwave/IOC uses IRI, WS uses IRN.",
+      "source": "https://www.sailwave.com/flags/"
+    },
+    "NAU": {
+      "canonical": "NRU",
+      "note": "Nauru; Sailwave uses NAU, the ISO alpha-3 is NRU (the canonical record).",
+      "source": "https://www.sailwave.com/flags/"
+    },
+    "SLU": {
+      "canonical": "LCA",
+      "note": "Saint Lucia; Sailwave uses SLU, RRS uses LCA.",
+      "source": "https://www.sailwave.com/flags/"
+    },
+    "TCI": {
+      "canonical": "TCA",
+      "note": "Turks and Caicos Islands; another Sailwave variant alongside TKS.",
+      "source": "https://www.sailwave.com/flags/"
+    },
+    "TKS": {
+      "canonical": "TCA",
+      "note": "Turks and Caicos Islands; Sailwave uses TKS, WS uses TCA.",
+      "source": "https://www.sailwave.com/flags/"
+    },
+    "TON": {
+      "canonical": "TGA",
+      "note": "Tonga; Sailwave uses TON, WS uses TGA.",
+      "source": "https://www.sailwave.com/flags/"
+    },
+    "TRI": {
+      "canonical": "TTO",
+      "note": "Trinidad and Tobago; Sailwave/historical-RRS uses TRI, current RRS uses TTO.",
+      "source": "https://www.sailwave.com/flags/"
+    }
+  }
+}

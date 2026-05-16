@@ -2015,6 +2015,19 @@
     "sha256": "41ca1bc7e7d295f4836558fa495764d773c5854fafdc6f939c65ccfd1b3e0eb0"
   },
   {
+    "code": "NRU",
+    "commonsTitle": "File:Flag of Nauru.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Nauru.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_Nauru.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "User:Skimel",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:22:05Z",
+    "sha256": "9c9c35790a7b9fbc3d1fc325461a4718dae91fd3ea4e48160d09f92bbca32f9d"
+  },
+  {
     "code": "NZL",
     "commonsTitle": "File:Flag of New Zealand.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Zealand.svg",

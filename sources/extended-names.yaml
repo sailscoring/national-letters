@@ -180,6 +180,9 @@ extended:
     citation: "https://en.wikipedia.org/wiki/New_Caledonia"
     commons: "File:Flag of New Caledonia (FLNKS).svg"
     note: "New Caledonia uses the FLNKS (Kanak) flag alongside the French tricolour in sport."
+  NRU:
+    name: "Nauru"
+    citation: "https://en.wikipedia.org/wiki/Nauru"
   NEP:
     name: "Nepal"
     citation: "https://en.wikipedia.org/wiki/Nepal"
@@ -311,6 +314,4 @@ unresolved:
   TON:
     reason: "Sailwave variant of TGA (Tonga). Will surface in aliases.json (M6)."
   NAU:
-    reason: "Sailwave variant of NRU (Nauru). Will surface in aliases.json (M6)."
-  NRU:
-    reason: "Possible Nauru (ISO code NRU); coexists with NAU in Sailwave. Defer to alias resolution (M6)."
+    reason: "Sailwave variant of NRU (Nauru). Surfaces in aliases.json."

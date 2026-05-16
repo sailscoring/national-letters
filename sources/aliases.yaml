@@ -1,0 +1,64 @@
+# Per spec §5.5, aliases map alternate codes observed in real-world entry
+# data to a canonical code in data/codes.json. Aliases are for *normalisation
+# of imports* only — not for display. The canonical record's flag and name
+# are what consumers should surface.
+#
+# Each entry MUST carry a citation: a URL or reference identifying where the
+# alternate form was observed in real data. Aliases are not added
+# speculatively.
+#
+# Schema:
+#   aliases:
+#     <ALPHA-3-OR-OTHER>:
+#       canonical: <CODE>           # must exist in data/codes.json
+#       source:    "<URL or citation>"
+#       note:      "<optional free text>"
+#
+# The merge step drops entries whose canonical does not exist (with a warning).
+
+aliases:
+
+  # Sailwave variants — observed in the Sailwave flag directory (committed
+  # at sources/sailwave-flags.json). These are the legacy IOC/Sailwave
+  # alpha-3 forms for entities the RRS/WS canonical set encodes differently.
+
+  BVI:
+    canonical: IVB
+    source: "https://www.sailwave.com/flags/"
+    note: "British Virgin Islands; Sailwave/IOC uses BVI, RRS uses IVB."
+  CKI:
+    canonical: COK
+    source: "https://www.sailwave.com/flags/"
+    note: "Cook Islands; Sailwave uses CKI, RRS/IOC uses COK."
+  GRD:
+    canonical: GRN
+    source: "https://www.sailwave.com/flags/"
+    note: "Grenada; Sailwave uses ISO alpha-3 GRD, RRS/IOC uses GRN."
+  IRI:
+    canonical: IRN
+    source: "https://www.sailwave.com/flags/"
+    note: "Iran; Sailwave/IOC uses IRI, WS uses IRN."
+  SLU:
+    canonical: LCA
+    source: "https://www.sailwave.com/flags/"
+    note: "Saint Lucia; Sailwave uses SLU, RRS uses LCA."
+  TRI:
+    canonical: TTO
+    source: "https://www.sailwave.com/flags/"
+    note: "Trinidad and Tobago; Sailwave/historical-RRS uses TRI, current RRS uses TTO."
+  TKS:
+    canonical: TCA
+    source: "https://www.sailwave.com/flags/"
+    note: "Turks and Caicos Islands; Sailwave uses TKS, WS uses TCA."
+  TCI:
+    canonical: TCA
+    source: "https://www.sailwave.com/flags/"
+    note: "Turks and Caicos Islands; another Sailwave variant alongside TKS."
+  TON:
+    canonical: TGA
+    source: "https://www.sailwave.com/flags/"
+    note: "Tonga; Sailwave uses TON, WS uses TGA."
+  NAU:
+    canonical: NRU
+    source: "https://www.sailwave.com/flags/"
+    note: "Nauru; Sailwave uses NAU, the ISO alpha-3 is NRU (the canonical record)."

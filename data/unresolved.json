@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-16T21:15:29Z",
+  "generatedAt": "2026-05-16T21:25:09Z",
   "note": "Codes seen in source data but excluded from codes.json (spec §5.4). Entries with reason 'needs research' are candidates for future promotion.",
-  "count": 27,
+  "count": 26,
   "codes": [
     {
       "code": "AIA",
@@ -85,7 +85,7 @@
     },
     {
       "code": "NAU",
-      "reason": "Sailwave variant of NRU (Nauru). Will surface in aliases.json (M6).",
+      "reason": "Sailwave variant of NRU (Nauru). Surfaces in aliases.json.",
       "note": null,
       "source": "sailwave"
     },
@@ -98,12 +98,6 @@
     {
       "code": "NRI",
       "reason": "Unknown code; no defensible mapping.",
-      "note": null,
-      "source": "sailwave"
-    },
-    {
-      "code": "NRU",
-      "reason": "Possible Nauru (ISO code NRU); coexists with NAU in Sailwave. Defer to alias resolution (M6).",
       "note": null,
       "source": "sailwave"
     },

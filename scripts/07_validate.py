@@ -19,6 +19,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CODES_PATH = REPO_ROOT / "data" / "codes.json"
 MANIFEST_PATH = REPO_ROOT / "data" / "flags-manifest.json"
+ALIASES_PATH = REPO_ROOT / "data" / "aliases.json"
 
 CODE_RE = re.compile(r"^[A-Z]{3}$")
 VALID_CATEGORIES = {"rrs", "world-sailing", "extended", "historical"}
@@ -185,6 +186,29 @@ def _validate_svg_structure(rel: str, path: Path) -> list[str]:
     return errors
 
 
+def _validate_aliases(payload: dict, all_codes: set[str]) -> list[str]:
+    errors: list[str] = []
+    aliases = payload.get("aliases", {})
+    if not isinstance(aliases, dict):
+        errors.append("aliases.json: 'aliases' must be a mapping")
+        return errors
+    for alias, entry in aliases.items():
+        prefix = f"aliases[{alias!r}]"
+        if not CODE_RE.match(alias):
+            errors.append(f"{prefix}: alias does not match ^[A-Z]{{3}}$")
+        if not isinstance(entry, dict):
+            errors.append(f"{prefix}: entry must be a mapping")
+            continue
+        canonical = entry.get("canonical")
+        if not canonical:
+            errors.append(f"{prefix}.canonical: missing")
+        elif canonical not in all_codes:
+            errors.append(f"{prefix}.canonical: {canonical!r} not in codes.json")
+        if not entry.get("source"):
+            errors.append(f"{prefix}.source: missing (citation required per §5.5)")
+    return errors
+
+
 def main() -> int:
     if not CODES_PATH.is_file():
         print(f"error: {CODES_PATH.relative_to(REPO_ROOT)} not found", file=sys.stderr)
@@ -195,6 +219,11 @@ def main() -> int:
     if MANIFEST_PATH.is_file():
         manifest = json.loads(MANIFEST_PATH.read_text())
     errors = validate(payload, manifest)
+
+    if ALIASES_PATH.is_file():
+        aliases_payload = json.loads(ALIASES_PATH.read_text())
+        all_codes = {r["code"] for r in payload.get("codes", [])}
+        errors.extend(_validate_aliases(aliases_payload, all_codes))
     if errors:
         for e in errors:
             print(e, file=sys.stderr)
