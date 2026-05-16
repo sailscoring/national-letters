@@ -1,0 +1,146 @@
+name: rebuild
+
+# Monthly refresh from upstream sources (spec §11). RRS extraction is
+# deliberately skipped — the RRS PDF only changes per quadrennial edition
+# and is not redistributed, so re-extracting is a manual maintainer task
+# tied to a release rather than to the cron.
+
+on:
+  schedule:
+    - cron: "0 4 1 * *"  # 04:00 UTC on the 1st of each month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Sync deps
+        run: uv sync
+
+      - name: Refresh World Sailing membership
+        run: uv run python scripts/02_fetch_world_sailing.py
+
+      - name: Refresh Sailwave directory
+        run: uv run python scripts/03_extract_sailwave.py
+
+      - name: Merge sources
+        run: uv run python scripts/04_merge.py
+
+      - name: Fetch any newly-introduced flags
+        run: uv run python scripts/05_fetch_flags.py
+
+      - name: Optimise flags
+        run: uv run python scripts/06_optimise_flags.py
+
+      - name: Re-merge to refresh flag sha256s
+        run: uv run python scripts/04_merge.py
+
+      - name: Validate
+        run: uv run python scripts/07_validate.py
+
+      - name: Tests
+        run: uv run pytest -q
+
+      # Detect whether anything beyond the always-changing timestamps
+      # differs. If only timestamps moved, suppress the PR entirely.
+      - name: Detect semantic changes
+        id: diff
+        run: |
+          set -e
+          python <<'EOF'
+          import json, hashlib, subprocess, sys, os
+          from pathlib import Path
+
+          PATHS = [
+              "data/codes.json",
+              "data/aliases.json",
+              "data/flags-manifest.json",
+              "data/unresolved.json",
+              "sources/world-sailing-members.json",
+              "sources/sailwave-flags.json",
+          ]
+          TIMESTAMP_KEYS = {"generatedAt", "retrievedAt"}
+
+          def strip_timestamps(obj):
+              if isinstance(obj, dict):
+                  return {k: strip_timestamps(v) for k, v in obj.items() if k not in TIMESTAMP_KEYS}
+              if isinstance(obj, list):
+                  return [strip_timestamps(x) for x in obj]
+              return obj
+
+          def stable_hash(path):
+              if not Path(path).is_file():
+                  return "missing"
+              data = json.loads(Path(path).read_text())
+              return hashlib.sha256(
+                  json.dumps(strip_timestamps(data), sort_keys=True, ensure_ascii=False).encode()
+              ).hexdigest()
+
+          before = {}
+          for p in PATHS:
+              try:
+                  raw = subprocess.check_output(["git", "show", f"HEAD:{p}"])
+                  data = json.loads(raw)
+                  before[p] = hashlib.sha256(
+                      json.dumps(strip_timestamps(data), sort_keys=True, ensure_ascii=False).encode()
+                  ).hexdigest()
+              except subprocess.CalledProcessError:
+                  before[p] = "missing"
+
+          after = {p: stable_hash(p) for p in PATHS}
+
+          # Also check whether any flag SVGs changed (raw byte diff).
+          flag_diff = subprocess.run(
+              ["git", "diff", "--quiet", "HEAD", "--", "flags/"],
+              check=False,
+          ).returncode != 0
+
+          json_diff = before != after
+          changed = json_diff or flag_diff
+          for p in PATHS:
+              if before[p] != after[p]:
+                  print(f"  changed: {p}", file=sys.stderr)
+          if flag_diff:
+              print("  changed: flags/", file=sys.stderr)
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"changed={'true' if changed else 'false'}\n")
+          EOF
+
+      - name: Create PR if anything diverged
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "rebuild: refresh dataset from upstream sources"
+          branch: bot/rebuild
+          delete-branch: true
+          title: "Monthly rebuild: upstream sources diverged"
+          body: |
+            Automated rebuild from `.github/workflows/rebuild.yml`.
+
+            Upstream content has changed since the last commit. Review the
+            diff in `data/` / `sources/` / `flags/`, run any local sanity
+            checks, and merge to publish.
+
+            Run logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          labels: |
+            automated
+            data-refresh
+
+      - name: Note no semantic change
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "No semantic changes — skipping PR."
