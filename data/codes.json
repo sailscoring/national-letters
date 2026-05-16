@@ -1,0 +1,1529 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-05-16T19:55:23Z",
+  "sources": {
+    "rrs": {
+      "edition": "2025-2028"
+    }
+  },
+  "codes": [
+    {
+      "code": "AHO",
+      "name": "Netherlands Antilles",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Netherlands Antilles"
+      }
+    },
+    {
+      "code": "ALG",
+      "name": "Algeria",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Algeria"
+      }
+    },
+    {
+      "code": "AND",
+      "name": "Andorra",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Andorra"
+      }
+    },
+    {
+      "code": "ANG",
+      "name": "Angola",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Angola"
+      }
+    },
+    {
+      "code": "ANT",
+      "name": "Antigua",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Antigua"
+      }
+    },
+    {
+      "code": "ARG",
+      "name": "Argentina",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Argentina"
+      }
+    },
+    {
+      "code": "ARM",
+      "name": "Armenia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Armenia"
+      }
+    },
+    {
+      "code": "ARU",
+      "name": "Aruba",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Aruba"
+      }
+    },
+    {
+      "code": "ASA",
+      "name": "American Samoa",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "American Samoa"
+      }
+    },
+    {
+      "code": "AUS",
+      "name": "Australia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Australia"
+      }
+    },
+    {
+      "code": "AUT",
+      "name": "Austria",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Austria"
+      }
+    },
+    {
+      "code": "AZE",
+      "name": "Azerbaijan",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Azerbaijan"
+      }
+    },
+    {
+      "code": "BAH",
+      "name": "Bahamas",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Bahamas"
+      }
+    },
+    {
+      "code": "BAR",
+      "name": "Barbados",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Barbados"
+      }
+    },
+    {
+      "code": "BEL",
+      "name": "Belgium",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Belgium"
+      }
+    },
+    {
+      "code": "BER",
+      "name": "Bermuda",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Bermuda"
+      }
+    },
+    {
+      "code": "BIZ",
+      "name": "Belize",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Belize"
+      }
+    },
+    {
+      "code": "BLR",
+      "name": "Belarus",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Belarus"
+      }
+    },
+    {
+      "code": "BRA",
+      "name": "Brazil",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Brazil"
+      }
+    },
+    {
+      "code": "BRN",
+      "name": "Bahrain",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Bahrain"
+      }
+    },
+    {
+      "code": "BUL",
+      "name": "Bulgaria",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Bulgaria"
+      }
+    },
+    {
+      "code": "CAN",
+      "name": "Canada",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Canada"
+      }
+    },
+    {
+      "code": "CAY",
+      "name": "Cayman Islands",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Cayman Islands"
+      }
+    },
+    {
+      "code": "CHI",
+      "name": "Chile",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Chile"
+      }
+    },
+    {
+      "code": "CHN",
+      "name": "China, PR",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "China, PR"
+      }
+    },
+    {
+      "code": "COK",
+      "name": "Cook Islands",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Cook Islands"
+      }
+    },
+    {
+      "code": "COL",
+      "name": "Colombia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Colombia"
+      }
+    },
+    {
+      "code": "CRO",
+      "name": "Croatia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Croatia"
+      }
+    },
+    {
+      "code": "CUB",
+      "name": "Cuba",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Cuba"
+      }
+    },
+    {
+      "code": "CYP",
+      "name": "Cyprus",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Cyprus"
+      }
+    },
+    {
+      "code": "CZE",
+      "name": "Czech Republic",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Czech Republic"
+      }
+    },
+    {
+      "code": "DEN",
+      "name": "Denmark",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Denmark"
+      }
+    },
+    {
+      "code": "DJI",
+      "name": "Djibouti",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Djibouti"
+      }
+    },
+    {
+      "code": "DOM",
+      "name": "Dominican Republic",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Dominican Republic"
+      }
+    },
+    {
+      "code": "DPR",
+      "name": "Korea,",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Korea,"
+      }
+    },
+    {
+      "code": "ECU",
+      "name": "Ecuador",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Ecuador"
+      }
+    },
+    {
+      "code": "EGY",
+      "name": "Egypt",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Egypt"
+      }
+    },
+    {
+      "code": "ESA",
+      "name": "El Salvador",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "El Salvador"
+      }
+    },
+    {
+      "code": "ESP",
+      "name": "Spain",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Spain"
+      }
+    },
+    {
+      "code": "EST",
+      "name": "Estonia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Estonia"
+      }
+    },
+    {
+      "code": "FIJ",
+      "name": "Fiji",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Fiji"
+      }
+    },
+    {
+      "code": "FIN",
+      "name": "Finland",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Finland"
+      }
+    },
+    {
+      "code": "FRA",
+      "name": "France",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "France"
+      }
+    },
+    {
+      "code": "GBR",
+      "name": "Great Britain",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Great Britain"
+      }
+    },
+    {
+      "code": "GEO",
+      "name": "Georgia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Georgia"
+      }
+    },
+    {
+      "code": "GER",
+      "name": "Germany",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Germany"
+      }
+    },
+    {
+      "code": "GRE",
+      "name": "Greece",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Greece"
+      }
+    },
+    {
+      "code": "GRN",
+      "name": "Grenada",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Grenada"
+      }
+    },
+    {
+      "code": "GUA",
+      "name": "Guatemala",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Guatemala"
+      }
+    },
+    {
+      "code": "GUM",
+      "name": "Guam",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Guam"
+      }
+    },
+    {
+      "code": "HKG",
+      "name": "Hong Kong",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Hong Kong"
+      }
+    },
+    {
+      "code": "HUN",
+      "name": "Hungary",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Hungary"
+      }
+    },
+    {
+      "code": "INA",
+      "name": "Indonesia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Indonesia"
+      }
+    },
+    {
+      "code": "IND",
+      "name": "India",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "India"
+      }
+    },
+    {
+      "code": "IRL",
+      "name": "Ireland",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Ireland"
+      }
+    },
+    {
+      "code": "ISL",
+      "name": "Iceland",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Iceland"
+      }
+    },
+    {
+      "code": "ISR",
+      "name": "Israel",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Israel"
+      }
+    },
+    {
+      "code": "ISV",
+      "name": "US Virgin Islands",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "US Virgin Islands"
+      }
+    },
+    {
+      "code": "ITA",
+      "name": "Italy",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Italy"
+      }
+    },
+    {
+      "code": "IVB",
+      "name": "British Virgin Islands",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "British Virgin Islands"
+      }
+    },
+    {
+      "code": "JAM",
+      "name": "Jamaica",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Jamaica"
+      }
+    },
+    {
+      "code": "JPN",
+      "name": "Japan",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Japan"
+      }
+    },
+    {
+      "code": "KAZ",
+      "name": "Kazakhstan",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Kazakhstan"
+      }
+    },
+    {
+      "code": "KEN",
+      "name": "Kenya",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Kenya"
+      }
+    },
+    {
+      "code": "KGZ",
+      "name": "Kyrgyzstan",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Kyrgyzstan"
+      }
+    },
+    {
+      "code": "KOR",
+      "name": "Korea, Republic of",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Korea, Republic of"
+      }
+    },
+    {
+      "code": "KOS",
+      "name": "Kosovo",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Kosovo"
+      }
+    },
+    {
+      "code": "KSA",
+      "name": "Saudi Arabia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Saudi Arabia"
+      }
+    },
+    {
+      "code": "KUW",
+      "name": "Kuwait",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Kuwait"
+      }
+    },
+    {
+      "code": "LAT",
+      "name": "Latvia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Latvia"
+      }
+    },
+    {
+      "code": "LBA",
+      "name": "Libya",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Libya"
+      }
+    },
+    {
+      "code": "LCA",
+      "name": "St Lucia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "St Lucia"
+      }
+    },
+    {
+      "code": "LIB",
+      "name": "Lebanon",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Lebanon"
+      }
+    },
+    {
+      "code": "LIE",
+      "name": "Liechtenstein",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Liechtenstein"
+      }
+    },
+    {
+      "code": "LTU",
+      "name": "Lithuania",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Lithuania"
+      }
+    },
+    {
+      "code": "LUX",
+      "name": "Luxembourg",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Luxembourg"
+      }
+    },
+    {
+      "code": "MAD",
+      "name": "Madagascar",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Madagascar"
+      }
+    },
+    {
+      "code": "MAR",
+      "name": "Morocco",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Morocco"
+      }
+    },
+    {
+      "code": "MAS",
+      "name": "Malaysia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Malaysia"
+      }
+    },
+    {
+      "code": "MDA",
+      "name": "Moldova",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Moldova"
+      }
+    },
+    {
+      "code": "MEX",
+      "name": "Mexico",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Mexico"
+      }
+    },
+    {
+      "code": "MKD",
+      "name": "Macedonia (FYRO)",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Macedonia (FYRO)"
+      }
+    },
+    {
+      "code": "MLT",
+      "name": "Malta",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Malta"
+      }
+    },
+    {
+      "code": "MNE",
+      "name": "Montenegro",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Montenegro"
+      }
+    },
+    {
+      "code": "MON",
+      "name": "Monaco",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Monaco"
+      }
+    },
+    {
+      "code": "MOZ",
+      "name": "Mozambique",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Mozambique"
+      }
+    },
+    {
+      "code": "MRI",
+      "name": "Mauritius",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Mauritius"
+      }
+    },
+    {
+      "code": "MYA",
+      "name": "Myanmar",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Myanmar"
+      }
+    },
+    {
+      "code": "NAM",
+      "name": "Namibia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Namibia"
+      }
+    },
+    {
+      "code": "NCA",
+      "name": "Nicaragua",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Nicaragua"
+      }
+    },
+    {
+      "code": "NED",
+      "name": "Netherlands",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Netherlands"
+      }
+    },
+    {
+      "code": "NGR",
+      "name": "Nigeria",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Nigeria"
+      }
+    },
+    {
+      "code": "NOR",
+      "name": "Norway",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Norway"
+      }
+    },
+    {
+      "code": "NZL",
+      "name": "New Zealand",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "New Zealand"
+      }
+    },
+    {
+      "code": "OMA",
+      "name": "Oman",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Oman"
+      }
+    },
+    {
+      "code": "PAK",
+      "name": "Pakistan",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Pakistan"
+      }
+    },
+    {
+      "code": "PAN",
+      "name": "Panama",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Panama"
+      }
+    },
+    {
+      "code": "PAR",
+      "name": "Paraguay",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Paraguay"
+      }
+    },
+    {
+      "code": "PER",
+      "name": "Peru",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Peru"
+      }
+    },
+    {
+      "code": "PHI",
+      "name": "Philippines",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Philippines"
+      }
+    },
+    {
+      "code": "PLE",
+      "name": "Palestine",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Palestine"
+      }
+    },
+    {
+      "code": "PNG",
+      "name": "Papua New Guinea",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Papua New Guinea"
+      }
+    },
+    {
+      "code": "POL",
+      "name": "Poland",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Poland"
+      }
+    },
+    {
+      "code": "POR",
+      "name": "Portugal",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Portugal"
+      }
+    },
+    {
+      "code": "PUR",
+      "name": "Puerto Rico",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Puerto Rico"
+      }
+    },
+    {
+      "code": "QAT",
+      "name": "Qatar",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Qatar"
+      }
+    },
+    {
+      "code": "ROU",
+      "name": "Romania",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Romania"
+      }
+    },
+    {
+      "code": "RSA",
+      "name": "South Africa",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "South Africa"
+      }
+    },
+    {
+      "code": "RUS",
+      "name": "Russia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Russia"
+      }
+    },
+    {
+      "code": "SAM",
+      "name": "Samoa",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Samoa"
+      }
+    },
+    {
+      "code": "SEN",
+      "name": "Senegal",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Senegal"
+      }
+    },
+    {
+      "code": "SEY",
+      "name": "Seychelles",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Seychelles"
+      }
+    },
+    {
+      "code": "SGP",
+      "name": "Singapore",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Singapore"
+      }
+    },
+    {
+      "code": "SLO",
+      "name": "Slovenia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Slovenia"
+      }
+    },
+    {
+      "code": "SMR",
+      "name": "San Marino",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "San Marino"
+      }
+    },
+    {
+      "code": "SRB",
+      "name": "Serbia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Serbia"
+      }
+    },
+    {
+      "code": "SRI",
+      "name": "Sri Lanka",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Sri Lanka"
+      }
+    },
+    {
+      "code": "SUD",
+      "name": "Sudan",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Sudan"
+      }
+    },
+    {
+      "code": "SUI",
+      "name": "Switzerland",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Switzerland"
+      }
+    },
+    {
+      "code": "SVK",
+      "name": "Slovak Republic",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Slovak Republic"
+      }
+    },
+    {
+      "code": "SWE",
+      "name": "Sweden",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Sweden"
+      }
+    },
+    {
+      "code": "TAH",
+      "name": "Tahiti",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Tahiti"
+      }
+    },
+    {
+      "code": "TAN",
+      "name": "Tanzania",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Tanzania"
+      }
+    },
+    {
+      "code": "THA",
+      "name": "Thailand",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Thailand"
+      }
+    },
+    {
+      "code": "TPE",
+      "name": "Chinese Taipei",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Chinese Taipei"
+      }
+    },
+    {
+      "code": "TTO",
+      "name": "Trinidad & Tobago",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Trinidad & Tobago"
+      }
+    },
+    {
+      "code": "TUN",
+      "name": "Tunisia",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Tunisia"
+      }
+    },
+    {
+      "code": "TUR",
+      "name": "Turkey",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Turkey"
+      }
+    },
+    {
+      "code": "UAE",
+      "name": "United Arab Emirates",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "United Arab Emirates"
+      }
+    },
+    {
+      "code": "UGA",
+      "name": "Uganda",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Uganda"
+      }
+    },
+    {
+      "code": "UKR",
+      "name": "Ukraine",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Ukraine"
+      }
+    },
+    {
+      "code": "URU",
+      "name": "Uruguay",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Uruguay"
+      }
+    },
+    {
+      "code": "USA",
+      "name": "United States of America",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "United States of America"
+      }
+    },
+    {
+      "code": "VAN",
+      "name": "Vanuatu",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Vanuatu"
+      }
+    },
+    {
+      "code": "VEN",
+      "name": "Venezuela",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Venezuela"
+      }
+    },
+    {
+      "code": "VIE",
+      "name": "Vietnam",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Vietnam"
+      }
+    },
+    {
+      "code": "VIN",
+      "name": "St Vincent & Grenadines",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "St Vincent & Grenadines"
+      }
+    },
+    {
+      "code": "ZIM",
+      "name": "Zimbabwe",
+      "category": "rrs",
+      "presentIn": [
+        "rrs"
+      ],
+      "names": {
+        "en": "Zimbabwe"
+      }
+    }
+  ]
+}

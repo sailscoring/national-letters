@@ -67,3 +67,16 @@ uv sync
 uv run pytest
 uv run ruff check
 ```
+
+### Rebuilding the dataset
+
+The RRS 2025–2028 PDF is not redistributed in this repo. Obtain it from
+World Sailing and point the extraction script at it:
+
+```sh
+export RRS_PDF_PATH=/path/to/rrs-2025-2028.pdf
+uv run python scripts/01_extract_rrs.py    # → sources/rrs-2025-2028-appendix-g.json
+uv run python scripts/04_merge.py          # → data/codes.json
+uv run python scripts/07_validate.py
+uv run pytest                              # pins extraction against reference rows
+```
