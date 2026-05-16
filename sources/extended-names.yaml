@@ -1,0 +1,316 @@
+# Curated names + citations for codes that appear in the Sailwave directory
+# but are absent from RRS and World Sailing (spec §5.4).
+#
+# Three sections:
+#   extended:    currently-existing country / territory / sub-national entity
+#   historical:  no longer in use; kept for legacy event data
+#   unresolved:  explicitly excluded with a reason
+#
+# Any Sailwave-only code that is NOT listed in any section is also written to
+# data/unresolved.json by the merge step, with reason "needs research". That
+# leaves a visible audit ledger without guessing at names.
+#
+# Each curated entry carries a citation URL — typically a Wikipedia article
+# that displays the flag in question — so a reviewer can verify it.
+# `commons` overrides the default "File:Flag of {name}.svg" pattern; the
+# flag resolver also reads sources/flag-overrides.yaml.
+
+extended:
+  # UK home nations + Crown Dependencies + British overseas territories
+  ENG:
+    name: "England"
+    citation: "https://en.wikipedia.org/wiki/England"
+  NIR:
+    name: "Northern Ireland"
+    citation: "https://en.wikipedia.org/wiki/Northern_Ireland"
+    commons: "File:Flag of Northern Ireland (1953–1972).svg"
+    note: "Northern Ireland has no official civil flag; the Ulster Banner is conventionally used in sport."
+  SCO:
+    name: "Scotland"
+    citation: "https://en.wikipedia.org/wiki/Scotland"
+  WAL:
+    name: "Wales"
+    citation: "https://en.wikipedia.org/wiki/Wales"
+  IOM:
+    name: "Isle of Man"
+    citation: "https://en.wikipedia.org/wiki/Isle_of_Man"
+  JER:
+    name: "Jersey"
+    citation: "https://en.wikipedia.org/wiki/Jersey"
+  GUE:
+    name: "Guernsey"
+    citation: "https://en.wikipedia.org/wiki/Guernsey"
+  GIB:
+    name: "Gibraltar"
+    citation: "https://en.wikipedia.org/wiki/Gibraltar"
+  FAR:
+    name: "Faroe Islands"
+    citation: "https://en.wikipedia.org/wiki/Faroe_Islands"
+
+  # Current sovereign states absent from RRS Appendix G and current WS list
+  AFG:
+    name: "Afghanistan"
+    citation: "https://en.wikipedia.org/wiki/Afghanistan"
+  ALB:
+    name: "Albania"
+    citation: "https://en.wikipedia.org/wiki/Albania"
+  BAN:
+    name: "Bangladesh"
+    citation: "https://en.wikipedia.org/wiki/Bangladesh"
+  BDI:
+    name: "Burundi"
+    citation: "https://en.wikipedia.org/wiki/Burundi"
+  BEN:
+    name: "Benin"
+    citation: "https://en.wikipedia.org/wiki/Benin"
+  BHU:
+    name: "Bhutan"
+    citation: "https://en.wikipedia.org/wiki/Bhutan"
+  BIH:
+    name: "Bosnia and Herzegovina"
+    citation: "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina"
+  BUR:
+    name: "Burkina Faso"
+    citation: "https://en.wikipedia.org/wiki/Burkina_Faso"
+  CAF:
+    name: "Central African Republic"
+    citation: "https://en.wikipedia.org/wiki/Central_African_Republic"
+  CGO:
+    name: "Republic of the Congo"
+    citation: "https://en.wikipedia.org/wiki/Republic_of_the_Congo"
+    commons: "File:Flag of the Republic of the Congo.svg"
+  CHA:
+    name: "Chad"
+    citation: "https://en.wikipedia.org/wiki/Chad"
+  CIV:
+    name: "Côte d'Ivoire"
+    citation: "https://en.wikipedia.org/wiki/Ivory_Coast"
+    commons: "File:Flag of Côte d'Ivoire.svg"
+  CMR:
+    name: "Cameroon"
+    citation: "https://en.wikipedia.org/wiki/Cameroon"
+  COD:
+    name: "DR Congo"
+    citation: "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"
+    commons: "File:Flag of the Democratic Republic of the Congo.svg"
+  COM:
+    name: "Comoros"
+    citation: "https://en.wikipedia.org/wiki/Comoros"
+    commons: "File:Flag of the Comoros.svg"
+  CPV:
+    name: "Cape Verde"
+    citation: "https://en.wikipedia.org/wiki/Cape_Verde"
+  CRC:
+    name: "Costa Rica"
+    citation: "https://en.wikipedia.org/wiki/Costa_Rica"
+  CUW:
+    name: "Curaçao"
+    citation: "https://en.wikipedia.org/wiki/Curaçao"
+    commons: "File:Flag of Curaçao.svg"
+  DMA:
+    name: "Dominica"
+    citation: "https://en.wikipedia.org/wiki/Dominica"
+  ERI:
+    name: "Eritrea"
+    citation: "https://en.wikipedia.org/wiki/Eritrea"
+  ETH:
+    name: "Ethiopia"
+    citation: "https://en.wikipedia.org/wiki/Ethiopia"
+  FSM:
+    name: "Federated States of Micronesia"
+    citation: "https://en.wikipedia.org/wiki/Federated_States_of_Micronesia"
+    commons: "File:Flag of the Federated States of Micronesia.svg"
+  GAB:
+    name: "Gabon"
+    citation: "https://en.wikipedia.org/wiki/Gabon"
+  GAM:
+    name: "The Gambia"
+    citation: "https://en.wikipedia.org/wiki/The_Gambia"
+    commons: "File:Flag of The Gambia.svg"
+  GBS:
+    name: "Guinea-Bissau"
+    citation: "https://en.wikipedia.org/wiki/Guinea-Bissau"
+  GEQ:
+    name: "Equatorial Guinea"
+    citation: "https://en.wikipedia.org/wiki/Equatorial_Guinea"
+  GHA:
+    name: "Ghana"
+    citation: "https://en.wikipedia.org/wiki/Ghana"
+  GUI:
+    name: "Guinea"
+    citation: "https://en.wikipedia.org/wiki/Guinea"
+  GUY:
+    name: "Guyana"
+    citation: "https://en.wikipedia.org/wiki/Guyana"
+  HAI:
+    name: "Haiti"
+    citation: "https://en.wikipedia.org/wiki/Haiti"
+  HON:
+    name: "Honduras"
+    citation: "https://en.wikipedia.org/wiki/Honduras"
+  KIR:
+    name: "Kiribati"
+    citation: "https://en.wikipedia.org/wiki/Kiribati"
+  LAO:
+    name: "Laos"
+    citation: "https://en.wikipedia.org/wiki/Laos"
+  LBR:
+    name: "Liberia"
+    citation: "https://en.wikipedia.org/wiki/Liberia"
+  LES:
+    name: "Lesotho"
+    citation: "https://en.wikipedia.org/wiki/Lesotho"
+  MAW:
+    name: "Malawi"
+    citation: "https://en.wikipedia.org/wiki/Malawi"
+  MDV:
+    name: "Maldives"
+    citation: "https://en.wikipedia.org/wiki/Maldives"
+  MGL:
+    name: "Mongolia"
+    citation: "https://en.wikipedia.org/wiki/Mongolia"
+  MLI:
+    name: "Mali"
+    citation: "https://en.wikipedia.org/wiki/Mali"
+  MTN:
+    name: "Mauritania"
+    citation: "https://en.wikipedia.org/wiki/Mauritania"
+  NCL:
+    name: "New Caledonia"
+    citation: "https://en.wikipedia.org/wiki/New_Caledonia"
+    commons: "File:Flag of New Caledonia (FLNKS).svg"
+    note: "New Caledonia uses the FLNKS (Kanak) flag alongside the French tricolour in sport."
+  NEP:
+    name: "Nepal"
+    citation: "https://en.wikipedia.org/wiki/Nepal"
+  NFI:
+    name: "Norfolk Island"
+    citation: "https://en.wikipedia.org/wiki/Norfolk_Island"
+  NIU:
+    name: "Niue"
+    citation: "https://en.wikipedia.org/wiki/Niue"
+  PLW:
+    name: "Palau"
+    citation: "https://en.wikipedia.org/wiki/Palau"
+  RWA:
+    name: "Rwanda"
+    citation: "https://en.wikipedia.org/wiki/Rwanda"
+  SLE:
+    name: "Sierra Leone"
+    citation: "https://en.wikipedia.org/wiki/Sierra_Leone"
+  SOM:
+    name: "Somalia"
+    citation: "https://en.wikipedia.org/wiki/Somalia"
+  STP:
+    name: "São Tomé and Príncipe"
+    citation: "https://en.wikipedia.org/wiki/São_Tomé_and_Príncipe"
+    commons: "File:Flag of Sao Tome and Principe.svg"
+  SUR:
+    name: "Suriname"
+    citation: "https://en.wikipedia.org/wiki/Suriname"
+  SWZ:
+    name: "Eswatini"
+    citation: "https://en.wikipedia.org/wiki/Eswatini"
+  SYR:
+    name: "Syria"
+    citation: "https://en.wikipedia.org/wiki/Syria"
+  TKM:
+    name: "Turkmenistan"
+    citation: "https://en.wikipedia.org/wiki/Turkmenistan"
+  TOG:
+    name: "Togo"
+    citation: "https://en.wikipedia.org/wiki/Togo"
+  TUV:
+    name: "Tuvalu"
+    citation: "https://en.wikipedia.org/wiki/Tuvalu"
+  UZB:
+    name: "Uzbekistan"
+    citation: "https://en.wikipedia.org/wiki/Uzbekistan"
+  YEM:
+    name: "Yemen"
+    citation: "https://en.wikipedia.org/wiki/Yemen"
+  ZAM:
+    name: "Zambia"
+    citation: "https://en.wikipedia.org/wiki/Zambia"
+
+historical:
+  YUG:
+    name: "Yugoslavia"
+    citation: "https://en.wikipedia.org/wiki/Yugoslavia"
+    commons: "File:Flag of Yugoslavia (1946-1992).svg"
+    note: "Socialist Federal Republic of Yugoslavia, 1945-1992."
+  URS:
+    name: "Soviet Union"
+    citation: "https://en.wikipedia.org/wiki/Soviet_Union"
+    commons: "File:Flag of the Soviet Union.svg"
+  GDR:
+    name: "East Germany"
+    citation: "https://en.wikipedia.org/wiki/East_Germany"
+  FRG:
+    name: "West Germany"
+    citation: "https://en.wikipedia.org/wiki/West_Germany"
+    commons: "File:Flag of Germany.svg"
+    note: "West Germany used the same tricolour as today's reunified Germany."
+  TCH:
+    name: "Czechoslovakia"
+    citation: "https://en.wikipedia.org/wiki/Czechoslovakia"
+  SCG:
+    name: "Serbia and Montenegro"
+    citation: "https://en.wikipedia.org/wiki/Serbia_and_Montenegro"
+  ROM:
+    name: "Romania (historical IOC code)"
+    citation: "https://en.wikipedia.org/wiki/Romania_at_the_Olympics"
+    commons: "File:Flag of Romania.svg"
+    note: "Old IOC code for Romania (now ROU). Same flag."
+  TMP:
+    name: "East Timor (TMP)"
+    citation: "https://en.wikipedia.org/wiki/East_Timor"
+    commons: "File:Flag of East Timor.svg"
+    note: "Old IOC code for East Timor (now TLS). Same flag."
+
+unresolved:
+  AIN:
+    reason: "Ambiguous — could refer to multiple entities; no defensible English name."
+  BSH:
+    reason: "Unknown / ambiguous code; possibly an alternate for BIH (Bosnia and Herzegovina) but not confirmed."
+  DMN:
+    reason: "Ambiguous — could be Dominica (already covered as DMA) or another entity."
+  FAI:
+    reason: "Possibly Faroe Islands (already FAR) or another body; no defensible mapping."
+  MSH:
+    reason: "Possibly Marshall Islands (ISO code MHL); no source supports MSH specifically."
+  NMA:
+    reason: "Unknown code; no defensible mapping."
+  NRI:
+    reason: "Unknown code; no defensible mapping."
+  RYF:
+    reason: "Unknown code; no defensible mapping."
+  SHE:
+    reason: "Unknown code; no defensible mapping."
+  SKI:
+    reason: "Unknown code; no defensible mapping."
+  # Variant codes for entities already represented under a different code.
+  # These would be more naturally expressed as aliases (M6) than as
+  # separate entries; omit from codes.json to avoid duplicate visual flags.
+  BVI:
+    reason: "Sailwave variant of IVB (British Virgin Islands). Will surface in aliases.json (M6)."
+  CKI:
+    reason: "Sailwave variant of COK (Cook Islands). Will surface in aliases.json (M6)."
+  GRD:
+    reason: "Sailwave variant of GRN (Grenada). Will surface in aliases.json (M6)."
+  IRI:
+    reason: "Sailwave variant of IRN (Iran). Will surface in aliases.json (M6)."
+  SLU:
+    reason: "Sailwave variant of LCA (Saint Lucia). Will surface in aliases.json (M6)."
+  TRI:
+    reason: "Sailwave/legacy variant of TTO (Trinidad & Tobago). Will surface in aliases.json (M6)."
+  TKS:
+    reason: "Sailwave variant of TCA (Turks and Caicos Islands). Will surface in aliases.json (M6)."
+  TCI:
+    reason: "Sailwave variant of TCA (Turks and Caicos Islands). Will surface in aliases.json (M6)."
+  TON:
+    reason: "Sailwave variant of TGA (Tonga). Will surface in aliases.json (M6)."
+  NAU:
+    reason: "Sailwave variant of NRU (Nauru). Will surface in aliases.json (M6)."
+  NRU:
+    reason: "Possible Nauru (ISO code NRU); coexists with NAU in Sailwave. Defer to alias resolution (M6)."

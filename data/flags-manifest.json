@@ -1,5 +1,18 @@
 [
   {
+    "code": "AFG",
+    "commonsTitle": "File:Flag of Afghanistan.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Afghanistan.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Original: Taliban Vector: Lexicon",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "26bd0259e336fd11ff85a06cfdc438b52088a0c6abfccd5dab3e1d7c3abe0d4f"
+  },
+  {
     "code": "AHO",
     "commonsTitle": "File:Flag of Netherlands Antilles.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Netherlands_Antilles.svg",
@@ -11,6 +24,19 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:21:13Z",
     "sha256": "1ba174e30691159816edb50df47df671e24c1c4d24db1bf2c203ff5abd39d550"
+  },
+  {
+    "code": "ALB",
+    "commonsTitle": "File:Flag of Albania.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Albania.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Sadik Kaceli",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "8f1f55073dcf4fc2690d88fe78bcfad0add484b05ae1ac8586e8a1b37af5fdeb"
   },
   {
     "code": "ALG",
@@ -169,6 +195,19 @@
     "sha256": "44946f0ba5ad43cabe8bfa6c52e0f7a9562f7ff336d58478577f3b3a19c1ef08"
   },
   {
+    "code": "BAN",
+    "commonsTitle": "File:Flag of Bangladesh.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bangladesh.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "ffc03be420493e71b2795a272f3cc8ee9cc68f083fd3e544da0cb61117b3cc3b"
+  },
+  {
     "code": "BAR",
     "commonsTitle": "File:Flag of Barbados.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Barbados.svg",
@@ -180,6 +219,19 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:21:13Z",
     "sha256": "2b0447288f0c22a090fd79496d84b3482979b76ae3869c7df675ce52575dd989"
+  },
+  {
+    "code": "BDI",
+    "commonsTitle": "File:Flag of Burundi.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Burundi.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Burundi.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "555f37185aee0a43c1e000e761cacf663855e3958436c140b499517783b76f87"
   },
   {
     "code": "BEL",
@@ -195,6 +247,19 @@
     "sha256": "d0417c3e39d20375e3f1ce211dd2a36b30374165a06e5c52541cd0eab2954c0d"
   },
   {
+    "code": "BEN",
+    "commonsTitle": "File:Flag of Benin.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Benin.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Drawn by User:SKopp, rewritten by User:Gabbe",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "9cb82d84b057a3305fd77ea4622f9d0a1a4a77ad5d6e57098c86543ed6dd4225"
+  },
+  {
     "code": "BER",
     "commonsTitle": "File:Flag of Bermuda.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bermuda.svg",
@@ -206,6 +271,32 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:21:13Z",
     "sha256": "dc223e080b16ffa80ec3f4bbaa7ba4ff6c5fec082e3e61a271706094d9944aa0"
+  },
+  {
+    "code": "BHU",
+    "commonsTitle": "File:Flag of Bhutan.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bhutan.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Flag_of_Bhutan.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "f6fa434093bb917fbbc3d4e9bfdbf595f8d6f92a64e171027bc705fec02515a8"
+  },
+  {
+    "code": "BIH",
+    "commonsTitle": "File:Flag of Bosnia and Herzegovina.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bosnia_and_Herzegovina.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Mladen Kolobarić",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "4bdd087f52f78894f59a73bd1c0385dec4c6ea1217f9e8da432ccf08f36d8920"
   },
   {
     "code": "BIZ",
@@ -312,6 +403,32 @@
     "sha256": "16fe55a922a45c97c1b38c14787ef4766ab069659bf4edb30ccc55091958d063"
   },
   {
+    "code": "BUR",
+    "commonsTitle": "File:Flag of Burkina Faso.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Burkina_Faso.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Burkina_Faso.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Drawn by SKopp, rewritten by Gabbe and Андрей Перцев",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "6162ba14d183a8bcbcbc722136b2c2724ef3901818f18d1f782783e3ab3169a5"
+  },
+  {
+    "code": "CAF",
+    "commonsTitle": "File:Flag of Central African Republic.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Central_African_Republic.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Central_African_Republic.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Barthélemy Boganda",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "f36cc981bf26cff6c9111be3edf29aa565164e713f9704e22d98116ac80816aa"
+  },
+  {
     "code": "CAM",
     "commonsTitle": "File:Flag of Cambodia.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cambodia.svg",
@@ -351,6 +468,32 @@
     "sha256": "6e350690966dd48af28b0bba533605bef57f162e9e257343002ba499f5d0e581"
   },
   {
+    "code": "CGO",
+    "commonsTitle": "File:Flag of the Republic of the Congo.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "2c1306dbd01ff6e7826a84017b6de42f29c5652aefaeebb403b86ef431758a33"
+  },
+  {
+    "code": "CHA",
+    "commonsTitle": "File:Flag of Chad.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Chad.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Flag_of_Chad.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "SKopp &amp; others (see upload log)",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "8f5ec2f20260ec0bb9aab7ecf8068a2f835bec93859e57ca6c2d6142b7b0d2f0"
+  },
+  {
     "code": "CHI",
     "commonsTitle": "File:Flag of Chile.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Chile.svg",
@@ -375,6 +518,45 @@
     "resolvedVia": "override",
     "retrievedAt": "2026-05-16T20:29:55Z",
     "sha256": "9f9bf3952f04dd2d65035b3d6b8c7923b17cf463f3cf7b86cc2b142c048b339e"
+  },
+  {
+    "code": "CIV",
+    "commonsTitle": "File:Flag of Côte d'Ivoire.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Côte_d'Ivoire.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "76728502d3b356f92d02d66799c91429794542fb28b7a402419d2d207899b2af"
+  },
+  {
+    "code": "CMR",
+    "commonsTitle": "File:Flag of Cameroon.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cameroon.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Cameroon.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "(of code) -xfi-",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "0f46321d01ae0260e246df20339ba8bb83c58d0f5fb07a750a3423b0caca9e46"
+  },
+  {
+    "code": "COD",
+    "commonsTitle": "File:Flag of the Democratic Republic of the Congo.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Democratic_Republic_of_the_Congo.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Nightstallion",
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "bdc509cfa5b6005f8ec26b279419735d9a9583b943248a2363e840697f1426fc"
   },
   {
     "code": "COK",
@@ -403,6 +585,45 @@
     "sha256": "bdf88ce3b1fe519e42c2cdfdfc12422a3b58b0ed1976f6de60416a35326afab0"
   },
   {
+    "code": "COM",
+    "commonsTitle": "File:Flag of the Comoros.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Comoros.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Flag_of_the_Comoros.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Original: Comoros; Vector: see file history",
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "0be541fc71cc22ae4bd17c25162a930c571c077706485963994559f4d6c8ff35"
+  },
+  {
+    "code": "CPV",
+    "commonsTitle": "File:Flag of Cape Verde.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cape_Verde.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Cape_Verde.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Original: Pedro Gregório Vector: SKopp",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "31d2292c2a3085e614463f5229a1f36f21dde11ba28b90684aa34b3c80ec4e45"
+  },
+  {
+    "code": "CRC",
+    "commonsTitle": "File:Flag of Costa Rica.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Costa_Rica.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Costa_Rica.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "3a2da0b4c71eb9cb137e0c402032f33d250989512eb916110701191c19676f29"
+  },
+  {
     "code": "CRO",
     "commonsTitle": "File:Flag of Croatia.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Croatia.svg",
@@ -427,6 +648,19 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:21:13Z",
     "sha256": "f734c6200bede494be786892c40185a89ee5eb93ab81c14ed9d49436694b9900"
+  },
+  {
+    "code": "CUW",
+    "commonsTitle": "File:Flag of Curaçao.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Curaçao.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_Cura%C3%A7ao.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Original: Unknown Vector: David Benbennick",
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "6e35d3452497a8e5766b9c00087b91d06e79fde18dfe6b74fb18ff72c6635bc1"
   },
   {
     "code": "CYP",
@@ -481,6 +715,19 @@
     "sha256": "b41094aacc62a2b39288669717df0303ea2be95e4aa7a0a3a650d6b09fae0d18"
   },
   {
+    "code": "DMA",
+    "commonsTitle": "File:Flag of Dominica.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Dominica.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Flag_of_Dominica.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Alwin Bully",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "4f1de464b4d73c46eeb5b279f4ad61f659fec4c3721ad2d0623bd78f5cff3d67"
+  },
+  {
     "code": "DOM",
     "commonsTitle": "File:Flag of Dominican Republic.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Dominican_Republic.svg",
@@ -518,6 +765,32 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:21:13Z",
     "sha256": "2ffce6b438bb9d2eaf885ad9d62018eb440c4168bbf693bb91b8769d52cc75cc"
+  },
+  {
+    "code": "ENG",
+    "commonsTitle": "File:Flag of England.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_England.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Original: traditional Vector: Nicholas Shanks",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "03d52a48ca90faddcbd320b013be5c21f8d9563cebeec2e4f95ea44bd54a8a46"
+  },
+  {
+    "code": "ERI",
+    "commonsTitle": "File:Flag of Eritrea.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Eritrea.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Flag_of_Eritrea.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Unknown authorUnknown author",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "cf70bc5a9bab5c93e80d08aee0a643ef3297e98f7b4e33d23ea12932ba851bbd"
   },
   {
     "code": "ESA",
@@ -559,6 +832,32 @@
     "sha256": "aa0c25f3ab9061db4ae22cd67ea2f47513a8e970a241ac6c91c9f510af7a8545"
   },
   {
+    "code": "ETH",
+    "commonsTitle": "File:Flag of Ethiopia.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Ethiopia.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Drawn by User:SKopp",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "4ff0899566ce2c45f6b46bb724ae7014d0bd70966d3fa0a26d02b4b7ea5859d3"
+  },
+  {
+    "code": "FAR",
+    "commonsTitle": "File:Flag of Faroe Islands.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Faroe_Islands.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flag_of_the_Faroe_Islands.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "It was made by User:IceKarma (Jeffrey Connell), who released it to the public domain.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "21ed7c7ba3e89f0ec589b45ffd7782e8fd2991334dd3703e58baffa18f7c3274"
+  },
+  {
     "code": "FIJ",
     "commonsTitle": "File:Flag of Fiji.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Fiji.svg",
@@ -598,6 +897,58 @@
     "sha256": "793c1ab192ed688685c34a4d58e78a49b83d1a6f9850c0ef6d11e76c6d57c943"
   },
   {
+    "code": "FRG",
+    "commonsTitle": "File:Flag of Germany.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "User:SKopp, User:Madden, and other users",
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "0f840efc99cce4a45de42348d9d648d4733d8b91781c15a9083e740c4f66394e"
+  },
+  {
+    "code": "FSM",
+    "commonsTitle": "File:Flag of the Federated States of Micronesia.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Federated_States_of_Micronesia.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": null,
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "f942c55d60a2fe72ad7022ad2e4351c533dadb8804dc598af21dabdec30b865f"
+  },
+  {
+    "code": "GAB",
+    "commonsTitle": "File:Flag of Gabon.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Gabon.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Léon Augé and Pierre Claver Eyeghe",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "e57a60f629da45baf40841d943d2e7fa8133572eacdc9f1c29b458bd17c04c1a"
+  },
+  {
+    "code": "GAM",
+    "commonsTitle": "File:Flag of The Gambia.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_The_Gambia.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_The_Gambia.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Vzb83 iThe source code of the previous SVG was invalid due to 39 errors.",
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "d4418b31447cb5b7ddfcc3b47f3075795700363cc97132d9ab8b2de417027b98"
+  },
+  {
     "code": "GBR",
     "commonsTitle": "File:Flag of Great Britain.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Great_Britain.svg",
@@ -609,6 +960,32 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:21:13Z",
     "sha256": "f7eaf3e63c9726488be7b113617d23fbb092693286f7be5bbab584bdf6216b0d"
+  },
+  {
+    "code": "GBS",
+    "commonsTitle": "File:Flag of Guinea-Bissau.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Guinea-Bissau.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Drawn by User:SKopp",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "b23e2a528f22cdbe0626c79e298c6bb466148d2be7fc6a5cf09ca7f88e1a6c05"
+  },
+  {
+    "code": "GDR",
+    "commonsTitle": "File:Flag of East Germany.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_East_Germany.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Flag_of_East_Germany.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Flaggenentwurf: unbekannt diese Datei: Jwnabd",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "2b0155fd201f71f093c9072dfea47ac8fc65bff8a130b578b0268b68b3c1e746"
   },
   {
     "code": "GEO",
@@ -624,6 +1001,19 @@
     "sha256": "5de159a339e6ce83d0bc970d2358bac34a3e1c43555df39d685b8849d3998433"
   },
   {
+    "code": "GEQ",
+    "commonsTitle": "File:Flag of Equatorial Guinea.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Equatorial_Guinea.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Equatorial_Guinea.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "9b5a4c65a801529771c77d76ed0f96e9e4cd547b19597eb28badb6630049f815"
+  },
+  {
     "code": "GER",
     "commonsTitle": "File:Flag of Germany.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg",
@@ -635,6 +1025,32 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:21:13Z",
     "sha256": "0f840efc99cce4a45de42348d9d648d4733d8b91781c15a9083e740c4f66394e"
+  },
+  {
+    "code": "GHA",
+    "commonsTitle": "File:Flag of Ghana.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Ghana.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Theodosia Okoh",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "33c26bf805dcc1c93117954d91558f0c0c44bab0394922ca1cc4d7949e820223"
+  },
+  {
+    "code": "GIB",
+    "commonsTitle": "File:Flag of Gibraltar.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Gibraltar.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Flag_of_Gibraltar.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Created on behalf of Isabella I of Castile in 1502; this version uploaded by Denelson83 (talk · contribs)",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "3b0af119bca507054df8ccd7f32c9ff166d50b18775e91b63d2f62291b55a7ec"
   },
   {
     "code": "GRE",
@@ -676,6 +1092,32 @@
     "sha256": "62ecddc92a1b5abb4fc56ec3e73dc1417cbdd56ed1119253f658973418d06b7e"
   },
   {
+    "code": "GUE",
+    "commonsTitle": "File:Flag of Guernsey.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Guernsey.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_Guernsey.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "CC0",
+    "licenceShortName": "CC0",
+    "attribution": "User:Nightstallion",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "b9b233d87a765308a6bee016f3b06d2280d349025c8bc3c852eea84e392e2a28"
+  },
+  {
+    "code": "GUI",
+    "commonsTitle": "File:Flag of Guinea.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Guinea.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Flag_of_Guinea.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": null,
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "f5dc9e2be6218e2650c54d14235cd517e4309c4716a3e89b35055fe78738677f"
+  },
+  {
     "code": "GUM",
     "commonsTitle": "File:Flag of Guam.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Guam.svg",
@@ -689,6 +1131,32 @@
     "sha256": "ab68c5c2b0dff71715514586b82c55c258afe523e563dca2d405bb6df1434202"
   },
   {
+    "code": "GUY",
+    "commonsTitle": "File:Flag of Guyana.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Guyana.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_Guyana.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Whitney Smith",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "0b873bc0f2f397d91fd96ee3a2286cb973bc6d401e1db869a9ed41a7e425b142"
+  },
+  {
+    "code": "HAI",
+    "commonsTitle": "File:Flag of Haiti.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Haiti.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Haiti.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "(colours and size changes of the now deleted versions) Madden, Vzb83, Denelson83, Chanheigeorge, Zscout370 and Nightstallion Coat of arms :Lokal_Profil and Myriam Thyes",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "47701106c8c49318075628c6e6d4aa6c1998269438db982f272802c1a223b237"
+  },
+  {
     "code": "HKG",
     "commonsTitle": "File:Flag of Hong Kong.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Hong_Kong.svg",
@@ -700,6 +1168,19 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:21:13Z",
     "sha256": "da968748b0c35db297d722746b8641ba0131c7fc28fae3111f57483c3f563650"
+  },
+  {
+    "code": "HON",
+    "commonsTitle": "File:Flag of Honduras.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Honduras_%281949%E2%80%932022%2C_2026%E2%80%93present%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Kes47",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "9720c8dae9052c249b828133d5b1dca94851e4da5da5dfddbf991a5f0a6a27f8"
   },
   {
     "code": "HUN",
@@ -739,6 +1220,19 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:21:13Z",
     "sha256": "fbc606387f084f2fe03ef5eb87028c49909f341c4de0b4d3f684a70fe39e6fbf"
+  },
+  {
+    "code": "IOM",
+    "commonsTitle": "File:Flag of Isle of Man.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Isle_of_Man.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_the_Isle_of_Man.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "CC0",
+    "licenceShortName": "CC0",
+    "attribution": "Edited by Reisio, Alkari, e.a.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "0ce789218e6f71ae6edd57f22320891ca5db5cefa3cc677c6d479b43bb425765"
   },
   {
     "code": "IRL",
@@ -858,6 +1352,19 @@
     "sha256": "ee8e6ea9b59036dd08bba9be12b25371a8cd0d0004805f2a1dc28ef94dc0749f"
   },
   {
+    "code": "JER",
+    "commonsTitle": "File:Flag of Jersey.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Jersey.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Flag_of_Jersey.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": null,
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "56cd78eb63072b3c3ec69c568e9c73ddcd445a18f828f3a882ca85b37abdbba9"
+  },
+  {
     "code": "JOR",
     "commonsTitle": "File:Flag of Jordan.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Jordan.svg",
@@ -923,6 +1430,19 @@
     "sha256": "01d2ab62d4002d08ce719dd4a5adb12bc8d6fca4258a084356e502da2a745d1b"
   },
   {
+    "code": "KIR",
+    "commonsTitle": "File:Flag of Kiribati.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kiribati.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kiribati.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "User:Hanzlan",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "ea7446217b2af3cef82f881507aa13a93e436e56a1b92dd0ed66c1bd50191a9d"
+  },
+  {
     "code": "KOR",
     "commonsTitle": "File:Flag of South Korea.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
@@ -975,6 +1495,19 @@
     "sha256": "ce62298731cb48e5f502af92203342f43bfa9568acfc6d2194c7227760e9184c"
   },
   {
+    "code": "LAO",
+    "commonsTitle": "File:Flag of Laos.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Laos.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Laos.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "SKopp",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "3e88d9550fe5595197ada6550c105229c5439e9142dba98346d3527786e8a083"
+  },
+  {
     "code": "LAT",
     "commonsTitle": "File:Flag of Latvia.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Latvia.svg",
@@ -1001,6 +1534,19 @@
     "sha256": "7262f4b336e8b1429270088f1beb25fc99cb40bf4d07e54f5556882217c6fd3f"
   },
   {
+    "code": "LBR",
+    "commonsTitle": "File:Flag of Liberia.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Liberia.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Flag_of_Liberia.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Government of Liberia",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "98afeeb337d093973b3361f3be1906e6f0e95b2a52c66446f0f0546fd2044b7c"
+  },
+  {
     "code": "LCA",
     "commonsTitle": "File:Flag of Saint Lucia.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Lucia.svg",
@@ -1012,6 +1558,19 @@
     "resolvedVia": "override",
     "retrievedAt": "2026-05-16T20:29:55Z",
     "sha256": "740e4c9020d05de5c2a15021c944fce092e83d9bebb27599eef4fc819a32b314"
+  },
+  {
+    "code": "LES",
+    "commonsTitle": "File:Flag of Lesotho.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Lesotho.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_Lesotho.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "cf2de57751aeb0483b055ee05b75049397952c04e06217d994f185c57b18f361"
   },
   {
     "code": "LIB",
@@ -1118,6 +1677,19 @@
     "sha256": "03d7c2529c45f7664f2bf24c696adf212c6be91cea5415a31b3859dc4b5b1e26"
   },
   {
+    "code": "MAW",
+    "commonsTitle": "File:Flag of Malawi.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Malawi.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Flag_of_Malawi.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Original: Unknown author Vector: Achim1999",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "db394b164958e1be6b428dbbf3065c4fcfc2e0bc4a7e9080a01906831ce3574a"
+  },
+  {
     "code": "MDA",
     "commonsTitle": "File:Flag of Moldova.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Moldova.svg",
@@ -1129,6 +1701,19 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:21:13Z",
     "sha256": "9af55c115a65dc413b5f134c716cc687710bc97c7ddf26bbfe91748529fff76e"
+  },
+  {
+    "code": "MDV",
+    "commonsTitle": "File:Flag of Maldives.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Maldives.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Maldives.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history, below, for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "7f6dc85ab6af75b6a2291e0fb5ebe4352ecada7f81556a282d81f04b25d2859e"
   },
   {
     "code": "MEX",
@@ -1144,6 +1729,19 @@
     "sha256": "2e540d36bd52322b6346734e056c62d4e4d54c586e949bf6d329131ceba26cb3"
   },
   {
+    "code": "MGL",
+    "commonsTitle": "File:Flag of Mongolia.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mongolia.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Mongolia.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "f58e784b4885d609b016eb7fb8d4ef65fe936f0cc0f31c5c2e00851da8635c9d"
+  },
+  {
     "code": "MKD",
     "commonsTitle": "File:Flag of North Macedonia.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_North_Macedonia.svg",
@@ -1155,6 +1753,19 @@
     "resolvedVia": "override",
     "retrievedAt": "2026-05-16T20:29:55Z",
     "sha256": "8083773255dba4662e50ec0fd8cc104e32898cb74a9ee9ce033a9c52a823c38f"
+  },
+  {
+    "code": "MLI",
+    "commonsTitle": "File:Flag of Mali.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mali.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Mali.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "SKopp",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "a22e41bfb224a14abcfddf5495557a3e88a2345f1e1c36937e2f172dbb281be2"
   },
   {
     "code": "MLT",
@@ -1235,6 +1846,19 @@
     "sha256": "05bd4a3c44acd8a30e14c019b184a89371a61004761efc2385c479215761cc72"
   },
   {
+    "code": "MTN",
+    "commonsTitle": "File:Flag of Mauritania.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritania.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Flag_of_Mauritania.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "ed02cc9ba0c0e0aa15246bb8e20ae683a450ed102736bf116cc1d20b19247f9b"
+  },
+  {
     "code": "MYA",
     "commonsTitle": "File:Flag of Myanmar.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Myanmar.svg",
@@ -1274,6 +1898,19 @@
     "sha256": "2d97e1bd264e11d9befcbae043882bdca1d902e50f4779980305df5e673f4ac4"
   },
   {
+    "code": "NCL",
+    "commonsTitle": "File:Flag of FLNKS.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_FLNKS.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_FLNKS.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "User:WarX",
+    "wikidataEntity": "Q33788",
+    "resolvedVia": "wikidata",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "98b4b6c746fc832d8f8409f1413e45ae6eed72b682b79f22e7f965dbb34639be"
+  },
+  {
     "code": "NED",
     "commonsTitle": "File:Flag of Netherlands.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Netherlands.svg",
@@ -1285,6 +1922,32 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:21:13Z",
     "sha256": "c6fd93e76b21ad057b81b7295eacff13c606c9db00e7990da1052eb691665193"
+  },
+  {
+    "code": "NEP",
+    "commonsTitle": "File:Flag of Nepal.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Nepal.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Drawn by Pumbaa80, Achim1999",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "1da84c6411e7fcc14e143f9c6a5b491bbcb7e26ce92750a8cf912d2d38127cf7"
+  },
+  {
+    "code": "NFI",
+    "commonsTitle": "File:Flag of Norfolk Island.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Norfolk_Island.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Norfolk_Island.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "CC0",
+    "licenceShortName": "CC0",
+    "attribution": "openclipart.org",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "cc0b72e6153256b023c88c8f0da760866b791c52cdcd55451ce904fb4d35a443"
   },
   {
     "code": "NGR",
@@ -1311,6 +1974,32 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:57:53Z",
     "sha256": "3dbebd9f8e31821d5fa22f976cfe9a338788fda81308f0d573e69fd9dfcce24e"
+  },
+  {
+    "code": "NIR",
+    "commonsTitle": "File:Flag of Northern Ireland (1953–1972).svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Northern_Ireland_(1953–1972).svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Flag_of_Northern_Ireland_%281953%E2%80%931972%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Mamadou",
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "9ab3e328fed855c5dab3d99a40bb4831ed5c067a85da970ccde1bb41418366b7"
+  },
+  {
+    "code": "NIU",
+    "commonsTitle": "File:Flag of Niue.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Niue.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Niue.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "SKopp",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "83c93c2ce4d8836fb88c509bc3be7c0ead7a623050fe3aca434388969889f211"
   },
   {
     "code": "NOR",
@@ -1430,6 +2119,19 @@
     "sha256": "d218e88033f9361bf08071c1ee51acb7425dc63e8a7b5ecd7a6755ff6b359696"
   },
   {
+    "code": "PLW",
+    "commonsTitle": "File:Flag of Palau.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Palau.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Palau.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Original: John Blau Skebong Vector: Nightstallion",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "ccfa476494f4cdeafcdb059e4fa873400e8614104a0ba01cfe6842709c0af789"
+  },
+  {
     "code": "PNG",
     "commonsTitle": "File:Flag of Papua New Guinea.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Papua_New_Guinea.svg",
@@ -1508,6 +2210,19 @@
     "sha256": "5332c024cb6bac6d7ca2f96347d2ce8cfc63f5bf2643a1d1e6ed6146e6b75a1d"
   },
   {
+    "code": "ROM",
+    "commonsTitle": "File:Flag of Romania.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Romania.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "AdiJapan",
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "3b36bf0ef9d485fc8b5a157ec8f1c203a49bb3dc938149c21b8a227144ea3b81"
+  },
+  {
     "code": "ROU",
     "commonsTitle": "File:Flag of Romania.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Romania.svg",
@@ -1547,6 +2262,19 @@
     "sha256": "a8e38786abcae48ff91216466d26bcf6854e5f6a68a881f81c227d34557fc7cb"
   },
   {
+    "code": "RWA",
+    "commonsTitle": "File:Flag of Rwanda.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Rwanda.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Rwanda.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Original: Unknown Vector: Zscout370",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "b475bd44b6e62d4fa61c0cdfe6c57ffb2cee1e4172ef1eabc2d3f0edf03ccb98"
+  },
+  {
     "code": "SAM",
     "commonsTitle": "File:Flag of Samoa.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Samoa.svg",
@@ -1558,6 +2286,32 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:21:13Z",
     "sha256": "16c39680208d248df9747986ce435aeab0ca436a6c556f4da65848ff52cfedb7"
+  },
+  {
+    "code": "SCG",
+    "commonsTitle": "File:Flag of Serbia and Montenegro.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia_and_Montenegro.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_Serbia_and_Montenegro_%281992%E2%80%932006%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details. (www.gov.yu)",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "260bedc6d75179f3e76bd1a46c71e4abda298ee6f072fb08f1a80ba33c6e15f2"
+  },
+  {
+    "code": "SCO",
+    "commonsTitle": "File:Flag of Scotland.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Scotland.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "none known",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "a36bb2d9dfaeabbf3f0a6dadff456e4e55de986c393d3677bc44df8e9729954a"
   },
   {
     "code": "SEN",
@@ -1612,6 +2366,19 @@
     "sha256": "3090d5b478ff039d6f765f0f156629b85bed0b47659ddd82c52b7c562e992751"
   },
   {
+    "code": "SLE",
+    "commonsTitle": "File:Flag of Sierra Leone.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Sierra_Leone.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Sierra_Leone.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Zscout370",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "4e0163696a06cb32abe44d86540d18900beb7cfe25ac5a1876fc48e7ef95e07f"
+  },
+  {
     "code": "SLO",
     "commonsTitle": "File:Flag of Slovenia.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Slovenia.svg",
@@ -1651,6 +2418,19 @@
     "sha256": "f1299e88900e22794ff5a7f1b758a3c568017693fd4f81e2392533d4730e0a2c"
   },
   {
+    "code": "SOM",
+    "commonsTitle": "File:Flag of Somalia.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Somalia.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Somalia.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "see upload history",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "7c04b0c2d1729e14ad4a58d2ba46da8d6a5e9ab1e9269ec1253bb058fc85186d"
+  },
+  {
     "code": "SRB",
     "commonsTitle": "File:Flag of Serbia.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia.svg",
@@ -1677,6 +2457,19 @@
     "sha256": "4f8d488ddc60464294fbde6fa10af39fcbbd48756ef53a9f88087baf95127728"
   },
   {
+    "code": "STP",
+    "commonsTitle": "File:Flag of Sao Tome and Principe.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Sao_Tome_and_Principe.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "76527ac0247155134bc1070e972311d36f83dac39cdecd5542845f25be564d58"
+  },
+  {
     "code": "SUD",
     "commonsTitle": "File:Flag of Sudan.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Sudan.svg",
@@ -1701,6 +2494,19 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:21:13Z",
     "sha256": "1c50f7561a95ad7b8787e43b59d4f8ce322b965aaa074eab2750751848340a82"
+  },
+  {
+    "code": "SUR",
+    "commonsTitle": "File:Flag of Suriname.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Suriname.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Flag_of_Suriname.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "6752b5eb1f2479971fe11b2b216f3b7c5dce3e406abc6f617f6e4c7b2079d417"
   },
   {
     "code": "SVG",
@@ -1742,6 +2548,32 @@
     "sha256": "426348d99d9cace2df6eaa6d6766d5a5ac21bb65a504a4ed974486cf96156b8f"
   },
   {
+    "code": "SWZ",
+    "commonsTitle": "File:Flag of Eswatini.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Eswatini.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Flag_of_Eswatini.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Sobhuza II",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "bcc6734d117660d23924e8abf223d15da86ab5aef0a729d23bddef7593444844"
+  },
+  {
+    "code": "SYR",
+    "commonsTitle": "File:Flag of Syria.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Syria.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Syria_%282025-%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Modification by AnonMoos of PD image File:Flag of Syria (1930–1958, 1961–1963).svg (previous non-vector versions were by Coup de crayon 2011)",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "b42626405b126101b9ae0915acfd8cd7c9a5e0e93c6122a9e23c436f7dc412a8"
+  },
+  {
     "code": "TAH",
     "commonsTitle": "File:Flag of Tahiti.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Tahiti.svg",
@@ -1779,6 +2611,19 @@
     "resolvedVia": "override",
     "retrievedAt": "2026-05-16T20:58:35Z",
     "sha256": "1178f48fa9578eb257bef254ab8a97e333ce8c5e143148c85e48e4d2b84f1049"
+  },
+  {
+    "code": "TCH",
+    "commonsTitle": "File:Flag of Czechoslovakia.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Czechoslovakia.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Jaroslav Kursa",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "bd6316021cde3edcdf09327137235efe0a49e2fe3625c9c6f262848aa9cbd1d0"
   },
   {
     "code": "TGA",
@@ -1820,6 +2665,19 @@
     "sha256": "6140696f3bd8837a64bfab5061517b0985d28e8a5f98294444273c856aec925b"
   },
   {
+    "code": "TKM",
+    "commonsTitle": "File:Flag of Turkmenistan.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkmenistan.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Turkmenistan.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": null,
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "881aa079ea009994e7f65c8b8fbd867e60cc66e70bd00c4de22f65a2b14261f2"
+  },
+  {
     "code": "TLS",
     "commonsTitle": "File:Flag of East Timor.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor.svg",
@@ -1831,6 +2689,32 @@
     "resolvedVia": "override",
     "retrievedAt": "2026-05-16T20:58:35Z",
     "sha256": "1f25223cf5d05c32593ca66f0126a14bd728535a6678edb5ba84df13614c0312"
+  },
+  {
+    "code": "TMP",
+    "commonsTitle": "File:Flag of East Timor.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_East_Timor.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history, below, for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "1f25223cf5d05c32593ca66f0126a14bd728535a6678edb5ba84df13614c0312"
+  },
+  {
+    "code": "TOG",
+    "commonsTitle": "File:Flag of Togo.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Togo.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "See File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "481404b3e9cff58dada8ff0774395834bb5cb2b83d6d2847fa3f7790f55f1e60"
   },
   {
     "code": "TPE",
@@ -1885,6 +2769,19 @@
     "sha256": "8bd784cabd316b1a636b78092fd8ba5d61a986930528890e08cdd15b23f98cd7"
   },
   {
+    "code": "TUV",
+    "commonsTitle": "File:Flag of Tuvalu.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Tuvalu.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tuvalu.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Unknown",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "4fb669fdba2306478e5a45aed0cc7ec5af9a1d7d92af98aa026bb4fda9d95076"
+  },
+  {
     "code": "UAE",
     "commonsTitle": "File:Flag of United Arab Emirates.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_United_Arab_Emirates.svg",
@@ -1924,6 +2821,19 @@
     "sha256": "34833ee723302c9d064c9654754fe724fc1981d10ad071ac4900479563eb5c84"
   },
   {
+    "code": "URS",
+    "commonsTitle": "File:Flag of the Soviet Union.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_Soviet_Union.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "СССР",
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "34e64777af3064e76e5bf42c8668104edc1dc0e53001ee048ac1d8bb12c5fa04"
+  },
+  {
     "code": "URU",
     "commonsTitle": "File:Flag of Uruguay.svg",
     "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Uruguay.svg",
@@ -1948,6 +2858,19 @@
     "resolvedVia": "default-pattern",
     "retrievedAt": "2026-05-16T20:58:35Z",
     "sha256": "8305e28cdc0a62b583d0ee24899653e339b51a1965aa8d8edf7a00e0db8ecb9b"
+  },
+  {
+    "code": "UZB",
+    "commonsTitle": "File:Flag of Uzbekistan.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Uzbekistan.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Farhod Yoʻldoshev",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "4a8edf3c694fc62b817bf169165370d014bfc04c062db6d5f08f4f1450bb7d13"
   },
   {
     "code": "VAN",
@@ -2000,6 +2923,58 @@
     "resolvedVia": "override",
     "retrievedAt": "2026-05-16T20:58:35Z",
     "sha256": "c2a36b00c4c8c637b6847ed2dafb6d90b879ea298ab57d062f6ab968027e1766"
+  },
+  {
+    "code": "WAL",
+    "commonsTitle": "File:Flag of Wales.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Wales.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Flag_of_Wales.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Unknown Vector graphics by Tobias Jakobs",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "b549c4406a13d2d30fbcd260397d5f471e3f6c58c0465573d150aab3a0e73b6c"
+  },
+  {
+    "code": "YEM",
+    "commonsTitle": "File:Flag of Yemen.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Yemen.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Yemen.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Nightstallion et al., see File history below for details.",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "c0426d2bc97c21eaebf498fead0d489f58eb07c973ce27badb9b48697f4442b2"
+  },
+  {
+    "code": "YUG",
+    "commonsTitle": "File:Flag of Yugoslavia (1946-1992).svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Yugoslavia_(1946-1992).svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Flag_of_Yugoslavia_%281946-1992%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Flag designed by Đorđe Andrejević-Kun[3]SVG coding: Zscout370",
+    "wikidataEntity": null,
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "9a60a9cac837196925d25615db8e54258e9c9fb43ad3e70766e6d4721e7503f1"
+  },
+  {
+    "code": "ZAM",
+    "commonsTitle": "File:Flag of Zambia.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Zambia.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Zambia.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "licence": "Public domain",
+    "licenceShortName": "Public domain",
+    "attribution": "Gabriel Ellison",
+    "wikidataEntity": null,
+    "resolvedVia": "default-pattern",
+    "retrievedAt": "2026-05-16T21:11:02Z",
+    "sha256": "8e4488080aec1e6aa32c774f20467d226fccf6205878d7b3d0e8804aaaace567"
   },
   {
     "code": "ZIM",

@@ -33,11 +33,13 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 CODES_PATH = REPO_ROOT / "data" / "codes.json"
 MANIFEST_PATH = REPO_ROOT / "data" / "flags-manifest.json"
 OVERRIDES_PATH = REPO_ROOT / "sources" / "flag-overrides.yaml"
+EXT_NAMES_PATH = REPO_ROOT / "sources" / "extended-names.yaml"
 FLAGS_DIR = REPO_ROOT / "flags"
 
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
+WIKIDATA_API = "https://www.wikidata.org/w/api.php"
 USER_AGENT = (
-    "national-letters/0.2 "
+    "national-letters/0.5 "
     "(https://github.com/sailscoring/national-letters; markbmc@gmail.com)"
 )
 # Wikimedia asks for a small delay between unbatched requests; we batch
@@ -50,18 +52,34 @@ MAX_RETRIES = 5
 
 
 def load_overrides() -> dict[str, dict[str, str]]:
-    if not OVERRIDES_PATH.is_file():
-        return {}
-    data = yaml.safe_load(OVERRIDES_PATH.read_text()) or {}
-    if not isinstance(data, dict):
-        raise RuntimeError(f"{OVERRIDES_PATH.name}: expected a top-level mapping")
-    for code, entry in data.items():
-        if not isinstance(entry, dict) or "commons" not in entry or "citation" not in entry:
-            raise RuntimeError(
-                f"{OVERRIDES_PATH.name}: entry for {code!r} must have "
-                f"'commons' and 'citation' keys"
-            )
-    return data
+    """Merge flag-overrides.yaml with the `commons` fields of extended-names.yaml.
+
+    flag-overrides.yaml entries always take precedence. extended-names.yaml
+    is consulted only for `extended:` and `historical:` codes whose curated
+    entry carries a `commons` key.
+    """
+    merged: dict[str, dict[str, str]] = {}
+    if EXT_NAMES_PATH.is_file():
+        ext = yaml.safe_load(EXT_NAMES_PATH.read_text()) or {}
+        for section in ("extended", "historical"):
+            for code, entry in (ext.get(section) or {}).items():
+                if isinstance(entry, dict) and entry.get("commons"):
+                    merged[code] = {
+                        "commons": entry["commons"],
+                        "citation": entry.get("citation", ""),
+                    }
+    if OVERRIDES_PATH.is_file():
+        data = yaml.safe_load(OVERRIDES_PATH.read_text()) or {}
+        if not isinstance(data, dict):
+            raise RuntimeError(f"{OVERRIDES_PATH.name}: expected a top-level mapping")
+        for code, entry in data.items():
+            if not isinstance(entry, dict) or "commons" not in entry or "citation" not in entry:
+                raise RuntimeError(
+                    f"{OVERRIDES_PATH.name}: entry for {code!r} must have "
+                    f"'commons' and 'citation' keys"
+                )
+            merged[code] = entry
+    return merged
 
 
 def default_title(name: str) -> str:
@@ -123,6 +141,57 @@ def extract_licence(info: dict[str, Any]) -> tuple[str | None, str | None, str |
 
 def commons_page_url(title: str) -> str:
     return "https://commons.wikimedia.org/wiki/" + title.replace(" ", "_")
+
+
+def wikidata_flag_lookup(
+    session: requests.Session, name: str
+) -> tuple[str | None, str | None]:
+    """Spec §6.6 step 3: find a Commons flag title via Wikidata.
+
+    Searches Wikidata for an entity matching `name`, then follows the
+    flag-image property (P41) — falling back to image (P18) — to a
+    Commons file title.
+
+    Returns (entity_id, "File:..." title) or (None, None).
+    """
+    search = session.get(
+        WIKIDATA_API,
+        params={
+            "action": "wbsearchentities",
+            "format": "json",
+            "language": "en",
+            "uselang": "en",
+            "type": "item",
+            "limit": 5,
+            "search": name,
+        },
+        timeout=30,
+    )
+    search.raise_for_status()
+    candidates = [hit["id"] for hit in search.json().get("search", []) if hit.get("id")]
+    if not candidates:
+        return None, None
+
+    entities = session.get(
+        WIKIDATA_API,
+        params={
+            "action": "wbgetentities",
+            "format": "json",
+            "ids": "|".join(candidates),
+            "props": "claims",
+        },
+        timeout=30,
+    )
+    entities.raise_for_status()
+    payload = entities.json().get("entities", {})
+    for qid in candidates:
+        claims = payload.get(qid, {}).get("claims", {})
+        for prop in ("P41", "P163", "P18"):
+            for c in claims.get(prop, []):
+                value = c.get("mainsnak", {}).get("datavalue", {}).get("value")
+                if isinstance(value, str) and value.lower().endswith(".svg"):
+                    return qid, f"File:{value}"
+    return None, None
 
 
 def _get_with_retry(session: requests.Session, url: str) -> requests.Response:
@@ -216,6 +285,7 @@ def main() -> int:
     manifest: list[dict[str, Any]] = []
     flag_by_code: dict[str, dict[str, str]] = {}
     timestamp = datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
+    record_by_code = {r["code"]: r for r in codes}
 
     for code, title, via in plan:
         if code in prior:
@@ -228,6 +298,21 @@ def main() -> int:
             continue
 
         info = resolved.get(title) or {}
+        wikidata_entity: str | None = None
+
+        if not info or "url" not in info:
+            # Wikidata fallback (§6.6 step 3).
+            qid, wd_title = wikidata_flag_lookup(session, record_by_code[code]["names"]["en"])
+            time.sleep(DOWNLOAD_DELAY_SEC)
+            if qid and wd_title:
+                wd_resolved = resolve_titles(session, [wd_title])
+                wd_info = wd_resolved.get(wd_title) or {}
+                if wd_info and "url" in wd_info:
+                    info = wd_info
+                    title = wd_title
+                    via = "wikidata"
+                    wikidata_entity = qid
+
         if not info or "url" not in info:
             missing.append((code, title))
             continue
@@ -245,7 +330,7 @@ def main() -> int:
             "licence": licence,
             "licenceShortName": short,
             "attribution": attribution,
-            "wikidataEntity": None,
+            "wikidataEntity": wikidata_entity,
             "resolvedVia": via,
             "retrievedAt": timestamp,
             "sha256": sha,

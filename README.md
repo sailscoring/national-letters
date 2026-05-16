@@ -77,13 +77,19 @@ World Sailing and point the extraction script at it:
 export RRS_PDF_PATH=/path/to/rrs-2025-2028.pdf
 uv run python scripts/01_extract_rrs.py        # → sources/rrs-2025-2028-appendix-g.json
 uv run python scripts/02_fetch_world_sailing.py # → sources/world-sailing-members.{html,json}
-uv run python scripts/04_merge.py              # → data/codes.json (merged RRS + WS)
+uv run python scripts/03_extract_sailwave.py   # → sources/sailwave-flags.json
+uv run python scripts/04_merge.py              # → data/codes.json + data/unresolved.json
 uv run python scripts/05_fetch_flags.py        # → flags/*.svg + data/flags-manifest.json
 uv run python scripts/06_optimise_flags.py     # SVGO + viewBox synthesis (needs Node + npx)
 uv run python scripts/04_merge.py              # re-merge so flag.sha256 reflects optimised files
 uv run python scripts/07_validate.py
 uv run pytest                                  # pins extraction against reference rows
 ```
+
+Curation lives in `sources/`:
+- `flag-overrides.yaml` — per-code Commons file overrides with citations
+- `extended-names.yaml` — English names + classifications for Sailwave-only
+  codes (extended / historical / unresolved-with-reason)
 
 The flag-fetch step downloads SVGs from Wikimedia Commons. It is
 **resumable** — partially-completed runs leave a valid manifest, and a
