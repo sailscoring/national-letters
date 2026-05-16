@@ -1,16 +1,16 @@
 [
   {
     "code": "AFG",
-    "commonsTitle": "File:Flag of Afghanistan.svg",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Afghanistan.svg",
-    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsTitle": "File:Flag of the Islamic Republic of Afghanistan.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Islamic_Republic_of_Afghanistan.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Flag_of_the_Islamic_Republic_of_Afghanistan.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "licence": "Public domain",
     "licenceShortName": "Public domain",
-    "attribution": "Original: Taliban Vector: Lexicon",
+    "attribution": "Original: Unknown author Vector: Sabawoon Nezami",
     "wikidataEntity": null,
-    "resolvedVia": "default-pattern",
-    "retrievedAt": "2026-05-16T21:11:02Z",
-    "sha256": "26bd0259e336fd11ff85a06cfdc438b52088a0c6abfccd5dab3e1d7c3abe0d4f"
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T22:05:13Z",
+    "sha256": "579038930e5cae716afff7554db3eb820bf424886af4e11e86236aba1552a0c6"
   },
   {
     "code": "AHO",
@@ -950,16 +950,16 @@
   },
   {
     "code": "GBR",
-    "commonsTitle": "File:Flag of Great Britain.svg",
-    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Great_Britain.svg",
-    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsTitle": "File:Flag of the United Kingdom.svg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "licence": "Public domain",
     "licenceShortName": "Public domain",
-    "attribution": "Hoshie",
+    "attribution": "Original: Acts of Union 1800 Vector: Yaddah",
     "wikidataEntity": null,
-    "resolvedVia": "default-pattern",
-    "retrievedAt": "2026-05-16T20:21:13Z",
-    "sha256": "f7eaf3e63c9726488be7b113617d23fbb092693286f7be5bbab584bdf6216b0d"
+    "resolvedVia": "override",
+    "retrievedAt": "2026-05-16T22:05:13Z",
+    "sha256": "01434c5446281b9ddf48e569566332aebc2f710611847c4209f6a94223206b34"
   },
   {
     "code": "GBS",

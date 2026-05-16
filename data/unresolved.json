@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-16T21:25:09Z",
+  "generatedAt": "2026-05-16T22:13:01Z",
   "note": "Codes seen in source data but excluded from codes.json (spec §5.4). Entries with reason 'needs research' are candidates for future promotion.",
   "count": 26,
   "codes": [

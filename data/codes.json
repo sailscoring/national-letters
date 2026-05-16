@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-16T21:25:09Z",
+  "generatedAt": "2026-05-16T22:13:01Z",
   "sources": {
     "rrs": {
       "edition": "2025-2028"
@@ -27,7 +27,7 @@
       },
       "flag": {
         "file": "flags/AFG.svg",
-        "sha256": "26bd0259e336fd11ff85a06cfdc438b52088a0c6abfccd5dab3e1d7c3abe0d4f"
+        "sha256": "579038930e5cae716afff7554db3eb820bf424886af4e11e86236aba1552a0c6"
       },
       "iso3166Alpha2": "AF",
       "iso3166Alpha3": "AFG"
@@ -542,9 +542,7 @@
       "flag": {
         "file": "flags/BRN.svg",
         "sha256": "ee7f7dbd77da6c5655a2e73ea3e56f3c3eaa9af4677b7b4101e11acf2eadfaa3"
-      },
-      "iso3166Alpha2": "BH",
-      "iso3166Alpha3": "BHR"
+      }
     },
     {
       "code": "BRU",
@@ -739,7 +737,9 @@
       "flag": {
         "file": "flags/CHN.svg",
         "sha256": "9f9bf3952f04dd2d65035b3d6b8c7923b17cf463f3cf7b86cc2b142c048b339e"
-      }
+      },
+      "iso3166Alpha2": "CN",
+      "iso3166Alpha3": "CHN"
     },
     {
       "code": "CIV",
@@ -1340,8 +1340,10 @@
       },
       "flag": {
         "file": "flags/GBR.svg",
-        "sha256": "f7eaf3e63c9726488be7b113617d23fbb092693286f7be5bbab584bdf6216b0d"
-      }
+        "sha256": "01434c5446281b9ddf48e569566332aebc2f710611847c4209f6a94223206b34"
+      },
+      "iso3166Alpha2": "GB",
+      "iso3166Alpha3": "GBR"
     },
     {
       "code": "GBS",
@@ -2173,7 +2175,9 @@
       "flag": {
         "file": "flags/LCA.svg",
         "sha256": "740e4c9020d05de5c2a15021c944fce092e83d9bebb27599eef4fc819a32b314"
-      }
+      },
+      "iso3166Alpha2": "LC",
+      "iso3166Alpha3": "LCA"
     },
     {
       "code": "LES",
@@ -2445,7 +2449,9 @@
       "flag": {
         "file": "flags/MKD.svg",
         "sha256": "8083773255dba4662e50ec0fd8cc104e32898cb74a9ee9ce033a9c52a823c38f"
-      }
+      },
+      "iso3166Alpha2": "MK",
+      "iso3166Alpha3": "MKD"
     },
     {
       "code": "MLI",
@@ -3061,7 +3067,9 @@
       "flag": {
         "file": "flags/PRK.svg",
         "sha256": "2891274f3603b50b8eb795f50ba361b7b4586ecc1f42f900689decd527fcc386"
-      }
+      },
+      "iso3166Alpha2": "KP",
+      "iso3166Alpha3": "PRK"
     },
     {
       "code": "PUR",
@@ -3451,7 +3459,9 @@
       "flag": {
         "file": "flags/STP.svg",
         "sha256": "76527ac0247155134bc1070e972311d36f83dac39cdecd5542845f25be564d58"
-      }
+      },
+      "iso3166Alpha2": "ST",
+      "iso3166Alpha3": "STP"
     },
     {
       "code": "SUD",
@@ -3646,7 +3656,9 @@
       "flag": {
         "file": "flags/TCA.svg",
         "sha256": "1178f48fa9578eb257bef254ab8a97e333ce8c5e143148c85e48e4d2b84f1049"
-      }
+      },
+      "iso3166Alpha2": "TC",
+      "iso3166Alpha3": "TCA"
     },
     {
       "code": "TCH",
@@ -3815,7 +3827,9 @@
       "flag": {
         "file": "flags/TTO.svg",
         "sha256": "407aa7f809577b60d8d2528d66b6628e7e4fb57f8b5053561dff03bd580e03ff"
-      }
+      },
+      "iso3166Alpha2": "TT",
+      "iso3166Alpha3": "TTO"
     },
     {
       "code": "TUN",

@@ -40,10 +40,20 @@ def _load_yaml(path: Path) -> dict:
     return yaml.safe_load(path.read_text()) or {}
 
 
-def _iso_lookup(name: str) -> pycountry.db.Country | None:
-    """Try to resolve a name to a single ISO 3166 country, exactly."""
-    # pycountry.countries.lookup() is exact and matches name, official_name,
-    # common_name, alpha_2, alpha_3, numeric. That's what we want.
+def _iso_lookup(name: str, code: str | None = None) -> pycountry.db.Country | None:
+    """Try to resolve a code to a single ISO 3166 country.
+
+    Tries the code first (when our 3-letter code is itself a valid ISO
+    alpha-3 — e.g. GBR, IRL, USA — that's a direct correspondence), then
+    falls back to exact name lookup against name/official_name/common_name.
+    The flag-equivalence guard in _apply_iso_mapping still prevents false
+    positives.
+    """
+    if code:
+        try:
+            return pycountry.countries.lookup(code)
+        except LookupError:
+            pass
     try:
         return pycountry.countries.lookup(name)
     except LookupError:
@@ -69,7 +79,7 @@ def _canonical_iso_flag_titles(country: pycountry.db.Country) -> set[str]:
 def _apply_iso_mapping(records: list[dict], manifest_by_code: dict[str, dict]) -> None:
     """Per §6.5: stamp iso3166Alpha2/Alpha3 when name + flag match."""
     for record in records:
-        country = _iso_lookup(record["name"])
+        country = _iso_lookup(record["name"], record["code"])
         if country is None:
             continue
         entry = manifest_by_code.get(record["code"])
