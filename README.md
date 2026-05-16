@@ -78,6 +78,7 @@ export RRS_PDF_PATH=/path/to/rrs-2025-2028.pdf
 uv run python scripts/01_extract_rrs.py    # → sources/rrs-2025-2028-appendix-g.json
 uv run python scripts/04_merge.py          # → data/codes.json
 uv run python scripts/05_fetch_flags.py    # → flags/*.svg + data/flags-manifest.json
+uv run python scripts/06_optimise_flags.py # SVGO + viewBox synthesis (needs Node + npx)
 uv run python scripts/07_validate.py
 uv run pytest                              # pins extraction against reference rows
 ```

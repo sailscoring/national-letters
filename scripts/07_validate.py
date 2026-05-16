@@ -1,8 +1,10 @@
 """Validate data/codes.json against the spec (§6.8).
 
-M2 scope: schema shape, code format, uniqueness, category enum,
-name/names.en consistency, plus flag presence + sha256 + manifest licence.
-Structural SVG constraints land in M3 (post-SVGO); aliases in M6.
+M3 scope: schema shape, code format, uniqueness, category enum,
+name/names.en consistency, flag presence + sha256 + manifest licence,
+and §6.7 SVG structural constraints (single root <svg> with viewBox;
+no <image>, <script>, external xlink:href, or external fonts).
+Aliases land in M6.
 """
 
 from __future__ import annotations
@@ -11,6 +13,7 @@ import hashlib
 import json
 import re
 import sys
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -20,6 +23,12 @@ MANIFEST_PATH = REPO_ROOT / "data" / "flags-manifest.json"
 CODE_RE = re.compile(r"^[A-Z]{3}$")
 VALID_CATEGORIES = {"rrs", "world-sailing", "extended", "historical"}
 VALID_SOURCES = {"rrs", "world-sailing", "sailwave"}
+
+SVG_NS = "http://www.w3.org/2000/svg"
+XLINK_NS = "http://www.w3.org/1999/xlink"
+# An xlink:href value pointing outside the document (i.e. not an in-doc
+# fragment reference like "#flag-IRL") makes the SVG non-self-contained.
+REMOTE_HREF_RE = re.compile(r"^(?:https?:)?//|^data:|^file:|^ftp:", re.IGNORECASE)
 
 
 def _sha256_file(path: Path) -> str:
@@ -135,6 +144,44 @@ def _validate_flag(
             errors.append(
                 f"flags-manifest[{code}].sha256: {entry.get('sha256')} != actual {actual}"
             )
+
+    errors.extend(_validate_svg_structure(file_rel, path))
+    return errors
+
+
+def _validate_svg_structure(rel: str, path: Path) -> list[str]:
+    """Enforce spec §6.7: SVG must be safely inlineable as a <symbol>."""
+    errors: list[str] = []
+    try:
+        tree = ET.parse(path)
+    except ET.ParseError as e:
+        errors.append(f"flags/{rel}: malformed XML ({e})")
+        return errors
+
+    root = tree.getroot()
+    if root.tag != f"{{{SVG_NS}}}svg":
+        errors.append(f"flags/{rel}: root element is {root.tag!r}, expected <svg>")
+        return errors
+    if not root.get("viewBox"):
+        errors.append(f"flags/{rel}: root <svg> missing viewBox")
+
+    for el in root.iter():
+        tag = el.tag
+        if tag == f"{{{SVG_NS}}}image":
+            errors.append(f"flags/{rel}: contains <image> element")
+        elif tag == f"{{{SVG_NS}}}script":
+            errors.append(f"flags/{rel}: contains <script> element")
+        elif tag == f"{{{SVG_NS}}}font" or tag == f"{{{SVG_NS}}}font-face":
+            errors.append(f"flags/{rel}: contains <{tag.split('}')[-1]}> (external font)")
+
+        href = el.get(f"{{{XLINK_NS}}}href") or el.get("href")
+        if href and REMOTE_HREF_RE.match(href):
+            errors.append(f"flags/{rel}: external reference {href!r}")
+
+        style = el.get("style") or ""
+        if "@import" in style or "url(http" in style:
+            errors.append(f"flags/{rel}: external CSS reference in style attribute")
+
     return errors
 
 
