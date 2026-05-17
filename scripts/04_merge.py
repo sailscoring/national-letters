@@ -26,6 +26,7 @@ WS_INPUT = REPO_ROOT / "sources" / "world-sailing-members.json"
 SW_INPUT = REPO_ROOT / "sources" / "sailwave-flags.json"
 EXT_NAMES_INPUT = REPO_ROOT / "sources" / "extended-names.yaml"
 ALIASES_INPUT = REPO_ROOT / "sources" / "aliases.yaml"
+NAME_OVERRIDES_INPUT = REPO_ROOT / "sources" / "name-overrides.yaml"
 MANIFEST_PATH = REPO_ROOT / "data" / "flags-manifest.json"
 OUTPUT_PATH = REPO_ROOT / "data" / "codes.json"
 UNRESOLVED_PATH = REPO_ROOT / "data" / "unresolved.json"
@@ -43,21 +44,23 @@ def _load_yaml(path: Path) -> dict:
 def _iso_lookup(name: str, code: str | None = None) -> pycountry.db.Country | None:
     """Try to resolve a code to a single ISO 3166 country.
 
-    Tries the code first (when our 3-letter code is itself a valid ISO
-    alpha-3 — e.g. GBR, IRL, USA — that's a direct correspondence), then
-    falls back to exact name lookup against name/official_name/common_name.
+    Tries name first (the human-meaningful signal), then falls back to the
+    3-letter code (catches cases like GBR where the RRS spelling "Great
+    Britain" doesn't appear in pycountry but the code IS the ISO alpha-3).
     The flag-equivalence guard in _apply_iso_mapping still prevents false
-    positives.
+    positives — e.g. BRN (Bahrain in RRS) won't pick up Brunei via the
+    code path because its flag won't match Brunei's canonical title.
     """
+    try:
+        return pycountry.countries.lookup(name)
+    except LookupError:
+        pass
     if code:
         try:
             return pycountry.countries.lookup(code)
         except LookupError:
             pass
-    try:
-        return pycountry.countries.lookup(name)
-    except LookupError:
-        return None
+    return None
 
 
 def _canonical_iso_flag_titles(country: pycountry.db.Country) -> set[str]:
@@ -76,13 +79,58 @@ def _canonical_iso_flag_titles(country: pycountry.db.Country) -> set[str]:
     return candidates
 
 
+def _load_name_overrides() -> dict[str, dict]:
+    """Load sources/name-overrides.yaml. Each entry must carry a citation."""
+    raw = _load_yaml(NAME_OVERRIDES_INPUT)
+    out: dict[str, dict] = {}
+    for code, entry in (raw or {}).items():
+        if not isinstance(entry, dict):
+            continue
+        if not entry.get("iso") or not entry.get("citation"):
+            raise RuntimeError(
+                f"{NAME_OVERRIDES_INPUT.name}: entry for {code!r} must have "
+                f"'iso' and 'citation' keys"
+            )
+        out[code] = entry
+    return out
+
+
 def _apply_iso_mapping(records: list[dict], manifest_by_code: dict[str, dict]) -> None:
-    """Per §6.5: stamp iso3166Alpha2/Alpha3 when name + flag match."""
+    """Per §6.5: stamp iso3166Alpha2/Alpha3 when name + flag match.
+
+    Two paths:
+      1. If sources/name-overrides.yaml has an entry, trust the citation
+         and set iso fields directly (the curator vouched that the flag is
+         the canonical ISO flag, even if Commons stores it under a
+         non-canonical title).
+      2. Otherwise the mechanical rule: pycountry resolves the name (or
+         the code as fallback), and the Commons title we recorded must
+         match one of the canonical "File:Flag of {ISO short name}.svg"
+         candidates.
+    """
+    overrides = _load_name_overrides()
     for record in records:
-        country = _iso_lookup(record["name"], record["code"])
+        code = record["code"]
+
+        override = overrides.get(code)
+        if override is not None:
+            try:
+                country = pycountry.countries.lookup(override["iso"])
+            except LookupError:
+                print(
+                    f"warning: name-overrides[{code}].iso={override['iso']!r} "
+                    f"did not resolve in pycountry; skipping",
+                    file=sys.stderr,
+                )
+                continue
+            record["iso3166Alpha2"] = country.alpha_2
+            record["iso3166Alpha3"] = country.alpha_3
+            continue
+
+        country = _iso_lookup(record["name"], code)
         if country is None:
             continue
-        entry = manifest_by_code.get(record["code"])
+        entry = manifest_by_code.get(code)
         if entry is None:
             continue
         commons_title = entry.get("commonsTitle")
@@ -153,6 +201,11 @@ def main() -> int:
     explicit_unresolved: dict[str, dict] = extended_curation.get("unresolved", {}) or {}
     curated = set(extended_map) | set(historical_map) | set(explicit_unresolved)
 
+    # Codes already resolved via aliases.yaml shouldn't surface as
+    # unresolved entries — they have a canonical pointer instead.
+    aliases_raw = _load_yaml(ALIASES_INPUT)
+    alias_keys = set((aliases_raw.get("aliases") or {}).keys())
+
     all_codes = set(rrs_by_code) | set(ws_by_code) | set(extended_map) | set(historical_map)
     codes: list[dict] = []
     unresolved: list[dict] = []
@@ -207,6 +260,7 @@ def main() -> int:
         - set(ws_by_code)
         - set(extended_map)
         - set(historical_map)
+        - alias_keys
     )
     for code in sorted(sw_remaining):
         if code in explicit_unresolved:

@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-16T22:13:01Z",
+  "generatedAt": "2026-05-16T22:43:25Z",
   "note": "Codes seen in source data but excluded from codes.json (spec §5.4). Entries with reason 'needs research' are candidates for future promotion.",
-  "count": 26,
+  "count": 16,
   "codes": [
     {
       "code": "AIA",
@@ -22,20 +22,8 @@
       "source": "sailwave"
     },
     {
-      "code": "BVI",
-      "reason": "Sailwave variant of IVB (British Virgin Islands). Will surface in aliases.json (M6).",
-      "note": null,
-      "source": "sailwave"
-    },
-    {
       "code": "CAL",
       "reason": "no defensible English name sourced yet — needs research",
-      "source": "sailwave"
-    },
-    {
-      "code": "CKI",
-      "reason": "Sailwave variant of COK (Cook Islands). Will surface in aliases.json (M6).",
-      "note": null,
       "source": "sailwave"
     },
     {
@@ -47,18 +35,6 @@
     {
       "code": "FAI",
       "reason": "Possibly Faroe Islands (already FAR) or another body; no defensible mapping.",
-      "note": null,
-      "source": "sailwave"
-    },
-    {
-      "code": "GRD",
-      "reason": "Sailwave variant of GRN (Grenada). Will surface in aliases.json (M6).",
-      "note": null,
-      "source": "sailwave"
-    },
-    {
-      "code": "IRI",
-      "reason": "Sailwave variant of IRN (Iran). Will surface in aliases.json (M6).",
       "note": null,
       "source": "sailwave"
     },
@@ -81,12 +57,6 @@
     {
       "code": "MTS",
       "reason": "no defensible English name sourced yet — needs research",
-      "source": "sailwave"
-    },
-    {
-      "code": "NAU",
-      "reason": "Sailwave variant of NRU (Nauru). Surfaces in aliases.json.",
-      "note": null,
       "source": "sailwave"
     },
     {
@@ -121,36 +91,6 @@
     {
       "code": "SKI",
       "reason": "Unknown code; no defensible mapping.",
-      "note": null,
-      "source": "sailwave"
-    },
-    {
-      "code": "SLU",
-      "reason": "Sailwave variant of LCA (Saint Lucia). Will surface in aliases.json (M6).",
-      "note": null,
-      "source": "sailwave"
-    },
-    {
-      "code": "TCI",
-      "reason": "Sailwave variant of TCA (Turks and Caicos Islands). Will surface in aliases.json (M6).",
-      "note": null,
-      "source": "sailwave"
-    },
-    {
-      "code": "TKS",
-      "reason": "Sailwave variant of TCA (Turks and Caicos Islands). Will surface in aliases.json (M6).",
-      "note": null,
-      "source": "sailwave"
-    },
-    {
-      "code": "TON",
-      "reason": "Sailwave variant of TGA (Tonga). Will surface in aliases.json (M6).",
-      "note": null,
-      "source": "sailwave"
-    },
-    {
-      "code": "TRI",
-      "reason": "Sailwave/legacy variant of TTO (Trinidad & Tobago). Will surface in aliases.json (M6).",
       "note": null,
       "source": "sailwave"
     }

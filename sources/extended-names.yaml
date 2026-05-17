@@ -292,26 +292,6 @@ unresolved:
     reason: "Unknown code; no defensible mapping."
   SKI:
     reason: "Unknown code; no defensible mapping."
-  # Variant codes for entities already represented under a different code.
-  # These would be more naturally expressed as aliases (M6) than as
-  # separate entries; omit from codes.json to avoid duplicate visual flags.
-  BVI:
-    reason: "Sailwave variant of IVB (British Virgin Islands). Will surface in aliases.json (M6)."
-  CKI:
-    reason: "Sailwave variant of COK (Cook Islands). Will surface in aliases.json (M6)."
-  GRD:
-    reason: "Sailwave variant of GRN (Grenada). Will surface in aliases.json (M6)."
-  IRI:
-    reason: "Sailwave variant of IRN (Iran). Will surface in aliases.json (M6)."
-  SLU:
-    reason: "Sailwave variant of LCA (Saint Lucia). Will surface in aliases.json (M6)."
-  TRI:
-    reason: "Sailwave/legacy variant of TTO (Trinidad & Tobago). Will surface in aliases.json (M6)."
-  TKS:
-    reason: "Sailwave variant of TCA (Turks and Caicos Islands). Will surface in aliases.json (M6)."
-  TCI:
-    reason: "Sailwave variant of TCA (Turks and Caicos Islands). Will surface in aliases.json (M6)."
-  TON:
-    reason: "Sailwave variant of TGA (Tonga). Will surface in aliases.json (M6)."
-  NAU:
-    reason: "Sailwave variant of NRU (Nauru). Surfaces in aliases.json."
+  # Variant codes that are resolved via aliases (BVI, CKI, GRD, IRI, NAU,
+  # SLU, TCI, TKS, TON, TRI) live in sources/aliases.yaml — they are not
+  # unresolved and the merge step excludes alias keys from this section.

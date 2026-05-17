@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-16T22:13:01Z",
+  "generatedAt": "2026-05-16T22:43:25Z",
   "sources": {
     "rrs": {
       "edition": "2025-2028"
@@ -138,7 +138,9 @@
       "flag": {
         "file": "flags/ANT.svg",
         "sha256": "73f382e91c9e9ba8e786696f20011a04c7e22354e37db61921f2c57645ec7385"
-      }
+      },
+      "iso3166Alpha2": "AG",
+      "iso3166Alpha3": "ATG"
     },
     {
       "code": "ARG",
@@ -542,7 +544,9 @@
       "flag": {
         "file": "flags/BRN.svg",
         "sha256": "ee7f7dbd77da6c5655a2e73ea3e56f3c3eaa9af4677b7b4101e11acf2eadfaa3"
-      }
+      },
+      "iso3166Alpha2": "BH",
+      "iso3166Alpha3": "BHR"
     },
     {
       "code": "BRU",
@@ -558,7 +562,9 @@
       "flag": {
         "file": "flags/BRU.svg",
         "sha256": "c8f4937c6c2c69eeb5f3d28493a9bfa8c1bcadfe4859fd66b6ab581ac33900f6"
-      }
+      },
+      "iso3166Alpha2": "BN",
+      "iso3166Alpha3": "BRN"
     },
     {
       "code": "BUL",
@@ -788,7 +794,9 @@
       "flag": {
         "file": "flags/COD.svg",
         "sha256": "bdc509cfa5b6005f8ec26b279419735d9a9583b943248a2363e840697f1426fc"
-      }
+      },
+      "iso3166Alpha2": "CD",
+      "iso3166Alpha3": "COD"
     },
     {
       "code": "COK",
@@ -858,7 +866,9 @@
       "flag": {
         "file": "flags/CPV.svg",
         "sha256": "31d2292c2a3085e614463f5229a1f36f21dde11ba28b90684aa34b3c80ec4e45"
-      }
+      },
+      "iso3166Alpha2": "CV",
+      "iso3166Alpha3": "CPV"
     },
     {
       "code": "CRC",
@@ -1324,7 +1334,9 @@
       "flag": {
         "file": "flags/GAM.svg",
         "sha256": "d4418b31447cb5b7ddfcc3b47f3075795700363cc97132d9ab8b2de417027b98"
-      }
+      },
+      "iso3166Alpha2": "GM",
+      "iso3166Alpha3": "GMB"
     },
     {
       "code": "GBR",
@@ -1828,7 +1840,9 @@
       "flag": {
         "file": "flags/ISV.svg",
         "sha256": "3f551b311c253099316ce9d90124813c87afb92979be1a489c475970612a88c2"
-      }
+      },
+      "iso3166Alpha2": "VI",
+      "iso3166Alpha3": "VIR"
     },
     {
       "code": "ITA",
@@ -2286,7 +2300,9 @@
       "flag": {
         "file": "flags/MAC.svg",
         "sha256": "63fab0af6e310e18ee0f11c09d4f2b626d00150a35da85024cfdf8a4d8e06262"
-      }
+      },
+      "iso3166Alpha2": "MO",
+      "iso3166Alpha3": "MAC"
     },
     {
       "code": "MAD",
@@ -2976,7 +2992,9 @@
       "flag": {
         "file": "flags/PLE.svg",
         "sha256": "d218e88033f9361bf08071c1ee51acb7425dc63e8a7b5ecd7a6755ff6b359696"
-      }
+      },
+      "iso3166Alpha2": "PS",
+      "iso3166Alpha3": "PSE"
     },
     {
       "code": "PLW",
@@ -3177,7 +3195,9 @@
       "flag": {
         "file": "flags/RUS.svg",
         "sha256": "a8e38786abcae48ff91216466d26bcf6854e5f6a68a881f81c227d34557fc7cb"
-      }
+      },
+      "iso3166Alpha2": "RU",
+      "iso3166Alpha3": "RUS"
     },
     {
       "code": "RWA",
@@ -3316,7 +3336,9 @@
       "flag": {
         "file": "flags/SKN.svg",
         "sha256": "3090d5b478ff039d6f765f0f156629b85bed0b47659ddd82c52b7c562e992751"
-      }
+      },
+      "iso3166Alpha2": "KN",
+      "iso3166Alpha3": "KNA"
     },
     {
       "code": "SLE",
@@ -3532,7 +3554,9 @@
       "flag": {
         "file": "flags/SVG.svg",
         "sha256": "c2a36b00c4c8c637b6847ed2dafb6d90b879ea298ab57d062f6ab968027e1766"
-      }
+      },
+      "iso3166Alpha2": "VC",
+      "iso3166Alpha3": "VCT"
     },
     {
       "code": "SVK",
@@ -3761,7 +3785,9 @@
       "flag": {
         "file": "flags/TLS.svg",
         "sha256": "1f25223cf5d05c32593ca66f0126a14bd728535a6678edb5ba84df13614c0312"
-      }
+      },
+      "iso3166Alpha2": "TL",
+      "iso3166Alpha3": "TLS"
     },
     {
       "code": "TMP",
@@ -3865,7 +3891,9 @@
       "flag": {
         "file": "flags/TUR.svg",
         "sha256": "8bd784cabd316b1a636b78092fd8ba5d61a986930528890e08cdd15b23f98cd7"
-      }
+      },
+      "iso3166Alpha2": "TR",
+      "iso3166Alpha3": "TUR"
     },
     {
       "code": "TUV",
@@ -4082,7 +4110,9 @@
       "flag": {
         "file": "flags/VIN.svg",
         "sha256": "c2a36b00c4c8c637b6847ed2dafb6d90b879ea298ab57d062f6ab968027e1766"
-      }
+      },
+      "iso3166Alpha2": "VC",
+      "iso3166Alpha3": "VCT"
     },
     {
       "code": "WAL",

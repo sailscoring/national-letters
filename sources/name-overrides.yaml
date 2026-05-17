@@ -1,0 +1,94 @@
+# Per-code ISO 3166 attestations.
+#
+# Spec §6.5 sets iso3166Alpha2/Alpha3 only when (a) the code's name resolves
+# to a single ISO country and (b) the flag is the canonical ISO flag. The
+# default implementation uses pycountry name lookup + Commons title equality
+# as a mechanical proxy. That conservative rule misses cases where the same
+# image is hosted on Commons under a non-canonical title (e.g. Russia's flag
+# stored as "Flag of Russia.svg" but ISO calls the country "Russian
+# Federation") or where the RRS spelling abbreviates the ISO short name
+# (e.g. RRS "St Lucia" vs ISO "Saint Lucia").
+#
+# An entry here is an explicit attestation that:
+#   - this code corresponds to the named ISO entity (no name ambiguity), AND
+#   - our resolved flag is the canonical ISO flag image (same image, just
+#     stored under a different Commons title).
+#
+# Each entry MUST carry a citation — typically the ISO 3166 Online Browsing
+# Platform URL for the country — so a reviewer can verify the mapping.
+#
+# Schema:
+#   <CODE>:
+#     iso:      "<ISO short name or alpha-3>"   # anything pycountry can resolve
+#     citation: "<URL>"
+#     note:     "<optional free text>"
+
+ANT:
+  iso: "ATG"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:AG"
+  note: "RRS abbreviates to 'Antigua'; ISO entity is Antigua and Barbuda. Flag is the canonical."
+
+BRU:
+  iso: "BRN"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:BN"
+  note: "WS uses 'Brunei'; ISO short name is Brunei Darussalam."
+
+COD:
+  iso: "COD"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:CD"
+  note: "Our name 'DR Congo' and ISO short name 'Congo, The Democratic Republic of the' differ in word order; same flag."
+
+CPV:
+  iso: "CPV"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:CV"
+  note: "Sailwave/English 'Cape Verde' == ISO Portuguese 'Cabo Verde'. Same flag."
+
+GAM:
+  iso: "GMB"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:GM"
+  note: "Our 'The Gambia' (with definite article) == ISO 'Gambia'."
+
+ISV:
+  iso: "VIR"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:VI"
+  note: "RRS 'US Virgin Islands' == ISO 'Virgin Islands (U.S.)'."
+
+MAC:
+  iso: "MAC"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:MO"
+  note: "WS 'Macau, China' == ISO 'Macao'. Same SAR flag."
+
+PLE:
+  iso: "PSE"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:PS"
+  note: "RRS 'Palestine' == ISO 'Palestine, State of'."
+
+RUS:
+  iso: "RUS"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:RU"
+  note: "RRS 'Russia' == ISO 'Russian Federation'. Commons stores the same flag image as 'Flag of Russia.svg'."
+
+SKN:
+  iso: "KNA"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:KN"
+  note: "WS 'St Kitts and Nevis' == ISO 'Saint Kitts and Nevis'."
+
+SVG:
+  iso: "VCT"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:VC"
+  note: "WS uses non-ISO code SVG; the country's ISO alpha-3 is VCT (Saint Vincent and the Grenadines)."
+
+TLS:
+  iso: "TLS"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:TL"
+  note: "WS 'Timor Leste' == ISO 'Timor-Leste'. Same flag (Commons stores as 'Flag of East Timor.svg')."
+
+TUR:
+  iso: "TUR"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:TR"
+  note: "ISO renamed Turkey to Türkiye in 2022; same flag, Commons still uses 'Flag of Turkey.svg'."
+
+VIN:
+  iso: "VCT"
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:VC"
+  note: "RRS 'St Vincent & Grenadines' == ISO 'Saint Vincent and the Grenadines'."
