@@ -86,9 +86,12 @@ published dataset appears as a reviewable diff, with a corresponding diff on
 The script extracts a list of three-letter filenames, which is factual data and
 not copyrightable. The JPG image assets themselves are not downloaded or
 redistributed — Sailwave's flag directory carries no licence statement, so it
-is treated as an index, not an asset library. The Sailwave directory has not
-been updated since 2011; treat it as a frozen historical artefact, not a
-maintained source.
+is treated as an index, not an asset library. The directory is largely frozen
+at 2011 — 249 of its 256 files carry a 13 December 2011 `Last-Modified` — but
+it is not abandoned: `NCL` (2016), `CUW` (2018), `MYA` (2019), `RYF` (2021),
+`IRQ` and `LBA` (2024) and `AIN` (26 January 2026) were added later. Treat a
+code that appears here alone as weak evidence, but treat a *recent* addition
+as a contemporary signal worth researching.
 
 ## 5. Data schema
 
@@ -138,7 +141,12 @@ Field semantics:
     but not in the current RRS edition
   - `"extended"` — appears in the Sailwave list but not in RRS or WS; used in
     practice by scorers (e.g. constituent nations of national federations,
-    Crown Dependencies, etc.)
+    Crown Dependencies, etc.), including designations that stand in place of
+    an MNA code without being a country at all (`AIN`, Individual Neutral
+    Athletes). Non-national designations sit here rather than under
+    `"world-sailing"`, which means *member national authority* specifically;
+    they are not given a category of their own because consumers switch
+    exhaustively on this enum
   - `"historical"` — no longer in current use but appears in legacy event
     data and must be representable
 - **`iso3166Alpha2`** / **`iso3166Alpha3`** — present only when the code

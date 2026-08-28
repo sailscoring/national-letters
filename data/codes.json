@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-16T22:43:25Z",
+  "generatedAt": "2026-08-28T14:32:34Z",
   "sources": {
     "rrs": {
       "edition": "2025-2028"
@@ -10,7 +10,7 @@
       "sourceUrl": "https://www.sailing.org/inside-world-sailing/organisation/governance/world-sailing-membership/"
     },
     "sailwave": {
-      "retrievedAt": "2026-05-16T21:05:04Z",
+      "retrievedAt": "2026-08-28T14:27:59Z",
       "sourceUrl": "https://www.sailwave.com/flags/"
     }
   },
@@ -47,6 +47,21 @@
       "flag": {
         "file": "flags/AHO.svg",
         "sha256": "1ba174e30691159816edb50df47df671e24c1c4d24db1bf2c203ff5abd39d550"
+      }
+    },
+    {
+      "code": "AIN",
+      "name": "Individual Neutral Athletes",
+      "category": "extended",
+      "presentIn": [
+        "sailwave"
+      ],
+      "names": {
+        "en": "Individual Neutral Athletes"
+      },
+      "flag": {
+        "file": "flags/AIN.svg",
+        "sha256": "35a13e032e975372af6cbd9c1bc5f1c9b45167ad601f90f510e6080d6de969dc"
       }
     },
     {
@@ -1913,7 +1928,7 @@
       },
       "flag": {
         "file": "flags/JER.svg",
-        "sha256": "56cd78eb63072b3c3ec69c568e9c73ddcd445a18f828f3a882ca85b37abdbba9"
+        "sha256": "6cfaf6152e1d83d9e912d47edc1e5b47fd24500eeb91bc18beb3b2c57f004d5d"
       },
       "iso3166Alpha2": "JE",
       "iso3166Alpha3": "JEY"
@@ -2877,7 +2892,7 @@
       },
       "flag": {
         "file": "flags/OMA.svg",
-        "sha256": "0f8c74eeef411f13b4bcfab48c1c81b8f826cfa7d5a7b708524df5fdc898434f"
+        "sha256": "c85835402a7402fdcc645cf2208fa80ca82a2b04ee3b3e8aeb9f6cd722c88ebb"
       },
       "iso3166Alpha2": "OM",
       "iso3166Alpha3": "OMN"
@@ -3390,7 +3405,7 @@
       },
       "flag": {
         "file": "flags/SMR.svg",
-        "sha256": "bd98d248816fe7ab823805fbcb4559b23a0ba9911ba4f5f09968bab8e00026a1"
+        "sha256": "0f63de5d480d7776181a7a20ebab8fb726c9238e41964facd7b74fba93f80be0"
       },
       "iso3166Alpha2": "SM",
       "iso3166Alpha3": "SMR"
