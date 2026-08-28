@@ -236,6 +236,29 @@ extended:
     name: "Zambia"
     citation: "https://en.wikipedia.org/wiki/Zambia"
 
+  # Non-national designations used in place of an MNA code
+  AIN:
+    name: "Individual Neutral Athletes"
+    citation: "https://media.sailing.org/sailing/wp-content/uploads/2025/07/18112548/Policy-A5-updated-Nov-2025.pdf"
+    commons: "File:Flag of the Individual Neutral Athletes at the 2024 Summer Olympics.svg"
+    note: |
+      World Sailing Policy A5 (the Neutrality Policy, Council 23 July 2025,
+      updated 8 November 2025) §11.2: '"AIN" shall be used as MNA code
+      wherever it is needed (sails, bibs, results, etc.)'. §3.3 gives the
+      name — Individual Neutral Athlete, "Athlète Individuel Neutre" in
+      French. Athletes competing under it represent themselves and have no
+      MNA (§7.1), so there is no ISO 3166 country and the category is
+      "extended" rather than "world-sailing".
+
+      Flag: §8.2 permits "either an all-white flag or no flag" where a flag
+      is needed to identify an AIN, and Appendix 1 illustrates the AIN
+      designation as a monochrome roundel. The Commons file above is the
+      IOC's coloured version of that same roundel (PD-textlogo), which is
+      also what Sailwave itself ships for AIN. The Commons title is
+      Paris-2024-specific because Commons hosts no generic AIN flag; the
+      emblem is reused across events in different colours. PD-textlogo
+      carries the usual non-copyright/trademark caveat.
+
 historical:
   YUG:
     name: "Yugoslavia"
@@ -272,8 +295,6 @@ historical:
     note: "Old IOC code for East Timor (now TLS). Same flag."
 
 unresolved:
-  AIN:
-    reason: "Ambiguous — could refer to multiple entities; no defensible English name."
   BSH:
     reason: "Unknown / ambiguous code; possibly an alternate for BIH (Bosnia and Herzegovina) but not confirmed."
   DMN:

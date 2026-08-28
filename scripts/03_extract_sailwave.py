@@ -6,8 +6,12 @@ only the 3-letter codes from those filenames — the JPG assets themselves
 are not downloaded or redistributed (spec §4.1: the directory has no
 licence statement and is treated as an index, not an asset library).
 
-The page has not been updated since 2011; treat the output as a frozen
-historical artefact.
+Most of the directory is frozen at 2011 (249 of its 256 files carry a
+13 December 2011 Last-Modified), but it is not abandoned: a handful of
+codes have been added since — NCL (2016), CUW (2018), MYA (2019), RYF
+(2021), IRQ and LBA (2024) and AIN (26 January 2026). A code appearing
+here alone is still weak evidence, but a *recent* addition is a real
+contemporary signal about what scorers are being asked to enter.
 
 Outputs:
   sources/sailwave-flags-listing.html  — raw HTML as fetched
@@ -60,9 +64,10 @@ def main() -> int:
         "retrievedAt": timestamp,
         "sourceUrl": SAILWAVE_URL,
         "note": (
-            "Sailwave's flag directory has not been updated since 2011. "
-            "Treat as a frozen historical artefact. Only the filenames "
-            "(codes) are extracted; JPG assets are not redistributed."
+            "Sailwave's flag directory is largely frozen at 2011 (249 of 256 "
+            "files date from 13 December 2011), but still receives occasional "
+            "additions — most recently AIN on 26 January 2026. Only the "
+            "filenames (codes) are extracted; JPG assets are not redistributed."
         ),
         "count": len(codes),
         "codes": codes,

@@ -1,8 +1,8 @@
 {
   "source": "sailwave",
-  "retrievedAt": "2026-05-16T21:05:04Z",
+  "retrievedAt": "2026-08-28T14:27:59Z",
   "sourceUrl": "https://www.sailwave.com/flags/",
-  "note": "Sailwave's flag directory has not been updated since 2011. Treat as a frozen historical artefact. Only the filenames (codes) are extracted; JPG assets are not redistributed.",
+  "note": "Sailwave's flag directory is largely frozen at 2011 (249 of 256 files date from 13 December 2011), but still receives occasional additions — most recently AIN on 26 January 2026. Only the filenames (codes) are extracted; JPG assets are not redistributed.",
   "count": 256,
   "codes": [
     "AFG",
