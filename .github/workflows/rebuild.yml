@@ -29,6 +29,11 @@ jobs:
         with:
           node-version: "20"
 
+      # librsvg renders SVG more faithfully than ImageMagick's built-in
+      # renderer; ImageMagick is still needed for `compare`.
+      - name: Install SVG renderers
+        run: sudo apt-get update && sudo apt-get install -y librsvg2-bin imagemagick
+
       - name: Sync deps
         run: uv sync
 
@@ -55,6 +60,30 @@ jobs:
 
       - name: Tests
         run: uv run pytest -q
+
+      # Byte changes in flags/ are unreviewable (single-line SVGs) and a
+      # poor proxy for artwork changes: an SVGO release can rewrite path
+      # data with no visible effect, or drop geometry that does render.
+      # Rasterise both sides and report which flags actually moved.
+      # Output goes to RUNNER_TEMP so it never lands in the PR's commit.
+      - name: Flag artwork check
+        id: artwork
+        run: |
+          uv run python scripts/flag_visual_diff.py \
+            --out-dir "$RUNNER_TEMP/flag-diff" \
+            --report "$RUNNER_TEMP/flag-diff/report.md"
+          {
+            echo 'report<<FLAG_DIFF_EOF'
+            cat "$RUNNER_TEMP/flag-diff/report.md"
+            echo FLAG_DIFF_EOF
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Upload flag triptychs
+        uses: actions/upload-artifact@v4
+        with:
+          name: flag-diffs
+          path: ${{ runner.temp }}/flag-diff
+          if-no-files-found: ignore
 
       # Detect whether anything beyond the always-changing timestamps
       # differs. If only timestamps moved, suppress the PR entirely.
@@ -135,6 +164,11 @@ jobs:
             Upstream content has changed since the last commit. Review the
             diff in `data/` / `sources/` / `flags/`, run any local sanity
             checks, and merge to publish.
+
+            ${{ steps.artwork.outputs.report }}
+
+            Triptychs for any visually-changed flag are attached to the run
+            as the `flag-diffs` artifact.
 
             Run logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           labels: |
