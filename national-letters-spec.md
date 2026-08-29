@@ -335,9 +335,16 @@ so the dataset audit trail shows how each flag was located.
 ### 6.7 Optimise (`06_optimise_flags.py`)
 
 Run SVGO with a conservative config: strip metadata, `<title>`, `<desc>`, and
-editor cruft; collapse groups; but **do not** modify `viewBox`, IDs referenced
-by `<use>`, or path precision below 3 decimal places (some flags carry fine
-geometric detail).
+editor cruft; collapse groups; but **do not** discard IDs referenced by
+`<use>`, or modify `viewBox` or path precision below 3 decimal places (some
+flags carry fine geometric detail).
+
+IDs are not discarded, but they are **namespaced**: SVGO's `prefixIds` rewrites
+every id, in-document reference and CSS class name with the code as a prefix
+(`ARG-rays`, `url(#BRA-B)`, `.AFG-fil3`), definitions and references together.
+Commons files overwhelmingly ship generic ids — `a`, `b`, `Layer_1` — and
+several flags inlined into one document (§9) would otherwise collide, with
+`url(#a)` resolving to whichever flag was inlined first.
 
 After SVGO, each flag must satisfy:
 
@@ -346,9 +353,11 @@ After SVGO, each flag must satisfy:
 - No external references (`xlink:href` to URLs)
 - No `<script>` elements
 - No external font dependencies
+- No id shared with any other flag in the set
 
 These constraints make each file safely inlineable into a downstream HTML
-document as a `<symbol>` (see §10) by a trivial string transform.
+document as a `<symbol>` (see §10) by a trivial string transform — including
+when many flags are inlined side by side.
 
 Target: each flag ≤ 20 KB. Files exceeding 20 KB emit a warning but do not
 fail the build — some flags are legitimately complex.
@@ -367,6 +376,8 @@ CI-blocking checks:
 - Every alias in `aliases.json` resolves to a code that exists in `codes.json`.
 - Every `sha256` in `codes.json` matches the actual file contents.
 - Every flag SVG satisfies the structural constraints in §6.7.
+- No id appears in more than one flag SVG (so any set of flags can be inlined
+  into a single document without their internal references colliding).
 
 Runs as a GitHub Action on every PR.
 
@@ -426,7 +437,10 @@ self-contained: no CDN dependency, no external URLs.
 
 The dataset's flag SVGs are designed (§6.7) to be inlined directly into a
 host document as `<symbol>` definitions. Each flag appears exactly once in the
-document regardless of how many competitors share that nationality.
+document regardless of how many competitors share that nationality. Ids inside
+each file are namespaced with the code and validated to be unique across the
+set (§6.8), so inlining any combination of flags is safe: no exporter-side
+id rewriting is required.
 
 Recommended pattern for HTML exports:
 

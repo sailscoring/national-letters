@@ -3,7 +3,8 @@
 M3 scope: schema shape, code format, uniqueness, category enum,
 name/names.en consistency, flag presence + sha256 + manifest licence,
 and §6.7 SVG structural constraints (single root <svg> with viewBox;
-no <image>, <script>, external xlink:href, or external fonts).
+no <image>, <script>, external xlink:href, or external fonts; ids unique
+across the flag set so several can be inlined into one document per §9).
 Aliases land in M6.
 """
 
@@ -186,6 +187,48 @@ def _validate_svg_structure(rel: str, path: Path) -> list[str]:
     return errors
 
 
+def _validate_flag_id_uniqueness(codes: list[dict]) -> list[str]:
+    """No id may appear in more than one flag (spec §6.7, §9).
+
+    Consumers inline many flags into one document as <symbol>s, so an id
+    that repeats across files silently collides there: `url(#a)` resolves
+    to whichever definition was inlined first. SVGO's prefixIds namespaces
+    every id with the code, so a duplicate here means a flag skipped that
+    step.
+    """
+    errors: list[str] = []
+    owners: dict[str, list[str]] = {}
+    for record in codes:
+        code = record.get("code")
+        flag = record.get("flag")
+        if not isinstance(flag, dict) or not isinstance(flag.get("file"), str):
+            continue
+        path = REPO_ROOT / flag["file"]
+        if not path.is_file():
+            continue
+        try:
+            tree = ET.parse(path)
+        except ET.ParseError:
+            # Malformed XML is already reported by _validate_svg_structure.
+            continue
+        for el in tree.getroot().iter():
+            el_id = el.get("id")
+            if el_id:
+                owners.setdefault(el_id, []).append(code)
+
+    for el_id, codes_using in sorted(owners.items()):
+        unique = sorted(set(codes_using))
+        if len(unique) > 1:
+            shown = ", ".join(unique[:5])
+            more = f" (+{len(unique) - 5} more)" if len(unique) > 5 else ""
+            errors.append(
+                f"flags: id {el_id!r} appears in {len(unique)} flags "
+                f"[{shown}{more}] — ids must be namespaced per flag "
+                f"(SVGO prefixIds); re-run scripts/06_optimise_flags.py"
+            )
+    return errors
+
+
 def _validate_aliases(payload: dict, all_codes: set[str]) -> list[str]:
     errors: list[str] = []
     aliases = payload.get("aliases", {})
@@ -219,6 +262,8 @@ def main() -> int:
     if MANIFEST_PATH.is_file():
         manifest = json.loads(MANIFEST_PATH.read_text())
     errors = validate(payload, manifest)
+    if manifest is not None:
+        errors.extend(_validate_flag_id_uniqueness(payload.get("codes", [])))
 
     if ALIASES_PATH.is_file():
         aliases_payload = json.loads(ALIASES_PATH.read_text())

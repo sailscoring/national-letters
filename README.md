@@ -102,7 +102,11 @@ no CDN dependency, no external URLs.
 
 Flag SVGs are structurally constrained (spec §6.7) so they can be inlined
 directly into a host document as `<symbol>` definitions. Each flag appears
-exactly once regardless of how many competitors share that nationality:
+exactly once regardless of how many competitors share that nationality.
+Ids inside each file are namespaced with the code (`ARG-rays`, `url(#BRA-B)`)
+and checked to be unique across the whole set, so any combination of flags
+can share one document without their internal references colliding — the
+exporter does no id rewriting of its own:
 
 ```html
 <!-- Once at the top of the document -->
