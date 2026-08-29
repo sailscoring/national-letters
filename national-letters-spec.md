@@ -45,7 +45,8 @@ sailscoring/national-letters/
 │   ├── 04_merge.py                  # Produce data/codes.json from the three intermediates
 │   ├── 05_fetch_flags.py            # Per code, resolve and download SVG + licence metadata
 │   ├── 06_optimise_flags.py         # Run SVGO across flags/ (shells out to Node)
-│   └── 07_validate.py               # Lint the published dataset
+│   ├── 07_validate.py               # Lint the published dataset
+│   └── flag_visual_diff.py          # Review aid, not a pipeline stage (see §11)
 ├── sources/                         # Committed raw inputs for provenance and diffability
 │   ├── rrs-2025-2028-appendix-g.txt # Text extract of pp 119–121 of the RRS PDF
 │   ├── world-sailing-members.html   # Saved HTML at fetch time
@@ -503,6 +504,29 @@ This is a downstream choice and outside the dataset repo's scope.
 The `.github/workflows/rebuild.yml` workflow runs the full pipeline monthly
 against fresh upstream sources and opens a PR if anything diverged. This makes
 maintenance noticed-and-reviewed rather than silently forgotten.
+
+### 11.1 Reviewing a rebuild PR's flag changes
+
+`06_optimise_flags.py` runs whatever SVGO version is current, so a rebuild can
+rewrite flag bytes with no upstream data change at all — and a byte change is a
+poor proxy for an artwork change in either direction. SVGO can restate path
+data with no visible effect, or drop geometry that does render: 4.0.2 removed
+zero-length segments from a `stroke-linecap:round` path in `JER`, where a
+zero-length segment renders as a dot, and a few dots in the crest's crown went
+with them. The flags are single-line SVGs, so `git diff` shows none of this.
+
+`scripts/flag_visual_diff.py` closes that gap. It renders every changed flag
+from the git ref and from the working tree with the same renderer in the same
+run, compares pixels, and writes a markdown summary plus an `old | new | diff`
+triptych for anything that moved. The rebuild workflow runs it and puts the
+summary in the PR body, so review is: read one line; if it reports zero visual
+changes, the diff in `data/` is the whole story; if it names a flag, open that
+one triptych.
+
+Because the renderer and inputs are identical on both sides, any non-zero
+difference is real — there is no antialiasing noise to threshold. Note that a
+visually-changed flag can also mean Commons replaced the source file upstream,
+which is a licence and attribution question as much as an artwork one.
 
 ## 12. Decisions already made
 
